@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="lab3">
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|buffer_block:inst25|lpm_counter0:inst4|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_t3i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|rom_block:inst|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_blh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|rom_block:inst|lpm_compare5:inst1|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_j8j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|rom_block:inst|lpm_counter0:inst3|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_t3i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|buffer_block:inst25|lpm_compare3:inst9|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_4jj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|lpm_ram_dq2:inst35|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_n7a1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|rom_block:inst|lpm_compare0:inst7|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_j8j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|rom_block:inst|lpm_rom0:inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_4d71.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|buffer_block:inst25|lpm_compare2:inst7|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_4jj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|buffer_block:inst25|lpm_compare4:inst10|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_j8j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|rom_block:inst|lpm_add_sub1:inst6|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_0qh.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

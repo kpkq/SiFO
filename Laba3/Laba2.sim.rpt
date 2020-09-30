@@ -1,5 +1,5 @@
 Simulator report for Laba2
-Mon Sep 28 14:38:24 2020
+Tue Sep 29 11:42:08 2020
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -47,40 +47,40 @@ applicable agreement for further details.
 ; Simulation Start Time       ; 0 ps         ;
 ; Simulation End Time         ; 1.0 us       ;
 ; Simulation Netlist Size     ; 61 nodes     ;
-; Simulation Coverage         ;      55.38 % ;
-; Total Number of Transitions ; 2717         ;
+; Simulation Coverage         ;       0.00 % ;
+; Total Number of Transitions ; 0            ;
 ; Simulation Breakpoints      ; 0            ;
 ; Family                      ; Stratix II   ;
 +-----------------------------+--------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------+
-; Simulator Settings                                                                                                      ;
-+--------------------------------------------------------------------------------------------+------------+---------------+
-; Option                                                                                     ; Setting    ; Default Value ;
-+--------------------------------------------------------------------------------------------+------------+---------------+
-; Simulation mode                                                                            ; Functional ; Timing        ;
-; Start time                                                                                 ; 0 ns       ; 0 ns          ;
-; Simulation results format                                                                  ; CVWF       ;               ;
-; Vector input source                                                                        ; Laba2.vwf  ;               ;
-; Add pins automatically to simulation output waveforms                                      ; On         ; On            ;
-; Check outputs                                                                              ; Off        ; Off           ;
-; Report simulation coverage                                                                 ; On         ; On            ;
-; Display complete 1/0 value coverage report                                                 ; On         ; On            ;
-; Display missing 1-value coverage report                                                    ; On         ; On            ;
-; Display missing 0-value coverage report                                                    ; On         ; On            ;
-; Detect setup and hold time violations                                                      ; Off        ; Off           ;
-; Detect glitches                                                                            ; Off        ; Off           ;
-; Disable timing delays in Timing Simulation                                                 ; Off        ; Off           ;
-; Generate Signal Activity File                                                              ; Off        ; Off           ;
-; Generate VCD File for PowerPlay Power Analyzer                                             ; Off        ; Off           ;
-; Group bus channels in simulation results                                                   ; Off        ; Off           ;
-; Preserve fewer signal transitions to reduce memory requirements                            ; On         ; On            ;
-; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE ; INPUT_EDGE    ;
-; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off        ; Off           ;
-; Overwrite Waveform Inputs With Simulation Outputs                                          ; On         ;               ;
-; Perform Glitch Filtering in Timing Simulation                                              ; Auto       ; Auto          ;
-+--------------------------------------------------------------------------------------------+------------+---------------+
++----------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                         ;
++--------------------------------------------------------------------------------------------+---------------+---------------+
+; Option                                                                                     ; Setting       ; Default Value ;
++--------------------------------------------------------------------------------------------+---------------+---------------+
+; Simulation mode                                                                            ; Functional    ; Timing        ;
+; Start time                                                                                 ; 0 ns          ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF          ;               ;
+; Vector input source                                                                        ; rom_block.vwf ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On            ; On            ;
+; Check outputs                                                                              ; Off           ; Off           ;
+; Report simulation coverage                                                                 ; On            ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On            ; On            ;
+; Display missing 1-value coverage report                                                    ; On            ; On            ;
+; Display missing 0-value coverage report                                                    ; On            ; On            ;
+; Detect setup and hold time violations                                                      ; Off           ; Off           ;
+; Detect glitches                                                                            ; Off           ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off           ; Off           ;
+; Generate Signal Activity File                                                              ; Off           ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off           ; Off           ;
+; Group bus channels in simulation results                                                   ; Off           ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On            ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE    ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off           ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off           ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto          ; Auto          ;
++--------------------------------------------------------------------------------------------+---------------+---------------+
 
 
 +----------------------+
@@ -101,59 +101,22 @@ Please refer to fitter text-based report (*.fit.rpt) to view logical memory repo
 +-----------------------------------------------------+--------------+
 ; Type                                                ; Value        ;
 +-----------------------------------------------------+--------------+
-; Total coverage as a percentage                      ;      55.38 % ;
+; Total coverage as a percentage                      ;       0.00 % ;
 ; Total nodes checked                                 ; 61           ;
 ; Total output ports checked                          ; 65           ;
-; Total output ports with complete 1/0-value coverage ; 36           ;
-; Total output ports with no 1/0-value coverage       ; 29           ;
-; Total output ports with no 1-value coverage         ; 29           ;
-; Total output ports with no 0-value coverage         ; 29           ;
+; Total output ports with complete 1/0-value coverage ; 0            ;
+; Total output ports with no 1/0-value coverage       ; 65           ;
+; Total output ports with no 1-value coverage         ; 65           ;
+; Total output ports with no 0-value coverage         ; 65           ;
 +-----------------------------------------------------+--------------+
 
 
 The following table displays output ports that toggle between 1 and 0 during simulation.
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Complete 1/0-Value Coverage                                                                                                                                                                                                                       ;
-+--------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+------------------+
-; Node Name                                                                                                    ; Output Port Name                                                                                                ; Output Port Type ;
-+--------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+------------------+
-; |rom_block|out[2]                                                                                            ; |rom_block|out[2]                                                                                               ; pin_out          ;
-; |rom_block|out[1]                                                                                            ; |rom_block|out[1]                                                                                               ; pin_out          ;
-; |rom_block|out[0]                                                                                            ; |rom_block|out[0]                                                                                               ; pin_out          ;
-; |rom_block|CLK                                                                                               ; |rom_block|CLK                                                                                                  ; out              ;
-; |rom_block|inst7                                                                                             ; |rom_block|inst7                                                                                                ; out0             ;
-; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita0   ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita0      ; sumout           ;
-; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita0   ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita0~COUT ; cout             ;
-; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita1   ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita1      ; sumout           ;
-; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita1   ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita1~COUT ; cout             ;
-; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita2   ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita2      ; sumout           ;
-; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita2   ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita2~COUT ; cout             ;
-; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita3   ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita3      ; sumout           ;
-; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_reg_bit1a[2] ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|safe_q[2]               ; regout           ;
-; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_reg_bit1a[1] ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|safe_q[1]               ; regout           ;
-; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_reg_bit1a[0] ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|safe_q[0]               ; regout           ;
-; |rom_block|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_dd71:auto_generated|ram_block1a0         ; |rom_block|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_dd71:auto_generated|q_a[0]                  ; portadataout0    ;
-; |rom_block|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_dd71:auto_generated|ram_block1a1         ; |rom_block|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_dd71:auto_generated|q_a[1]                  ; portadataout0    ;
-; |rom_block|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_dd71:auto_generated|ram_block1a2         ; |rom_block|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_dd71:auto_generated|q_a[2]                  ; portadataout0    ;
-; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~0            ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~0               ; out0             ;
-; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~2            ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~2               ; out0             ;
-; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~3            ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~3               ; out0             ;
-; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~5            ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~5               ; out0             ;
-; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~7            ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~7               ; out0             ;
-; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~8            ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~8               ; out0             ;
-; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~9            ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~9               ; out0             ;
-; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~10           ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~10              ; out0             ;
-; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~11           ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~11              ; out0             ;
-; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~12           ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~12              ; out0             ;
-; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~0            ; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~0               ; out0             ;
-; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~1            ; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~1               ; out0             ;
-; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~2            ; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~2               ; out0             ;
-; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~3            ; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~3               ; out0             ;
-; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~4            ; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~4               ; out0             ;
-; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~5            ; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~5               ; out0             ;
-; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~6            ; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~6               ; out0             ;
-; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~8            ; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~8               ; out0             ;
-+--------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+------------------+
++-------------------------------------------------+
+; Complete 1/0-Value Coverage                     ;
++-----------+------------------+------------------+
+; Node Name ; Output Port Name ; Output Port Type ;
++-----------+------------------+------------------+
 
 
 The following table displays output ports that do not toggle to 1 during simulation.
@@ -167,29 +130,65 @@ The following table displays output ports that do not toggle to 1 during simulat
 ; |rom_block|out[5]                                                                                            ; |rom_block|out[5]                                                                                               ; pin_out          ;
 ; |rom_block|out[4]                                                                                            ; |rom_block|out[4]                                                                                               ; pin_out          ;
 ; |rom_block|out[3]                                                                                            ; |rom_block|out[3]                                                                                               ; pin_out          ;
+; |rom_block|out[2]                                                                                            ; |rom_block|out[2]                                                                                               ; pin_out          ;
+; |rom_block|out[1]                                                                                            ; |rom_block|out[1]                                                                                               ; pin_out          ;
+; |rom_block|out[0]                                                                                            ; |rom_block|out[0]                                                                                               ; pin_out          ;
+; |rom_block|CLK                                                                                               ; |rom_block|CLK                                                                                                  ; out              ;
 ; |rom_block|adress[4]                                                                                         ; |rom_block|adress[4]                                                                                            ; out              ;
 ; |rom_block|adress[3]                                                                                         ; |rom_block|adress[3]                                                                                            ; out              ;
 ; |rom_block|adress[2]                                                                                         ; |rom_block|adress[2]                                                                                            ; out              ;
 ; |rom_block|adress[1]                                                                                         ; |rom_block|adress[1]                                                                                            ; out              ;
 ; |rom_block|adress[0]                                                                                         ; |rom_block|adress[0]                                                                                            ; out              ;
+; |rom_block|inst7                                                                                             ; |rom_block|inst7                                                                                                ; out0             ;
+; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita0   ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita0      ; sumout           ;
+; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita0   ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita0~COUT ; cout             ;
+; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita1   ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita1      ; sumout           ;
+; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita1   ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita1~COUT ; cout             ;
+; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita2   ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita2      ; sumout           ;
+; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita2   ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita2~COUT ; cout             ;
+; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita3   ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita3      ; sumout           ;
 ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita3   ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita3~COUT ; cout             ;
 ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita4   ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita4      ; sumout           ;
 ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_reg_bit1a[4] ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|safe_q[4]               ; regout           ;
 ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_reg_bit1a[3] ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|safe_q[3]               ; regout           ;
+; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_reg_bit1a[2] ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|safe_q[2]               ; regout           ;
+; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_reg_bit1a[1] ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|safe_q[1]               ; regout           ;
+; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_reg_bit1a[0] ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|safe_q[0]               ; regout           ;
+; |rom_block|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_dd71:auto_generated|ram_block1a0         ; |rom_block|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_dd71:auto_generated|q_a[0]                  ; portadataout0    ;
+; |rom_block|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_dd71:auto_generated|ram_block1a1         ; |rom_block|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_dd71:auto_generated|q_a[1]                  ; portadataout0    ;
+; |rom_block|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_dd71:auto_generated|ram_block1a2         ; |rom_block|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_dd71:auto_generated|q_a[2]                  ; portadataout0    ;
 ; |rom_block|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_dd71:auto_generated|ram_block1a3         ; |rom_block|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_dd71:auto_generated|q_a[3]                  ; portadataout0    ;
 ; |rom_block|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_dd71:auto_generated|ram_block1a4         ; |rom_block|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_dd71:auto_generated|q_a[4]                  ; portadataout0    ;
 ; |rom_block|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_dd71:auto_generated|ram_block1a5         ; |rom_block|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_dd71:auto_generated|q_a[5]                  ; portadataout0    ;
 ; |rom_block|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_dd71:auto_generated|ram_block1a6         ; |rom_block|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_dd71:auto_generated|q_a[6]                  ; portadataout0    ;
 ; |rom_block|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_dd71:auto_generated|ram_block1a7         ; |rom_block|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_dd71:auto_generated|q_a[7]                  ; portadataout0    ;
+; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~0            ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~0               ; out0             ;
 ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~1            ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~1               ; out0             ;
+; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~2            ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~2               ; out0             ;
+; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~3            ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~3               ; out0             ;
 ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~4            ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~4               ; out0             ;
+; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~5            ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~5               ; out0             ;
 ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~6            ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~6               ; out0             ;
+; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~7            ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~7               ; out0             ;
+; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~8            ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~8               ; out0             ;
+; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~9            ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~9               ; out0             ;
+; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~10           ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~10              ; out0             ;
+; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~11           ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~11              ; out0             ;
+; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~12           ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~12              ; out0             ;
 ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~13           ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~13              ; out0             ;
 ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~14           ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~14              ; out0             ;
 ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~15           ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~15              ; out0             ;
 ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~16           ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~16              ; out0             ;
 ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~17           ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~17              ; out0             ;
+; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~0            ; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~0               ; out0             ;
+; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~1            ; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~1               ; out0             ;
+; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~2            ; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~2               ; out0             ;
+; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~3            ; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~3               ; out0             ;
+; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~4            ; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~4               ; out0             ;
+; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~5            ; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~5               ; out0             ;
+; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~6            ; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~6               ; out0             ;
 ; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~7            ; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~7               ; out0             ;
+; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~8            ; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~8               ; out0             ;
 ; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~9            ; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~9               ; out0             ;
 +--------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+------------------+
 
@@ -205,29 +204,65 @@ The following table displays output ports that do not toggle to 0 during simulat
 ; |rom_block|out[5]                                                                                            ; |rom_block|out[5]                                                                                               ; pin_out          ;
 ; |rom_block|out[4]                                                                                            ; |rom_block|out[4]                                                                                               ; pin_out          ;
 ; |rom_block|out[3]                                                                                            ; |rom_block|out[3]                                                                                               ; pin_out          ;
+; |rom_block|out[2]                                                                                            ; |rom_block|out[2]                                                                                               ; pin_out          ;
+; |rom_block|out[1]                                                                                            ; |rom_block|out[1]                                                                                               ; pin_out          ;
+; |rom_block|out[0]                                                                                            ; |rom_block|out[0]                                                                                               ; pin_out          ;
+; |rom_block|CLK                                                                                               ; |rom_block|CLK                                                                                                  ; out              ;
 ; |rom_block|adress[4]                                                                                         ; |rom_block|adress[4]                                                                                            ; out              ;
 ; |rom_block|adress[3]                                                                                         ; |rom_block|adress[3]                                                                                            ; out              ;
 ; |rom_block|adress[2]                                                                                         ; |rom_block|adress[2]                                                                                            ; out              ;
 ; |rom_block|adress[1]                                                                                         ; |rom_block|adress[1]                                                                                            ; out              ;
 ; |rom_block|adress[0]                                                                                         ; |rom_block|adress[0]                                                                                            ; out              ;
+; |rom_block|inst7                                                                                             ; |rom_block|inst7                                                                                                ; out0             ;
+; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita0   ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita0      ; sumout           ;
+; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita0   ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita0~COUT ; cout             ;
+; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita1   ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita1      ; sumout           ;
+; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita1   ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita1~COUT ; cout             ;
+; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita2   ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita2      ; sumout           ;
+; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita2   ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita2~COUT ; cout             ;
+; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita3   ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita3      ; sumout           ;
 ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita3   ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita3~COUT ; cout             ;
 ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita4   ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_comb_bita4      ; sumout           ;
 ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_reg_bit1a[4] ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|safe_q[4]               ; regout           ;
 ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_reg_bit1a[3] ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|safe_q[3]               ; regout           ;
+; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_reg_bit1a[2] ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|safe_q[2]               ; regout           ;
+; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_reg_bit1a[1] ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|safe_q[1]               ; regout           ;
+; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|counter_reg_bit1a[0] ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated|safe_q[0]               ; regout           ;
+; |rom_block|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_dd71:auto_generated|ram_block1a0         ; |rom_block|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_dd71:auto_generated|q_a[0]                  ; portadataout0    ;
+; |rom_block|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_dd71:auto_generated|ram_block1a1         ; |rom_block|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_dd71:auto_generated|q_a[1]                  ; portadataout0    ;
+; |rom_block|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_dd71:auto_generated|ram_block1a2         ; |rom_block|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_dd71:auto_generated|q_a[2]                  ; portadataout0    ;
 ; |rom_block|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_dd71:auto_generated|ram_block1a3         ; |rom_block|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_dd71:auto_generated|q_a[3]                  ; portadataout0    ;
 ; |rom_block|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_dd71:auto_generated|ram_block1a4         ; |rom_block|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_dd71:auto_generated|q_a[4]                  ; portadataout0    ;
 ; |rom_block|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_dd71:auto_generated|ram_block1a5         ; |rom_block|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_dd71:auto_generated|q_a[5]                  ; portadataout0    ;
 ; |rom_block|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_dd71:auto_generated|ram_block1a6         ; |rom_block|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_dd71:auto_generated|q_a[6]                  ; portadataout0    ;
 ; |rom_block|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_dd71:auto_generated|ram_block1a7         ; |rom_block|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_dd71:auto_generated|q_a[7]                  ; portadataout0    ;
+; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~0            ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~0               ; out0             ;
 ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~1            ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~1               ; out0             ;
+; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~2            ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~2               ; out0             ;
+; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~3            ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~3               ; out0             ;
 ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~4            ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~4               ; out0             ;
+; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~5            ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~5               ; out0             ;
 ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~6            ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~6               ; out0             ;
+; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~7            ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~7               ; out0             ;
+; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~8            ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~8               ; out0             ;
+; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~9            ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~9               ; out0             ;
+; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~10           ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~10              ; out0             ;
+; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~11           ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~11              ; out0             ;
+; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~12           ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~12              ; out0             ;
 ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~13           ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~13              ; out0             ;
 ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~14           ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~14              ; out0             ;
 ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~15           ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~15              ; out0             ;
 ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~16           ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~16              ; out0             ;
 ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~17           ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated|op_1~17              ; out0             ;
+; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~0            ; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~0               ; out0             ;
+; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~1            ; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~1               ; out0             ;
+; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~2            ; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~2               ; out0             ;
+; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~3            ; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~3               ; out0             ;
+; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~4            ; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~4               ; out0             ;
+; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~5            ; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~5               ; out0             ;
+; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~6            ; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~6               ; out0             ;
 ; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~7            ; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~7               ; out0             ;
+; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~8            ; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~8               ; out0             ;
 ; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~9            ; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated|op_1~9               ; out0             ;
 +--------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+------------------+
 
@@ -245,27 +280,18 @@ The following table displays output ports that do not toggle to 0 during simulat
 Info: *******************************************************************
 Info: Running Quartus II Simulator
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
-    Info: Processing started: Mon Sep 28 14:38:24 2020
+    Info: Processing started: Tue Sep 29 11:42:07 2020
 Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off Laba2 -c Laba2
-Info: Using vector source file "D:/5 sem/SiFO/Laba2/Laba2.vwf"
-Info: Overwriting simulation input file with simulation results
-    Info: A backup of Laba2.vwf called Laba2.sim_ori.vwf has been created in the db folder
-Warning: Ignored node in vector source file. Can't find corresponding node name "reg_out[5]" in design.
-Warning: Ignored node in vector source file. Can't find corresponding node name "reg_out[4]" in design.
-Warning: Ignored node in vector source file. Can't find corresponding node name "reg_out[3]" in design.
-Warning: Ignored node in vector source file. Can't find corresponding node name "reg_out[2]" in design.
-Warning: Ignored node in vector source file. Can't find corresponding node name "reg_out[1]" in design.
-Warning: Ignored node in vector source file. Can't find corresponding node name "reg_out[0]" in design.
+Info: Using vector source file "F:/5 sem/SiFO/Laba3/rom_block.vwf"
 Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
     Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
 Info: Simulation partitioned into 1 sub-simulations
-Info: Simulation coverage is      55.38 %
-Info: Number of transitions in simulation is 2717
-Info: Vector file Laba2.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
-Info: Quartus II Simulator was successful. 0 errors, 6 warnings
+Info: Simulation coverage is       0.00 %
+Info: Number of transitions in simulation is 0
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 151 megabytes
-    Info: Processing ended: Mon Sep 28 14:38:24 2020
-    Info: Elapsed time: 00:00:00
+    Info: Processing ended: Tue Sep 29 11:42:08 2020
+    Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:00
 
 

@@ -38,24 +38,25 @@
 
 set_global_assignment -name FAMILY "Stratix II"
 set_global_assignment -name DEVICE AUTO
-set_global_assignment -name TOP_LEVEL_ENTITY rom_block
+set_global_assignment -name TOP_LEVEL_ENTITY Laba2
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION "9.1 SP2"
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "15:13:56  SEPTEMBER 20, 2020"
 set_global_assignment -name LAST_QUARTUS_VERSION "9.1 SP2"
 set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
 set_global_assignment -name DEVICE_FILTER_SPEED_GRADE FASTEST
+set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE rom_block.vwf
 set_global_assignment -name QIP_FILE lpm_rom0.qip
 set_global_assignment -name HEX_FILE rom.hex
 set_global_assignment -name BDF_FILE Laba2.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE Laba2.vwf
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE Laba2.vwf
-set_global_assignment -name SIMULATION_MODE FUNCTIONAL
 set_global_assignment -name QIP_FILE lpm_dff0.qip
 set_global_assignment -name QIP_FILE lpm_counter0.qip
 set_global_assignment -name QIP_FILE lpm_add_sub0.qip
 set_global_assignment -name QIP_FILE lpm_add_sub1.qip
 set_global_assignment -name QIP_FILE lpm_dff1.qip
 set_global_assignment -name BDF_FILE rom_block.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE rom_block.vwf
 set_global_assignment -name QIP_FILE lpm_decode0.qip
 set_global_assignment -name QIP_FILE lpm_dff2.qip
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top

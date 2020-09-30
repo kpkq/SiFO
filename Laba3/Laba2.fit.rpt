@@ -1,5 +1,5 @@
 Fitter report for Laba2
-Mon Sep 28 15:17:50 2020
+Tue Sep 29 11:41:03 2020
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -66,7 +66,7 @@ applicable agreement for further details.
 +------------------------------------------------------------------------------+
 ; Fitter Summary                                                               ;
 +-------------------------------+----------------------------------------------+
-; Fitter Status                 ; Successful - Mon Sep 28 15:17:50 2020        ;
+; Fitter Status                 ; Successful - Tue Sep 29 11:41:03 2020        ;
 ; Quartus II Version            ; 9.1 Build 350 03/24/2010 SP 2 SJ Web Edition ;
 ; Revision Name                 ; Laba2                                        ;
 ; Top-level Entity Name         ; rom_block                                    ;
@@ -207,7 +207,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in D:/5 sem/SiFO/Laba2/Laba2.pin.
+The pin-out file can be found in F:/5 sem/SiFO/Laba3/Laba2.pin.
 
 
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -872,16 +872,16 @@ Note: User assignments will override these defaults. The user specified values a
 ; |rom_block                                ; 16 (1)              ; 8 (0) ; 5 (0)                     ; 0 (0)         ; 256               ; 1     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 14   ; 0            ; 11 (1)                         ; 0 (0)              ; 5 (0)                         ; |rom_block                                                                                 ; work         ;
 ;    |lpm_add_sub0:inst5|                   ; 6 (0)               ; 3 (0) ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 6 (0)                          ; 0 (0)              ; 0 (0)                         ; |rom_block|lpm_add_sub0:inst5                                                              ;              ;
 ;       |lpm_add_sub:lpm_add_sub_component| ; 6 (0)               ; 3 (0) ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 6 (0)                          ; 0 (0)              ; 0 (0)                         ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component                            ;              ;
-;          |add_sub_blh:auto_generated|     ; 6 (6)               ; 3 (3) ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 6 (6)                          ; 0 (0)              ; 0 (0)                         ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated ;              ;
+;          |add_sub_blh:auto_generated|     ; 6 (6)               ; 3 (3) ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 6 (6)                          ; 0 (0)              ; 0 (0)                         ; |rom_block|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_blh:auto_generated ; work         ;
 ;    |lpm_add_sub1:inst1|                   ; 4 (0)               ; 2 (0) ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 4 (0)                          ; 0 (0)              ; 0 (0)                         ; |rom_block|lpm_add_sub1:inst1                                                              ; work         ;
 ;       |lpm_add_sub:lpm_add_sub_component| ; 4 (0)               ; 2 (0) ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 4 (0)                          ; 0 (0)              ; 0 (0)                         ; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component                            ;              ;
-;          |add_sub_0qh:auto_generated|     ; 4 (4)               ; 2 (2) ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 4 (4)                          ; 0 (0)              ; 0 (0)                         ; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated ;              ;
+;          |add_sub_0qh:auto_generated|     ; 4 (4)               ; 2 (2) ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 4 (4)                          ; 0 (0)              ; 0 (0)                         ; |rom_block|lpm_add_sub1:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_0qh:auto_generated ; work         ;
 ;    |lpm_counter0:inst4|                   ; 5 (0)               ; 3 (0) ; 5 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 0 (0)                          ; 0 (0)              ; 5 (0)                         ; |rom_block|lpm_counter0:inst4                                                              ;              ;
-;       |lpm_counter:lpm_counter_component| ; 5 (0)               ; 3 (0) ; 5 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 0 (0)                          ; 0 (0)              ; 5 (0)                         ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component                            ;              ;
+;       |lpm_counter:lpm_counter_component| ; 5 (0)               ; 3 (0) ; 5 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 0 (0)                          ; 0 (0)              ; 5 (0)                         ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component                            ; work         ;
 ;          |cntr_t3i:auto_generated|        ; 5 (5)               ; 3 (3) ; 5 (5)                     ; 0 (0)         ; 0                 ; 0     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 0 (0)                          ; 0 (0)              ; 5 (5)                         ; |rom_block|lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_t3i:auto_generated    ;              ;
 ;    |lpm_rom0:inst|                        ; 0 (0)               ; 0 (0) ; 0 (0)                     ; 0 (0)         ; 256               ; 1     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 0 (0)                          ; 0 (0)              ; 0 (0)                         ; |rom_block|lpm_rom0:inst                                                                   ;              ;
 ;       |altsyncram:altsyncram_component|   ; 0 (0)               ; 0 (0) ; 0 (0)                     ; 0 (0)         ; 256               ; 1     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 0 (0)                          ; 0 (0)              ; 0 (0)                         ; |rom_block|lpm_rom0:inst|altsyncram:altsyncram_component                                   ; work         ;
-;          |altsyncram_dd71:auto_generated| ; 0 (0)               ; 0 (0) ; 0 (0)                     ; 0 (0)         ; 256               ; 1     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 0 (0)                          ; 0 (0)              ; 0 (0)                         ; |rom_block|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_dd71:auto_generated    ; work         ;
+;          |altsyncram_dd71:auto_generated| ; 0 (0)               ; 0 (0) ; 0 (0)                     ; 0 (0)         ; 256               ; 1     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 0 (0)                          ; 0 (0)              ; 0 (0)                         ; |rom_block|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_dd71:auto_generated    ;              ;
 +-------------------------------------------+---------------------+-------+---------------------------+---------------+-------------------+-------+------+--------+--------------+---------+-----------+-----------+------+--------------+--------------------------------+--------------------+-------------------------------+--------------------------------------------------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -1238,7 +1238,7 @@ Note: Fitter may spread logical memories into multiple blocks to improve timing.
 Info: *******************************************************************
 Info: Running Quartus II Fitter
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
-    Info: Processing started: Mon Sep 28 15:17:47 2020
+    Info: Processing started: Tue Sep 29 11:40:59 2020
 Info: Command: quartus_fit --read_settings_files=off --write_settings_files=off Laba2 -c Laba2
 Info: Automatically selected device EP2S15F484C3 for design Laba2
 Info: Fitter is performing an Auto Fit compilation, which may decrease Fitter effort to reduce compilation time
@@ -1293,7 +1293,7 @@ Info: I/O bank details before I/O pin placement
         Info: I/O bank number 8 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  43 pins available
         Info: I/O bank number 9 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  6 pins available
         Info: I/O bank number 10 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  6 pins available
-Info: Fitter preparation operations ending: elapsed time is 00:00:00
+Info: Fitter preparation operations ending: elapsed time is 00:00:01
 Info: Fitter placement preparation operations beginning
 Info: Fitter placement preparation operations ending: elapsed time is 00:00:00
 Info: Fitter placement operations beginning
@@ -1331,8 +1331,8 @@ Info: Delay annotation completed successfully
 Warning: The Reserve All Unused Pins setting has not been specified, and will default to 'As output driving ground'.
 Info: Quartus II Fitter was successful. 0 errors, 5 warnings
     Info: Peak virtual memory: 284 megabytes
-    Info: Processing ended: Mon Sep 28 15:17:50 2020
-    Info: Elapsed time: 00:00:03
+    Info: Processing ended: Tue Sep 29 11:41:03 2020
+    Info: Elapsed time: 00:00:04
     Info: Total CPU time (on all processors): 00:00:03
 
 

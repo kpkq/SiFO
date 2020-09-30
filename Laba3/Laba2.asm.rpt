@@ -1,5 +1,5 @@
 Assembler report for Laba2
-Mon Sep 28 15:17:52 2020
+Tue Sep 29 11:41:06 2020
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -10,8 +10,8 @@ Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: D:/5 sem/SiFO/Laba2/Laba2.sof
-  6. Assembler Device Options: D:/5 sem/SiFO/Laba2/Laba2.pof
+  5. Assembler Device Options: F:/5 sem/SiFO/Laba3/Laba2.sof
+  6. Assembler Device Options: F:/5 sem/SiFO/Laba3/Laba2.pof
   7. Assembler Messages
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Mon Sep 28 15:17:52 2020 ;
+; Assembler Status      ; Successful - Tue Sep 29 11:41:06 2020 ;
 ; Revision Name         ; Laba2                                 ;
 ; Top-level Entity Name ; rom_block                             ;
 ; Family                ; Stratix II                            ;
@@ -84,13 +84,13 @@ applicable agreement for further details.
 +-------------------------------+
 ; File Name                     ;
 +-------------------------------+
-; D:/5 sem/SiFO/Laba2/Laba2.sof ;
-; D:/5 sem/SiFO/Laba2/Laba2.pof ;
+; F:/5 sem/SiFO/Laba3/Laba2.sof ;
+; F:/5 sem/SiFO/Laba3/Laba2.pof ;
 +-------------------------------+
 
 
 +---------------------------------------------------------+
-; Assembler Device Options: D:/5 sem/SiFO/Laba2/Laba2.sof ;
+; Assembler Device Options: F:/5 sem/SiFO/Laba3/Laba2.sof ;
 +----------------+----------------------------------------+
 ; Option         ; Setting                                ;
 +----------------+----------------------------------------+
@@ -101,7 +101,7 @@ applicable agreement for further details.
 
 
 +---------------------------------------------------------+
-; Assembler Device Options: D:/5 sem/SiFO/Laba2/Laba2.pof ;
+; Assembler Device Options: F:/5 sem/SiFO/Laba3/Laba2.pof ;
 +--------------------+------------------------------------+
 ; Option             ; Setting                            ;
 +--------------------+------------------------------------+
@@ -118,14 +118,14 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II Assembler
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
-    Info: Processing started: Mon Sep 28 15:17:51 2020
+    Info: Processing started: Tue Sep 29 11:41:05 2020
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off Laba2 -c Laba2
 Info: Writing out detailed assembly data for power analysis
 Info: Assembler is generating device programming files
 Info: Quartus II Assembler was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 243 megabytes
-    Info: Processing ended: Mon Sep 28 15:17:52 2020
+    Info: Processing ended: Tue Sep 29 11:41:06 2020
     Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
 
 
