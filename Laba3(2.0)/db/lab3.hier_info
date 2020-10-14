@@ -1,5 +1,12 @@
 |main
-pin_name <= buffer_block:inst1.wren
+buffer_out[0] <= buffer_block:inst1.buffer_out[0]
+buffer_out[1] <= buffer_block:inst1.buffer_out[1]
+buffer_out[2] <= buffer_block:inst1.buffer_out[2]
+buffer_out[3] <= buffer_block:inst1.buffer_out[3]
+buffer_out[4] <= buffer_block:inst1.buffer_out[4]
+buffer_out[5] <= buffer_block:inst1.buffer_out[5]
+buffer_out[6] <= buffer_block:inst1.buffer_out[6]
+buffer_out[7] <= buffer_block:inst1.buffer_out[7]
 CLK => buffer_block:inst1.CLK
 CLK => ram_block:inst3.CLK
 CLK => rom_block:inst.CLK
@@ -19,14 +26,6 @@ address[3] => ram_block:inst3.address[3]
 address[3] => rom_block:inst.address[3]
 address[4] => ram_block:inst3.address[4]
 address[4] => rom_block:inst.address[4]
-buffer_out[0] <= buffer_block:inst1.buffer_out[0]
-buffer_out[1] <= buffer_block:inst1.buffer_out[1]
-buffer_out[2] <= buffer_block:inst1.buffer_out[2]
-buffer_out[3] <= buffer_block:inst1.buffer_out[3]
-buffer_out[4] <= buffer_block:inst1.buffer_out[4]
-buffer_out[5] <= buffer_block:inst1.buffer_out[5]
-buffer_out[6] <= buffer_block:inst1.buffer_out[6]
-buffer_out[7] <= buffer_block:inst1.buffer_out[7]
 ram_out[0] <= ram_block:inst3.ram_out[0]
 ram_out[1] <= ram_block:inst3.ram_out[1]
 ram_out[2] <= ram_block:inst3.ram_out[2]
@@ -50,14 +49,14 @@ wren <= lpm_compare2:inst7.agb
 CLK => lpm_counter0:inst4.clock
 CLK => inst22.IN0
 read => lpm_dff0:inst2.clock
-buffer_out[0] <= lpm_dff1:inst19.q[0]
-buffer_out[1] <= lpm_dff1:inst19.q[1]
-buffer_out[2] <= lpm_dff1:inst19.q[2]
-buffer_out[3] <= lpm_dff1:inst19.q[3]
-buffer_out[4] <= lpm_dff1:inst19.q[4]
-buffer_out[5] <= lpm_dff1:inst19.q[5]
-buffer_out[6] <= lpm_dff1:inst19.q[6]
-buffer_out[7] <= lpm_dff1:inst19.q[7]
+buffer_out[0] <= lpm_dff1:inst16.q[0]
+buffer_out[1] <= lpm_dff1:inst16.q[1]
+buffer_out[2] <= lpm_dff1:inst16.q[2]
+buffer_out[3] <= lpm_dff1:inst16.q[3]
+buffer_out[4] <= lpm_dff1:inst16.q[4]
+buffer_out[5] <= lpm_dff1:inst16.q[5]
+buffer_out[6] <= lpm_dff1:inst16.q[6]
+buffer_out[7] <= lpm_dff1:inst16.q[7]
 data[0] => lpm_dff1:inst13.data[0]
 data[1] => lpm_dff1:inst13.data[1]
 data[2] => lpm_dff1:inst13.data[2]
@@ -261,7 +260,7 @@ datab[3] => data_wire[1]~1.IN1
 datab[4] => data_wire[2].IN1
 
 
-|main|buffer_block:inst1|lpm_dff1:inst19
+|main|buffer_block:inst1|lpm_dff1:inst16
 clock => lpm_ff:lpm_ff_component.clock
 data[0] => lpm_ff:lpm_ff_component.data[0]
 data[1] => lpm_ff:lpm_ff_component.data[1]
@@ -281,7 +280,7 @@ q[6] <= lpm_ff:lpm_ff_component.q[6]
 q[7] <= lpm_ff:lpm_ff_component.q[7]
 
 
-|main|buffer_block:inst1|lpm_dff1:inst19|lpm_ff:lpm_ff_component
+|main|buffer_block:inst1|lpm_dff1:inst16|lpm_ff:lpm_ff_component
 data[0] => dffs[0].DATAIN
 data[1] => dffs[1].DATAIN
 data[2] => dffs[2].DATAIN
@@ -377,189 +376,6 @@ datab[3] => _~1.IN1
 datab[3] => op_1.IN4
 datab[4] => _~0.IN1
 datab[4] => op_1.IN2
-
-
-|main|buffer_block:inst1|lpm_dff1:inst18
-clock => lpm_ff:lpm_ff_component.clock
-data[0] => lpm_ff:lpm_ff_component.data[0]
-data[1] => lpm_ff:lpm_ff_component.data[1]
-data[2] => lpm_ff:lpm_ff_component.data[2]
-data[3] => lpm_ff:lpm_ff_component.data[3]
-data[4] => lpm_ff:lpm_ff_component.data[4]
-data[5] => lpm_ff:lpm_ff_component.data[5]
-data[6] => lpm_ff:lpm_ff_component.data[6]
-data[7] => lpm_ff:lpm_ff_component.data[7]
-q[0] <= lpm_ff:lpm_ff_component.q[0]
-q[1] <= lpm_ff:lpm_ff_component.q[1]
-q[2] <= lpm_ff:lpm_ff_component.q[2]
-q[3] <= lpm_ff:lpm_ff_component.q[3]
-q[4] <= lpm_ff:lpm_ff_component.q[4]
-q[5] <= lpm_ff:lpm_ff_component.q[5]
-q[6] <= lpm_ff:lpm_ff_component.q[6]
-q[7] <= lpm_ff:lpm_ff_component.q[7]
-
-
-|main|buffer_block:inst1|lpm_dff1:inst18|lpm_ff:lpm_ff_component
-data[0] => dffs[0].DATAIN
-data[1] => dffs[1].DATAIN
-data[2] => dffs[2].DATAIN
-data[3] => dffs[3].DATAIN
-data[4] => dffs[4].DATAIN
-data[5] => dffs[5].DATAIN
-data[6] => dffs[6].DATAIN
-data[7] => dffs[7].DATAIN
-clock => dffs[7].CLK
-clock => dffs[6].CLK
-clock => dffs[5].CLK
-clock => dffs[4].CLK
-clock => dffs[3].CLK
-clock => dffs[2].CLK
-clock => dffs[1].CLK
-clock => dffs[0].CLK
-enable => dffs[7].ENA
-enable => dffs[6].ENA
-enable => dffs[5].ENA
-enable => dffs[4].ENA
-enable => dffs[3].ENA
-enable => dffs[2].ENA
-enable => dffs[1].ENA
-enable => dffs[0].ENA
-aclr => ~NO_FANOUT~
-aset => ~NO_FANOUT~
-aload => ~NO_FANOUT~
-sclr => ~NO_FANOUT~
-sset => ~NO_FANOUT~
-sload => ~NO_FANOUT~
-q[0] <= dffs[0].DB_MAX_OUTPUT_PORT_TYPE
-q[1] <= dffs[1].DB_MAX_OUTPUT_PORT_TYPE
-q[2] <= dffs[2].DB_MAX_OUTPUT_PORT_TYPE
-q[3] <= dffs[3].DB_MAX_OUTPUT_PORT_TYPE
-q[4] <= dffs[4].DB_MAX_OUTPUT_PORT_TYPE
-q[5] <= dffs[5].DB_MAX_OUTPUT_PORT_TYPE
-q[6] <= dffs[6].DB_MAX_OUTPUT_PORT_TYPE
-q[7] <= dffs[7].DB_MAX_OUTPUT_PORT_TYPE
-
-
-|main|buffer_block:inst1|lpm_dff1:inst17
-clock => lpm_ff:lpm_ff_component.clock
-data[0] => lpm_ff:lpm_ff_component.data[0]
-data[1] => lpm_ff:lpm_ff_component.data[1]
-data[2] => lpm_ff:lpm_ff_component.data[2]
-data[3] => lpm_ff:lpm_ff_component.data[3]
-data[4] => lpm_ff:lpm_ff_component.data[4]
-data[5] => lpm_ff:lpm_ff_component.data[5]
-data[6] => lpm_ff:lpm_ff_component.data[6]
-data[7] => lpm_ff:lpm_ff_component.data[7]
-q[0] <= lpm_ff:lpm_ff_component.q[0]
-q[1] <= lpm_ff:lpm_ff_component.q[1]
-q[2] <= lpm_ff:lpm_ff_component.q[2]
-q[3] <= lpm_ff:lpm_ff_component.q[3]
-q[4] <= lpm_ff:lpm_ff_component.q[4]
-q[5] <= lpm_ff:lpm_ff_component.q[5]
-q[6] <= lpm_ff:lpm_ff_component.q[6]
-q[7] <= lpm_ff:lpm_ff_component.q[7]
-
-
-|main|buffer_block:inst1|lpm_dff1:inst17|lpm_ff:lpm_ff_component
-data[0] => dffs[0].DATAIN
-data[1] => dffs[1].DATAIN
-data[2] => dffs[2].DATAIN
-data[3] => dffs[3].DATAIN
-data[4] => dffs[4].DATAIN
-data[5] => dffs[5].DATAIN
-data[6] => dffs[6].DATAIN
-data[7] => dffs[7].DATAIN
-clock => dffs[7].CLK
-clock => dffs[6].CLK
-clock => dffs[5].CLK
-clock => dffs[4].CLK
-clock => dffs[3].CLK
-clock => dffs[2].CLK
-clock => dffs[1].CLK
-clock => dffs[0].CLK
-enable => dffs[7].ENA
-enable => dffs[6].ENA
-enable => dffs[5].ENA
-enable => dffs[4].ENA
-enable => dffs[3].ENA
-enable => dffs[2].ENA
-enable => dffs[1].ENA
-enable => dffs[0].ENA
-aclr => ~NO_FANOUT~
-aset => ~NO_FANOUT~
-aload => ~NO_FANOUT~
-sclr => ~NO_FANOUT~
-sset => ~NO_FANOUT~
-sload => ~NO_FANOUT~
-q[0] <= dffs[0].DB_MAX_OUTPUT_PORT_TYPE
-q[1] <= dffs[1].DB_MAX_OUTPUT_PORT_TYPE
-q[2] <= dffs[2].DB_MAX_OUTPUT_PORT_TYPE
-q[3] <= dffs[3].DB_MAX_OUTPUT_PORT_TYPE
-q[4] <= dffs[4].DB_MAX_OUTPUT_PORT_TYPE
-q[5] <= dffs[5].DB_MAX_OUTPUT_PORT_TYPE
-q[6] <= dffs[6].DB_MAX_OUTPUT_PORT_TYPE
-q[7] <= dffs[7].DB_MAX_OUTPUT_PORT_TYPE
-
-
-|main|buffer_block:inst1|lpm_dff1:inst16
-clock => lpm_ff:lpm_ff_component.clock
-data[0] => lpm_ff:lpm_ff_component.data[0]
-data[1] => lpm_ff:lpm_ff_component.data[1]
-data[2] => lpm_ff:lpm_ff_component.data[2]
-data[3] => lpm_ff:lpm_ff_component.data[3]
-data[4] => lpm_ff:lpm_ff_component.data[4]
-data[5] => lpm_ff:lpm_ff_component.data[5]
-data[6] => lpm_ff:lpm_ff_component.data[6]
-data[7] => lpm_ff:lpm_ff_component.data[7]
-q[0] <= lpm_ff:lpm_ff_component.q[0]
-q[1] <= lpm_ff:lpm_ff_component.q[1]
-q[2] <= lpm_ff:lpm_ff_component.q[2]
-q[3] <= lpm_ff:lpm_ff_component.q[3]
-q[4] <= lpm_ff:lpm_ff_component.q[4]
-q[5] <= lpm_ff:lpm_ff_component.q[5]
-q[6] <= lpm_ff:lpm_ff_component.q[6]
-q[7] <= lpm_ff:lpm_ff_component.q[7]
-
-
-|main|buffer_block:inst1|lpm_dff1:inst16|lpm_ff:lpm_ff_component
-data[0] => dffs[0].DATAIN
-data[1] => dffs[1].DATAIN
-data[2] => dffs[2].DATAIN
-data[3] => dffs[3].DATAIN
-data[4] => dffs[4].DATAIN
-data[5] => dffs[5].DATAIN
-data[6] => dffs[6].DATAIN
-data[7] => dffs[7].DATAIN
-clock => dffs[7].CLK
-clock => dffs[6].CLK
-clock => dffs[5].CLK
-clock => dffs[4].CLK
-clock => dffs[3].CLK
-clock => dffs[2].CLK
-clock => dffs[1].CLK
-clock => dffs[0].CLK
-enable => dffs[7].ENA
-enable => dffs[6].ENA
-enable => dffs[5].ENA
-enable => dffs[4].ENA
-enable => dffs[3].ENA
-enable => dffs[2].ENA
-enable => dffs[1].ENA
-enable => dffs[0].ENA
-aclr => ~NO_FANOUT~
-aset => ~NO_FANOUT~
-aload => ~NO_FANOUT~
-sclr => ~NO_FANOUT~
-sset => ~NO_FANOUT~
-sload => ~NO_FANOUT~
-q[0] <= dffs[0].DB_MAX_OUTPUT_PORT_TYPE
-q[1] <= dffs[1].DB_MAX_OUTPUT_PORT_TYPE
-q[2] <= dffs[2].DB_MAX_OUTPUT_PORT_TYPE
-q[3] <= dffs[3].DB_MAX_OUTPUT_PORT_TYPE
-q[4] <= dffs[4].DB_MAX_OUTPUT_PORT_TYPE
-q[5] <= dffs[5].DB_MAX_OUTPUT_PORT_TYPE
-q[6] <= dffs[6].DB_MAX_OUTPUT_PORT_TYPE
-q[7] <= dffs[7].DB_MAX_OUTPUT_PORT_TYPE
 
 
 |main|buffer_block:inst1|lpm_dff1:inst15
