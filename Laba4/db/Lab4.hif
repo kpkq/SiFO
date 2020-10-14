@@ -20,505 +20,6 @@ VHSM_ON
 -- Start VHDL Libraries --
 -- End VHDL Libraries --
 # entity
-altsyncram
-# storage
-db|Lab4.(2).cnf
-db|Lab4.(2).cnf
-# case_insensitive
-# source_file
-c:|altera|91sp2|quartus|libraries|megafunctions|altsyncram.tdf
-67d9a3902c8a461c1d5750189e124f2
-7
-# user_parameter {
-BYTE_SIZE_BLOCK
-8
-PARAMETER_UNKNOWN
-DEF
-AUTO_CARRY_CHAINS
-ON
-AUTO_CARRY
-USR
-IGNORE_CARRY_BUFFERS
-OFF
-IGNORE_CARRY
-USR
-AUTO_CASCADE_CHAINS
-ON
-AUTO_CASCADE
-USR
-IGNORE_CASCADE_BUFFERS
-OFF
-IGNORE_CASCADE
-USR
-WIDTH_BYTEENA
-1
-PARAMETER_UNKNOWN
-DEF
-OPERATION_MODE
-ROM
-PARAMETER_UNKNOWN
-USR
-WIDTH_A
-9
-PARAMETER_UNKNOWN
-USR
-WIDTHAD_A
-8
-PARAMETER_UNKNOWN
-USR
-NUMWORDS_A
-256
-PARAMETER_UNKNOWN
-USR
-OUTDATA_REG_A
-UNREGISTERED
-PARAMETER_UNKNOWN
-USR
-ADDRESS_ACLR_A
-NONE
-PARAMETER_UNKNOWN
-DEF
-OUTDATA_ACLR_A
-NONE
-PARAMETER_UNKNOWN
-USR
-WRCONTROL_ACLR_A
-NONE
-PARAMETER_UNKNOWN
-DEF
-INDATA_ACLR_A
-NONE
-PARAMETER_UNKNOWN
-DEF
-BYTEENA_ACLR_A
-NONE
-PARAMETER_UNKNOWN
-DEF
-WIDTH_B
-1
-PARAMETER_UNKNOWN
-DEF
-WIDTHAD_B
-1
-PARAMETER_UNKNOWN
-DEF
-NUMWORDS_B
-1
-PARAMETER_UNKNOWN
-DEF
-INDATA_REG_B
-CLOCK1
-PARAMETER_UNKNOWN
-DEF
-WRCONTROL_WRADDRESS_REG_B
-CLOCK1
-PARAMETER_UNKNOWN
-DEF
-RDCONTROL_REG_B
-CLOCK1
-PARAMETER_UNKNOWN
-DEF
-ADDRESS_REG_B
-CLOCK1
-PARAMETER_UNKNOWN
-DEF
-OUTDATA_REG_B
-UNREGISTERED
-PARAMETER_UNKNOWN
-DEF
-BYTEENA_REG_B
-CLOCK1
-PARAMETER_UNKNOWN
-DEF
-INDATA_ACLR_B
-NONE
-PARAMETER_UNKNOWN
-DEF
-WRCONTROL_ACLR_B
-NONE
-PARAMETER_UNKNOWN
-DEF
-ADDRESS_ACLR_B
-NONE
-PARAMETER_UNKNOWN
-DEF
-OUTDATA_ACLR_B
-NONE
-PARAMETER_UNKNOWN
-DEF
-RDCONTROL_ACLR_B
-NONE
-PARAMETER_UNKNOWN
-DEF
-BYTEENA_ACLR_B
-NONE
-PARAMETER_UNKNOWN
-DEF
-WIDTH_BYTEENA_A
-1
-PARAMETER_UNKNOWN
-USR
-WIDTH_BYTEENA_B
-1
-PARAMETER_UNKNOWN
-DEF
-RAM_BLOCK_TYPE
-AUTO
-PARAMETER_UNKNOWN
-DEF
-BYTE_SIZE
-8
-PARAMETER_UNKNOWN
-DEF
-READ_DURING_WRITE_MODE_MIXED_PORTS
-DONT_CARE
-PARAMETER_UNKNOWN
-DEF
-READ_DURING_WRITE_MODE_PORT_A
-NEW_DATA_NO_NBE_READ
-PARAMETER_UNKNOWN
-DEF
-READ_DURING_WRITE_MODE_PORT_B
-NEW_DATA_NO_NBE_READ
-PARAMETER_UNKNOWN
-DEF
-INIT_FILE
-prog.mif
-PARAMETER_UNKNOWN
-USR
-INIT_FILE_LAYOUT
-PORT_A
-PARAMETER_UNKNOWN
-DEF
-MAXIMUM_DEPTH
-0
-PARAMETER_UNKNOWN
-DEF
-CLOCK_ENABLE_INPUT_A
-BYPASS
-PARAMETER_UNKNOWN
-USR
-CLOCK_ENABLE_INPUT_B
-NORMAL
-PARAMETER_UNKNOWN
-DEF
-CLOCK_ENABLE_OUTPUT_A
-BYPASS
-PARAMETER_UNKNOWN
-USR
-CLOCK_ENABLE_OUTPUT_B
-NORMAL
-PARAMETER_UNKNOWN
-DEF
-CLOCK_ENABLE_CORE_A
-USE_INPUT_CLKEN
-PARAMETER_UNKNOWN
-DEF
-CLOCK_ENABLE_CORE_B
-USE_INPUT_CLKEN
-PARAMETER_UNKNOWN
-DEF
-ENABLE_ECC
-FALSE
-PARAMETER_UNKNOWN
-DEF
-DEVICE_FAMILY
-Stratix II
-PARAMETER_UNKNOWN
-USR
-CBXI_PARAMETER
-altsyncram_6l71
-PARAMETER_UNKNOWN
-USR
-}
-# used_port {
-q_a8
--1
-3
-q_a7
--1
-3
-q_a6
--1
-3
-q_a5
--1
-3
-q_a4
--1
-3
-q_a3
--1
-3
-q_a2
--1
-3
-q_a1
--1
-3
-q_a0
--1
-3
-clock0
--1
-3
-address_a7
--1
-3
-address_a6
--1
-3
-address_a5
--1
-3
-address_a4
--1
-3
-address_a3
--1
-3
-address_a2
--1
-3
-address_a1
--1
-3
-address_a0
--1
-3
-}
-# macro_sequence
-
-# end
-# entity
-lpm_ff
-# storage
-db|Lab4.(5).cnf
-db|Lab4.(5).cnf
-# case_insensitive
-# source_file
-c:|altera|91sp2|quartus|libraries|megafunctions|lpm_ff.tdf
-6f1796a38d8b519cf7b8f38b5da1ac5b
-7
-# user_parameter {
-LPM_WIDTH
-9
-PARAMETER_UNKNOWN
-USR
-LPM_AVALUE
-UNUSED
-PARAMETER_UNKNOWN
-DEF
-LPM_SVALUE
-UNUSED
-PARAMETER_UNKNOWN
-DEF
-LPM_FFTYPE
-DFF
-PARAMETER_UNKNOWN
-USR
-DEVICE_FAMILY
-Stratix II
-PARAMETER_UNKNOWN
-USR
-CBXI_PARAMETER
-NOTHING
-PARAMETER_UNKNOWN
-DEF
-AUTO_CARRY_CHAINS
-ON
-AUTO_CARRY
-USR
-IGNORE_CARRY_BUFFERS
-OFF
-IGNORE_CARRY
-USR
-AUTO_CASCADE_CHAINS
-ON
-AUTO_CASCADE
-USR
-IGNORE_CASCADE_BUFFERS
-OFF
-IGNORE_CASCADE
-USR
-}
-# used_port {
-q8
--1
-3
-q7
--1
-3
-q6
--1
-3
-q5
--1
-3
-q4
--1
-3
-q3
--1
-3
-q2
--1
-3
-q1
--1
-3
-q0
--1
-3
-enable
--1
-3
-data8
--1
-3
-data7
--1
-3
-data6
--1
-3
-data5
--1
-3
-data4
--1
-3
-data3
--1
-3
-data2
--1
-3
-data1
--1
-3
-data0
--1
-3
-clock
--1
-3
-}
-# hierarchies {
-REGS:inst61|lpm_dff1:inst26|lpm_ff:lpm_ff_component
-REGS:inst61|lpm_dff1:inst25|lpm_ff:lpm_ff_component
-REGS:inst61|lpm_dff1:inst24|lpm_ff:lpm_ff_component
-REGS:inst61|lpm_dff1:inst23|lpm_ff:lpm_ff_component
-REGS:inst61|lpm_dff1:inst22|lpm_ff:lpm_ff_component
-REGS:inst61|lpm_dff1:inst20|lpm_ff:lpm_ff_component
-REGS:inst61|lpm_dff1:inst19|lpm_ff:lpm_ff_component
-REGS:inst61|lpm_dff1:inst27|lpm_ff:lpm_ff_component
-}
-# macro_sequence
-
-# end
-# entity
-lpm_counter
-# storage
-db|Lab4.(7).cnf
-db|Lab4.(7).cnf
-# case_insensitive
-# source_file
-c:|altera|91sp2|quartus|libraries|megafunctions|lpm_counter.tdf
-151f75e8fcf5e87e72b7df6bb2ea
-7
-# user_parameter {
-AUTO_CARRY_CHAINS
-ON
-AUTO_CARRY
-USR
-IGNORE_CARRY_BUFFERS
-OFF
-IGNORE_CARRY
-USR
-AUTO_CASCADE_CHAINS
-ON
-AUTO_CASCADE
-USR
-IGNORE_CASCADE_BUFFERS
-OFF
-IGNORE_CASCADE
-USR
-LPM_WIDTH
-2
-PARAMETER_UNKNOWN
-USR
-LPM_DIRECTION
-UP
-PARAMETER_UNKNOWN
-USR
-LPM_MODULUS
-0
-PARAMETER_UNKNOWN
-DEF
-LPM_AVALUE
-UNUSED
-PARAMETER_UNKNOWN
-DEF
-LPM_SVALUE
-UNUSED
-PARAMETER_UNKNOWN
-DEF
-LPM_PORT_UPDOWN
-PORT_UNUSED
-PARAMETER_UNKNOWN
-USR
-DEVICE_FAMILY
-Stratix II
-PARAMETER_UNKNOWN
-USR
-CARRY_CHAIN
-MANUAL
-PARAMETER_UNKNOWN
-USR
-CARRY_CHAIN_LENGTH
-48
-CARRY_CHAIN_LENGTH
-USR
-NOT_GATE_PUSH_BACK
-ON
-NOT_GATE_PUSH_BACK
-USR
-CARRY_CNT_EN
-SMART
-PARAMETER_UNKNOWN
-DEF
-LABWIDE_SCLR
-ON
-PARAMETER_UNKNOWN
-DEF
-USE_NEW_VERSION
-TRUE
-PARAMETER_UNKNOWN
-DEF
-CBXI_PARAMETER
-cntr_q3i
-PARAMETER_UNKNOWN
-USR
-}
-# used_port {
-q1
--1
-3
-q0
--1
-3
-clock
--1
-3
-aclr
--1
-3
-}
-# macro_sequence
-
-# end
-# entity
 cntr_q3i
 # storage
 db|Lab4.(8).cnf
@@ -541,6 +42,9 @@ clock
 aclr
 -1
 3
+}
+# hierarchies {
+lpm_counter4:inst5|lpm_counter:lpm_counter_component|cntr_q3i:auto_generated
 }
 # macro_sequence
 
@@ -624,273 +128,6 @@ lpm_ff.inc
 # hierarchies {
 lpm_dff0:inst7
 lpm_dff0:inst8
-}
-# macro_sequence
-
-# end
-# entity
-lpm_ff
-# storage
-db|Lab4.(9).cnf
-db|Lab4.(9).cnf
-# case_insensitive
-# source_file
-c:|altera|91sp2|quartus|libraries|megafunctions|lpm_ff.tdf
-6f1796a38d8b519cf7b8f38b5da1ac5b
-7
-# user_parameter {
-LPM_WIDTH
-9
-PARAMETER_UNKNOWN
-USR
-LPM_AVALUE
-UNUSED
-PARAMETER_UNKNOWN
-DEF
-LPM_SVALUE
-UNUSED
-PARAMETER_UNKNOWN
-DEF
-LPM_FFTYPE
-DFF
-PARAMETER_UNKNOWN
-USR
-DEVICE_FAMILY
-Stratix II
-PARAMETER_UNKNOWN
-USR
-CBXI_PARAMETER
-NOTHING
-PARAMETER_UNKNOWN
-DEF
-AUTO_CARRY_CHAINS
-ON
-AUTO_CARRY
-USR
-IGNORE_CARRY_BUFFERS
-OFF
-IGNORE_CARRY
-USR
-AUTO_CASCADE_CHAINS
-ON
-AUTO_CASCADE
-USR
-IGNORE_CASCADE_BUFFERS
-OFF
-IGNORE_CASCADE
-USR
-}
-# used_port {
-q8
--1
-3
-q7
--1
-3
-q6
--1
-3
-q5
--1
-3
-q4
--1
-3
-q3
--1
-3
-q2
--1
-3
-q1
--1
-3
-q0
--1
-3
-data8
--1
-3
-data7
--1
-3
-data6
--1
-3
-data5
--1
-3
-data4
--1
-3
-data3
--1
-3
-data2
--1
-3
-data1
--1
-3
-data0
--1
-3
-clock
--1
-3
-aload
--1
-3
-}
-# hierarchies {
-lpm_dff0:inst7|lpm_ff:lpm_ff_component
-lpm_dff0:inst8|lpm_ff:lpm_ff_component
-}
-# macro_sequence
-
-# end
-# entity
-lpm_counter
-# storage
-db|Lab4.(12).cnf
-db|Lab4.(12).cnf
-# case_insensitive
-# source_file
-c:|altera|91sp2|quartus|libraries|megafunctions|lpm_counter.tdf
-151f75e8fcf5e87e72b7df6bb2ea
-7
-# user_parameter {
-AUTO_CARRY_CHAINS
-ON
-AUTO_CARRY
-USR
-IGNORE_CARRY_BUFFERS
-OFF
-IGNORE_CARRY
-USR
-AUTO_CASCADE_CHAINS
-ON
-AUTO_CASCADE
-USR
-IGNORE_CASCADE_BUFFERS
-OFF
-IGNORE_CASCADE
-USR
-LPM_WIDTH
-8
-PARAMETER_UNKNOWN
-USR
-LPM_DIRECTION
-UP
-PARAMETER_UNKNOWN
-USR
-LPM_MODULUS
-0
-PARAMETER_UNKNOWN
-DEF
-LPM_AVALUE
-UNUSED
-PARAMETER_UNKNOWN
-DEF
-LPM_SVALUE
-UNUSED
-PARAMETER_UNKNOWN
-DEF
-LPM_PORT_UPDOWN
-PORT_UNUSED
-PARAMETER_UNKNOWN
-USR
-DEVICE_FAMILY
-Stratix II
-PARAMETER_UNKNOWN
-USR
-CARRY_CHAIN
-MANUAL
-PARAMETER_UNKNOWN
-USR
-CARRY_CHAIN_LENGTH
-48
-CARRY_CHAIN_LENGTH
-USR
-NOT_GATE_PUSH_BACK
-ON
-NOT_GATE_PUSH_BACK
-USR
-CARRY_CNT_EN
-SMART
-PARAMETER_UNKNOWN
-DEF
-LABWIDE_SCLR
-ON
-PARAMETER_UNKNOWN
-DEF
-USE_NEW_VERSION
-TRUE
-PARAMETER_UNKNOWN
-DEF
-CBXI_PARAMETER
-cntr_n9j
-PARAMETER_UNKNOWN
-USR
-}
-# used_port {
-sload
--1
-3
-q7
--1
-3
-q6
--1
-3
-q5
--1
-3
-q4
--1
-3
-q3
--1
-3
-q2
--1
-3
-q1
--1
-3
-q0
--1
-3
-data7
--1
-3
-data6
--1
-3
-data5
--1
-3
-data4
--1
-3
-data3
--1
-3
-data2
--1
-3
-data1
--1
-3
-data0
--1
-3
-clock
--1
-3
-clk_en
--1
-3
 }
 # macro_sequence
 
@@ -1020,125 +257,6 @@ lpm_ff.inc
 
 # end
 # entity
-lpm_counter
-# storage
-db|Lab4.(15).cnf
-db|Lab4.(15).cnf
-# case_insensitive
-# source_file
-c:|altera|91sp2|quartus|libraries|megafunctions|lpm_counter.tdf
-151f75e8fcf5e87e72b7df6bb2ea
-7
-# user_parameter {
-AUTO_CARRY_CHAINS
-ON
-AUTO_CARRY
-USR
-IGNORE_CARRY_BUFFERS
-OFF
-IGNORE_CARRY
-USR
-AUTO_CASCADE_CHAINS
-ON
-AUTO_CASCADE
-USR
-IGNORE_CASCADE_BUFFERS
-OFF
-IGNORE_CASCADE
-USR
-LPM_WIDTH
-8
-PARAMETER_UNKNOWN
-USR
-LPM_DIRECTION
-UP
-PARAMETER_UNKNOWN
-USR
-LPM_MODULUS
-0
-PARAMETER_UNKNOWN
-DEF
-LPM_AVALUE
-UNUSED
-PARAMETER_UNKNOWN
-DEF
-LPM_SVALUE
-UNUSED
-PARAMETER_UNKNOWN
-DEF
-LPM_PORT_UPDOWN
-PORT_UNUSED
-PARAMETER_UNKNOWN
-USR
-DEVICE_FAMILY
-Stratix II
-PARAMETER_UNKNOWN
-USR
-CARRY_CHAIN
-MANUAL
-PARAMETER_UNKNOWN
-USR
-CARRY_CHAIN_LENGTH
-48
-CARRY_CHAIN_LENGTH
-USR
-NOT_GATE_PUSH_BACK
-ON
-NOT_GATE_PUSH_BACK
-USR
-CARRY_CNT_EN
-SMART
-PARAMETER_UNKNOWN
-DEF
-LABWIDE_SCLR
-ON
-PARAMETER_UNKNOWN
-DEF
-USE_NEW_VERSION
-TRUE
-PARAMETER_UNKNOWN
-DEF
-CBXI_PARAMETER
-cntr_aai
-PARAMETER_UNKNOWN
-USR
-}
-# used_port {
-q7
--1
-3
-q6
--1
-3
-q5
--1
-3
-q4
--1
-3
-q3
--1
-3
-q2
--1
-3
-q1
--1
-3
-q0
--1
-3
-clock
--1
-3
-clk_en
--1
-3
-}
-# macro_sequence
-
-# end
-# entity
 cntr_aai
 # storage
 db|Lab4.(16).cnf
@@ -1180,279 +298,8 @@ clk_en
 -1
 3
 }
-# macro_sequence
-
-# end
-# entity
-altsyncram
-# storage
-db|Lab4.(17).cnf
-db|Lab4.(17).cnf
-# case_insensitive
-# source_file
-c:|altera|91sp2|quartus|libraries|megafunctions|altsyncram.tdf
-67d9a3902c8a461c1d5750189e124f2
-7
-# user_parameter {
-BYTE_SIZE_BLOCK
-8
-PARAMETER_UNKNOWN
-DEF
-AUTO_CARRY_CHAINS
-ON
-AUTO_CARRY
-USR
-IGNORE_CARRY_BUFFERS
-OFF
-IGNORE_CARRY
-USR
-AUTO_CASCADE_CHAINS
-ON
-AUTO_CASCADE
-USR
-IGNORE_CASCADE_BUFFERS
-OFF
-IGNORE_CASCADE
-USR
-WIDTH_BYTEENA
-1
-PARAMETER_UNKNOWN
-DEF
-OPERATION_MODE
-ROM
-PARAMETER_UNKNOWN
-USR
-WIDTH_A
-9
-PARAMETER_UNKNOWN
-USR
-WIDTHAD_A
-8
-PARAMETER_UNKNOWN
-USR
-NUMWORDS_A
-256
-PARAMETER_UNKNOWN
-USR
-OUTDATA_REG_A
-CLOCK1
-PARAMETER_UNKNOWN
-USR
-ADDRESS_ACLR_A
-NONE
-PARAMETER_UNKNOWN
-DEF
-OUTDATA_ACLR_A
-NONE
-PARAMETER_UNKNOWN
-USR
-WRCONTROL_ACLR_A
-NONE
-PARAMETER_UNKNOWN
-DEF
-INDATA_ACLR_A
-NONE
-PARAMETER_UNKNOWN
-DEF
-BYTEENA_ACLR_A
-NONE
-PARAMETER_UNKNOWN
-DEF
-WIDTH_B
-1
-PARAMETER_UNKNOWN
-DEF
-WIDTHAD_B
-1
-PARAMETER_UNKNOWN
-DEF
-NUMWORDS_B
-1
-PARAMETER_UNKNOWN
-DEF
-INDATA_REG_B
-CLOCK1
-PARAMETER_UNKNOWN
-DEF
-WRCONTROL_WRADDRESS_REG_B
-CLOCK1
-PARAMETER_UNKNOWN
-DEF
-RDCONTROL_REG_B
-CLOCK1
-PARAMETER_UNKNOWN
-DEF
-ADDRESS_REG_B
-CLOCK1
-PARAMETER_UNKNOWN
-DEF
-OUTDATA_REG_B
-UNREGISTERED
-PARAMETER_UNKNOWN
-DEF
-BYTEENA_REG_B
-CLOCK1
-PARAMETER_UNKNOWN
-DEF
-INDATA_ACLR_B
-NONE
-PARAMETER_UNKNOWN
-DEF
-WRCONTROL_ACLR_B
-NONE
-PARAMETER_UNKNOWN
-DEF
-ADDRESS_ACLR_B
-NONE
-PARAMETER_UNKNOWN
-DEF
-OUTDATA_ACLR_B
-NONE
-PARAMETER_UNKNOWN
-DEF
-RDCONTROL_ACLR_B
-NONE
-PARAMETER_UNKNOWN
-DEF
-BYTEENA_ACLR_B
-NONE
-PARAMETER_UNKNOWN
-DEF
-WIDTH_BYTEENA_A
-1
-PARAMETER_UNKNOWN
-USR
-WIDTH_BYTEENA_B
-1
-PARAMETER_UNKNOWN
-DEF
-RAM_BLOCK_TYPE
-AUTO
-PARAMETER_UNKNOWN
-DEF
-BYTE_SIZE
-8
-PARAMETER_UNKNOWN
-DEF
-READ_DURING_WRITE_MODE_MIXED_PORTS
-DONT_CARE
-PARAMETER_UNKNOWN
-DEF
-READ_DURING_WRITE_MODE_PORT_A
-NEW_DATA_NO_NBE_READ
-PARAMETER_UNKNOWN
-DEF
-READ_DURING_WRITE_MODE_PORT_B
-NEW_DATA_NO_NBE_READ
-PARAMETER_UNKNOWN
-DEF
-INIT_FILE
-prog.mif
-PARAMETER_UNKNOWN
-USR
-INIT_FILE_LAYOUT
-PORT_A
-PARAMETER_UNKNOWN
-DEF
-MAXIMUM_DEPTH
-0
-PARAMETER_UNKNOWN
-DEF
-CLOCK_ENABLE_INPUT_A
-BYPASS
-PARAMETER_UNKNOWN
-USR
-CLOCK_ENABLE_INPUT_B
-NORMAL
-PARAMETER_UNKNOWN
-DEF
-CLOCK_ENABLE_OUTPUT_A
-BYPASS
-PARAMETER_UNKNOWN
-USR
-CLOCK_ENABLE_OUTPUT_B
-NORMAL
-PARAMETER_UNKNOWN
-DEF
-CLOCK_ENABLE_CORE_A
-USE_INPUT_CLKEN
-PARAMETER_UNKNOWN
-DEF
-CLOCK_ENABLE_CORE_B
-USE_INPUT_CLKEN
-PARAMETER_UNKNOWN
-DEF
-ENABLE_ECC
-FALSE
-PARAMETER_UNKNOWN
-DEF
-DEVICE_FAMILY
-Stratix II
-PARAMETER_UNKNOWN
-USR
-CBXI_PARAMETER
-altsyncram_8a51
-PARAMETER_UNKNOWN
-USR
-}
-# used_port {
-q_a8
--1
-3
-q_a7
--1
-3
-q_a6
--1
-3
-q_a5
--1
-3
-q_a4
--1
-3
-q_a3
--1
-3
-q_a2
--1
-3
-q_a1
--1
-3
-q_a0
--1
-3
-clock1
--1
-3
-clock0
--1
-3
-address_a7
--1
-3
-address_a6
--1
-3
-address_a5
--1
-3
-address_a4
--1
-3
-address_a3
--1
-3
-address_a2
--1
-3
-address_a1
--1
-3
-address_a0
--1
-3
+# hierarchies {
+lpm_counter1:inst16|lpm_counter:lpm_counter_component|cntr_aai:auto_generated
 }
 # macro_sequence
 
@@ -1628,177 +475,6 @@ dataa0
 lpm_add_sub.inc
 144a73b61081a2a03554ff5acc5e8842
 }
-# hierarchies {
-ROM:inst25|lpm_add_sub0:inst5
-}
-# macro_sequence
-
-# end
-# entity
-lpm_add_sub
-# storage
-db|Lab4.(20).cnf
-db|Lab4.(20).cnf
-# case_insensitive
-# source_file
-c:|altera|91sp2|quartus|libraries|megafunctions|lpm_add_sub.tdf
-74821f847e545ce9ad847cbce0ef11
-7
-# user_parameter {
-LPM_WIDTH
-8
-PARAMETER_UNKNOWN
-USR
-LPM_REPRESENTATION
-UNSIGNED
-PARAMETER_UNKNOWN
-USR
-LPM_DIRECTION
-ADD
-PARAMETER_UNKNOWN
-USR
-ONE_INPUT_IS_CONSTANT
-NO
-PARAMETER_UNKNOWN
-USR
-LPM_PIPELINE
-0
-PARAMETER_UNKNOWN
-DEF
-MAXIMIZE_SPEED
-5
-PARAMETER_UNKNOWN
-DEF
-REGISTERED_AT_END
-0
-PARAMETER_UNKNOWN
-DEF
-OPTIMIZE_FOR_SPEED
-5
-PARAMETER_UNKNOWN
-USR
-USE_CS_BUFFERS
-1
-PARAMETER_UNKNOWN
-DEF
-CARRY_CHAIN
-MANUAL
-PARAMETER_UNKNOWN
-USR
-CARRY_CHAIN_LENGTH
-48
-CARRY_CHAIN_LENGTH
-USR
-DEVICE_FAMILY
-Stratix II
-PARAMETER_UNKNOWN
-USR
-USE_WYS
-OFF
-PARAMETER_UNKNOWN
-DEF
-STYLE
-FAST
-PARAMETER_UNKNOWN
-USR
-CBXI_PARAMETER
-add_sub_elh
-PARAMETER_UNKNOWN
-USR
-AUTO_CARRY_CHAINS
-ON
-AUTO_CARRY
-USR
-IGNORE_CARRY_BUFFERS
-OFF
-IGNORE_CARRY
-USR
-AUTO_CASCADE_CHAINS
-ON
-AUTO_CASCADE
-USR
-IGNORE_CASCADE_BUFFERS
-OFF
-IGNORE_CASCADE
-USR
-}
-# used_port {
-result7
--1
-3
-result6
--1
-3
-result5
--1
-3
-result4
--1
-3
-result3
--1
-3
-result2
--1
-3
-result1
--1
-3
-result0
--1
-3
-datab7
--1
-3
-datab6
--1
-3
-datab5
--1
-3
-datab4
--1
-3
-datab3
--1
-3
-datab2
--1
-3
-datab1
--1
-3
-datab0
--1
-3
-dataa7
--1
-3
-dataa6
--1
-3
-dataa5
--1
-3
-dataa4
--1
-3
-dataa3
--1
-3
-dataa2
--1
-3
-dataa1
--1
-3
-dataa0
--1
-3
-}
-# hierarchies {
-ROM:inst25|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component
-}
 # macro_sequence
 
 # end
@@ -1883,128 +559,6 @@ dataa1
 -1
 3
 dataa0
--1
-3
-}
-# hierarchies {
-ROM:inst25|lpm_add_sub0:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_elh:auto_generated
-}
-# macro_sequence
-
-# end
-# entity
-lpm_counter
-# storage
-db|Lab4.(23).cnf
-db|Lab4.(23).cnf
-# case_insensitive
-# source_file
-c:|altera|91sp2|quartus|libraries|megafunctions|lpm_counter.tdf
-151f75e8fcf5e87e72b7df6bb2ea
-7
-# user_parameter {
-AUTO_CARRY_CHAINS
-ON
-AUTO_CARRY
-USR
-IGNORE_CARRY_BUFFERS
-OFF
-IGNORE_CARRY
-USR
-AUTO_CASCADE_CHAINS
-ON
-AUTO_CASCADE
-USR
-IGNORE_CASCADE_BUFFERS
-OFF
-IGNORE_CASCADE
-USR
-LPM_WIDTH
-8
-PARAMETER_UNKNOWN
-USR
-LPM_DIRECTION
-UP
-PARAMETER_UNKNOWN
-USR
-LPM_MODULUS
-0
-PARAMETER_UNKNOWN
-DEF
-LPM_AVALUE
-UNUSED
-PARAMETER_UNKNOWN
-DEF
-LPM_SVALUE
-UNUSED
-PARAMETER_UNKNOWN
-DEF
-LPM_PORT_UPDOWN
-PORT_UNUSED
-PARAMETER_UNKNOWN
-USR
-DEVICE_FAMILY
-Stratix II
-PARAMETER_UNKNOWN
-USR
-CARRY_CHAIN
-MANUAL
-PARAMETER_UNKNOWN
-USR
-CARRY_CHAIN_LENGTH
-48
-CARRY_CHAIN_LENGTH
-USR
-NOT_GATE_PUSH_BACK
-ON
-NOT_GATE_PUSH_BACK
-USR
-CARRY_CNT_EN
-SMART
-PARAMETER_UNKNOWN
-DEF
-LABWIDE_SCLR
-ON
-PARAMETER_UNKNOWN
-DEF
-USE_NEW_VERSION
-TRUE
-PARAMETER_UNKNOWN
-DEF
-CBXI_PARAMETER
-cntr_b4i
-PARAMETER_UNKNOWN
-USR
-}
-# used_port {
-q7
--1
-3
-q6
--1
-3
-q5
--1
-3
-q4
--1
-3
-q3
--1
-3
-q2
--1
-3
-q1
--1
-3
-q0
--1
-3
-clock
--1
-3
-aset
 -1
 3
 }
@@ -2099,140 +653,6 @@ aeb
 lpm_compare.inc
 bbd3e8c93afb7320934629e5fb11566
 }
-# hierarchies {
-ROM:inst25|lpm_compare0:inst8
-}
-# macro_sequence
-
-# end
-# entity
-lpm_compare
-# storage
-db|Lab4.(26).cnf
-db|Lab4.(26).cnf
-# case_insensitive
-# source_file
-c:|altera|91sp2|quartus|libraries|megafunctions|lpm_compare.tdf
-6fe57e55c2d8e254bfe73d8fff3f219
-7
-# user_parameter {
-lpm_width
-8
-PARAMETER_UNKNOWN
-USR
-LPM_REPRESENTATION
-UNSIGNED
-PARAMETER_UNKNOWN
-USR
-LPM_PIPELINE
-0
-PARAMETER_UNKNOWN
-DEF
-CHAIN_SIZE
-8
-PARAMETER_UNKNOWN
-DEF
-ONE_INPUT_IS_CONSTANT
-YES
-PARAMETER_UNKNOWN
-USR
-CARRY_CHAIN
-MANUAL
-PARAMETER_UNKNOWN
-USR
-CASCADE_CHAIN
-MANUAL
-PARAMETER_UNKNOWN
-USR
-CARRY_CHAIN_LENGTH
-48
-CARRY_CHAIN_LENGTH
-USR
-CASCADE_CHAIN_LENGTH
-2
-CASCADE_CHAIN_LENGTH
-USR
-DEVICE_FAMILY
-Stratix II
-PARAMETER_UNKNOWN
-USR
-CBXI_PARAMETER
-cmpr_m8j
-PARAMETER_UNKNOWN
-USR
-AUTO_CARRY_CHAINS
-ON
-AUTO_CARRY
-USR
-IGNORE_CARRY_BUFFERS
-OFF
-IGNORE_CARRY
-USR
-AUTO_CASCADE_CHAINS
-ON
-AUTO_CASCADE
-USR
-IGNORE_CASCADE_BUFFERS
-OFF
-IGNORE_CASCADE
-USR
-}
-# used_port {
-dataa7
--1
-3
-dataa6
--1
-3
-dataa5
--1
-3
-dataa4
--1
-3
-dataa3
--1
-3
-dataa2
--1
-3
-dataa1
--1
-3
-dataa0
--1
-3
-aeb
--1
-3
-datab7
--1
-1
-datab6
--1
-1
-datab5
--1
-1
-datab4
--1
-1
-datab3
--1
-1
-datab2
--1
-1
-datab1
--1
-2
-datab0
--1
-2
-}
-# hierarchies {
-ROM:inst25|lpm_compare0:inst8|lpm_compare:lpm_compare_component
-}
 # macro_sequence
 
 # end
@@ -2298,9 +718,6 @@ dataa0
 aeb
 -1
 3
-}
-# hierarchies {
-ROM:inst25|lpm_compare0:inst8|lpm_compare:lpm_compare_component|cmpr_m8j:auto_generated
 }
 # macro_sequence
 
@@ -2386,7 +803,1366 @@ altsyncram.inc
 bf6e7ed16a7f826360d948c8e4763a5
 }
 # hierarchies {
-ROM:inst25|lpm_rom1:inst
+ROM:inst46|lpm_rom1:inst
+}
+# macro_sequence
+
+# end
+# entity
+cntr_dii
+# storage
+db|Lab4.(32).cnf
+db|Lab4.(32).cnf
+# case_insensitive
+# source_file
+db|cntr_dii.tdf
+7abb551d8f6d7dbe6494a4d950e3bee
+7
+# used_port {
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+clock
+-1
+3
+aset
+-1
+3
+aclr
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+lpm_counter2
+# storage
+db|Lab4.(22).cnf
+db|Lab4.(22).cnf
+# case_insensitive
+# source_file
+lpm_counter2.tdf
+e2939a25f49fcb4f32fe2a321b896d21
+7
+# used_port {
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+clock
+-1
+3
+aset
+-1
+3
+aclr
+-1
+3
+}
+# include_file {
+lpm_counter.inc
+c5cfeeabc5f2ab60b3453f6abbc42b41
+}
+# macro_sequence
+
+# end
+# entity
+cntr_1oj
+# storage
+db|Lab4.(34).cnf
+db|Lab4.(34).cnf
+# case_insensitive
+# source_file
+db|cntr_1oj.tdf
+f557a6f5373c549c126c2f2056954343
+7
+# used_port {
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+clock
+-1
+3
+aset
+-1
+3
+aclr
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+cntr_04i
+# storage
+db|Lab4.(35).cnf
+db|Lab4.(35).cnf
+# case_insensitive
+# source_file
+db|cntr_04i.tdf
+c9637d5bcbcb4f56e3959a5565a743c9
+7
+# used_port {
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+clock
+-1
+3
+aclr
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+cntr_rnj
+# storage
+db|Lab4.(38).cnf
+db|Lab4.(38).cnf
+# case_insensitive
+# source_file
+db|cntr_rnj.tdf
+8c50516d4e432c1b7ae7a3f34c945e
+7
+# used_port {
+q1
+-1
+3
+q0
+-1
+3
+clock
+-1
+3
+aset
+-1
+3
+aclr
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+RAM
+# storage
+db|Lab4.(3).cnf
+db|Lab4.(3).cnf
+# case_insensitive
+# source_file
+ram.bdf
+7c647a2c53e34359a4cdb17f7ede1cf2
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+RAM:inst52
+}
+# macro_sequence
+
+# end
+# entity
+lpm_ram_dq0
+# storage
+db|Lab4.(6).cnf
+db|Lab4.(6).cnf
+# case_insensitive
+# source_file
+lpm_ram_dq0.tdf
+1cf4e0aca6b48996914e27b91de90
+7
+# user_parameter {
+WIDTH_BYTEENA_A
+1
+PARAMETER_UNKNOWN
+DEF
+WIDTH_BYTEENA_B
+1
+PARAMETER_UNKNOWN
+DEF
+}
+# used_port {
+q8
+-1
+3
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+clock
+-1
+3
+address7
+-1
+3
+address6
+-1
+3
+address5
+-1
+3
+address4
+-1
+3
+address3
+-1
+3
+address2
+-1
+3
+address1
+-1
+3
+address0
+-1
+3
+wren
+-1
+1
+data8
+-1
+1
+data7
+-1
+1
+data6
+-1
+1
+data5
+-1
+1
+data4
+-1
+1
+data3
+-1
+1
+data2
+-1
+1
+data1
+-1
+1
+data0
+-1
+1
+}
+# include_file {
+altsyncram.inc
+bf6e7ed16a7f826360d948c8e4763a5
+}
+# hierarchies {
+RAM:inst52|lpm_ram_dq0:inst
+}
+# macro_sequence
+
+# end
+# entity
+lpm_mux2
+# storage
+db|Lab4.(39).cnf
+db|Lab4.(39).cnf
+# case_insensitive
+# source_file
+lpm_mux2.tdf
+b89ecaeffab86685aace7e0a97ebe44
+7
+# used_port {
+sel
+-1
+3
+result7
+-1
+3
+result6
+-1
+3
+result5
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+data1x7
+-1
+3
+data1x6
+-1
+3
+data1x5
+-1
+3
+data1x4
+-1
+3
+data1x3
+-1
+3
+data1x2
+-1
+3
+data1x1
+-1
+3
+data1x0
+-1
+3
+data0x7
+-1
+3
+data0x6
+-1
+3
+data0x5
+-1
+3
+data0x4
+-1
+3
+data0x3
+-1
+3
+data0x2
+-1
+3
+data0x1
+-1
+3
+data0x0
+-1
+3
+}
+# include_file {
+lpm_mux.inc
+dd87bed9959d6126db09970164b7ba6
+}
+# hierarchies {
+lpm_mux2:inst56
+lpm_mux2:inst47
+}
+# macro_sequence
+
+# end
+# entity
+mux_unc
+# storage
+db|Lab4.(41).cnf
+db|Lab4.(41).cnf
+# case_insensitive
+# source_file
+db|mux_unc.tdf
+d67c26e570b9509e3f559944af073
+7
+# used_port {
+sel0
+-1
+3
+result7
+-1
+3
+result6
+-1
+3
+result5
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+data9
+-1
+3
+data8
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data15
+-1
+3
+data14
+-1
+3
+data13
+-1
+3
+data12
+-1
+3
+data11
+-1
+3
+data10
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# hierarchies {
+lpm_mux2:inst56|lpm_mux:lpm_mux_component|mux_unc:auto_generated
+lpm_mux2:inst47|lpm_mux:lpm_mux_component|mux_unc:auto_generated
+}
+# macro_sequence
+
+# end
+# entity
+lpm_counter0
+# storage
+db|Lab4.(42).cnf
+db|Lab4.(42).cnf
+# case_insensitive
+# source_file
+lpm_counter0.tdf
+52dda5b896f8d5e57467b244d3ed178
+7
+# used_port {
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+clock
+-1
+3
+aset
+-1
+3
+aclr
+-1
+3
+}
+# include_file {
+lpm_counter.inc
+c5cfeeabc5f2ab60b3453f6abbc42b41
+}
+# macro_sequence
+
+# end
+# entity
+cntr_snj
+# storage
+db|Lab4.(44).cnf
+db|Lab4.(44).cnf
+# case_insensitive
+# source_file
+db|cntr_snj.tdf
+4888d67e72652c3043864bdcb22a0f8
+7
+# used_port {
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+clock
+-1
+3
+aset
+-1
+3
+aclr
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+REGS
+# storage
+db|Lab4.(30).cnf
+db|Lab4.(30).cnf
+# case_insensitive
+# source_file
+regs.bdf
+c5c88e84f2808275f97b8feb453ec59
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+REGS:inst61
+}
+# macro_sequence
+
+# end
+# entity
+lpm_dff1
+# storage
+db|Lab4.(36).cnf
+db|Lab4.(36).cnf
+# case_insensitive
+# source_file
+lpm_dff1.tdf
+c84ccff3d8f4f81cf837b6b5c87d7e3
+7
+# used_port {
+q8
+-1
+3
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+enable
+-1
+3
+data8
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+clock
+-1
+3
+}
+# include_file {
+lpm_ff.inc
+5b1f18ec4f969a147b22e8c42bf962ac
+}
+# hierarchies {
+REGS:inst61|lpm_dff1:inst26
+REGS:inst61|lpm_dff1:inst25
+REGS:inst61|lpm_dff1:inst24
+REGS:inst61|lpm_dff1:inst23
+REGS:inst61|lpm_dff1:inst22
+REGS:inst61|lpm_dff1:inst20
+REGS:inst61|lpm_dff1:inst19
+REGS:inst61|lpm_dff1:inst27
+}
+# macro_sequence
+
+# end
+# entity
+lpm_decode0
+# storage
+db|Lab4.(45).cnf
+db|Lab4.(45).cnf
+# case_insensitive
+# source_file
+lpm_decode0.tdf
+80da98d9b9523ea49e6a980831d46e0
+7
+# used_port {
+eq7
+-1
+3
+eq6
+-1
+3
+eq5
+-1
+3
+eq4
+-1
+3
+eq3
+-1
+3
+eq2
+-1
+3
+eq1
+-1
+3
+eq0
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# include_file {
+lpm_decode.inc
+10da69a8bbd590d66779e7a142f73790
+}
+# hierarchies {
+REGS:inst61|lpm_decode0:inst8
+}
+# macro_sequence
+
+# end
+# entity
+decode_u7f
+# storage
+db|Lab4.(48).cnf
+db|Lab4.(48).cnf
+# case_insensitive
+# source_file
+db|decode_u7f.tdf
+347ae041f71bdc4667a8d028386b6c82
+7
+# used_port {
+eq7
+-1
+3
+eq6
+-1
+3
+eq5
+-1
+3
+eq4
+-1
+3
+eq3
+-1
+3
+eq2
+-1
+3
+eq1
+-1
+3
+eq0
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# hierarchies {
+REGS:inst61|lpm_decode0:inst8|lpm_decode:lpm_decode_component|decode_u7f:auto_generated
+}
+# macro_sequence
+
+# end
+# entity
+lpm_mux
+# storage
+db|Lab4.(5).cnf
+db|Lab4.(5).cnf
+# case_insensitive
+# source_file
+|utils|quarus|quartus|libraries|megafunctions|lpm_mux.tdf
+9d45665215a7636e457c26f5f1517
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+LPM_WIDTH
+8
+PARAMETER_UNKNOWN
+USR
+LPM_SIZE
+2
+PARAMETER_UNKNOWN
+USR
+LPM_WIDTHS
+1
+PARAMETER_UNKNOWN
+USR
+LPM_PIPELINE
+0
+PARAMETER_UNKNOWN
+DEF
+CBXI_PARAMETER
+mux_unc
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Stratix II
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+sel0
+-1
+3
+result7
+-1
+3
+result6
+-1
+3
+result5
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+data1_7
+-1
+3
+data1_6
+-1
+3
+data1_5
+-1
+3
+data1_4
+-1
+3
+data1_3
+-1
+3
+data1_2
+-1
+3
+data1_1
+-1
+3
+data1_0
+-1
+3
+data0_7
+-1
+3
+data0_6
+-1
+3
+data0_5
+-1
+3
+data0_4
+-1
+3
+data0_3
+-1
+3
+data0_2
+-1
+3
+data0_1
+-1
+3
+data0_0
+-1
+3
+}
+# hierarchies {
+lpm_mux2:inst56|lpm_mux:lpm_mux_component
+lpm_mux2:inst47|lpm_mux:lpm_mux_component
+}
+# macro_sequence
+
+# end
+# entity
+lpm_counter
+# storage
+db|Lab4.(7).cnf
+db|Lab4.(7).cnf
+# case_insensitive
+# source_file
+|utils|quarus|quartus|libraries|megafunctions|lpm_counter.tdf
+151f75e8fcf5e87e72b7df6bb2ea
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+LPM_WIDTH
+3
+PARAMETER_UNKNOWN
+USR
+LPM_DIRECTION
+UP
+PARAMETER_UNKNOWN
+USR
+LPM_MODULUS
+0
+PARAMETER_UNKNOWN
+DEF
+LPM_AVALUE
+1
+PARAMETER_UNKNOWN
+USR
+LPM_SVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_PORT_UPDOWN
+PORT_UNUSED
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Stratix II
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+NOT_GATE_PUSH_BACK
+ON
+NOT_GATE_PUSH_BACK
+USR
+CARRY_CNT_EN
+SMART
+PARAMETER_UNKNOWN
+DEF
+LABWIDE_SCLR
+ON
+PARAMETER_UNKNOWN
+DEF
+USE_NEW_VERSION
+TRUE
+PARAMETER_UNKNOWN
+DEF
+CBXI_PARAMETER
+cntr_snj
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+clock
+-1
+3
+aset
+-1
+3
+aclr
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+lpm_counter3
+# storage
+db|Lab4.(9).cnf
+db|Lab4.(9).cnf
+# case_insensitive
+# source_file
+lpm_counter3.tdf
+2b21d1ed6033e3a56a8e35dc896b719
+7
+# used_port {
+q0
+-1
+3
+clock
+-1
+3
+aclr
+-1
+3
+}
+# include_file {
+lpm_counter.inc
+c5cfeeabc5f2ab60b3453f6abbc42b41
+}
+# hierarchies {
+lpm_counter3:inst66
+}
+# macro_sequence
+
+# end
+# entity
+lpm_counter
+# storage
+db|Lab4.(11).cnf
+db|Lab4.(11).cnf
+# case_insensitive
+# source_file
+|utils|quarus|quartus|libraries|megafunctions|lpm_counter.tdf
+151f75e8fcf5e87e72b7df6bb2ea
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+LPM_WIDTH
+1
+PARAMETER_UNKNOWN
+USR
+LPM_DIRECTION
+UP
+PARAMETER_UNKNOWN
+USR
+LPM_MODULUS
+0
+PARAMETER_UNKNOWN
+DEF
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_PORT_UPDOWN
+PORT_UNUSED
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Stratix II
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+NOT_GATE_PUSH_BACK
+ON
+NOT_GATE_PUSH_BACK
+USR
+CARRY_CNT_EN
+SMART
+PARAMETER_UNKNOWN
+DEF
+LABWIDE_SCLR
+ON
+PARAMETER_UNKNOWN
+DEF
+USE_NEW_VERSION
+TRUE
+PARAMETER_UNKNOWN
+DEF
+CBXI_PARAMETER
+cntr_p3i
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+q0
+-1
+3
+clock
+-1
+3
+aclr
+-1
+3
+}
+# hierarchies {
+lpm_counter3:inst66|lpm_counter:lpm_counter_component
+}
+# macro_sequence
+
+# end
+# entity
+cntr_p3i
+# storage
+db|Lab4.(12).cnf
+db|Lab4.(12).cnf
+# case_insensitive
+# source_file
+db|cntr_p3i.tdf
+2c1b703858a0dc98361fbae732035e3
+7
+# used_port {
+q0
+-1
+3
+clock
+-1
+3
+aclr
+-1
+3
+}
+# hierarchies {
+lpm_counter3:inst66|lpm_counter:lpm_counter_component|cntr_p3i:auto_generated
+}
+# macro_sequence
+
+# end
+# entity
+lpm_ff
+# storage
+db|Lab4.(15).cnf
+db|Lab4.(15).cnf
+# case_insensitive
+# source_file
+|utils|quarus|quartus|libraries|megafunctions|lpm_ff.tdf
+6f1796a38d8b519cf7b8f38b5da1ac5b
+7
+# user_parameter {
+LPM_WIDTH
+9
+PARAMETER_UNKNOWN
+USR
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_FFTYPE
+DFF
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Stratix II
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+NOTHING
+PARAMETER_UNKNOWN
+DEF
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+q8
+-1
+3
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data8
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+clock
+-1
+3
+aload
+-1
+3
+}
+# hierarchies {
+lpm_dff0:inst7|lpm_ff:lpm_ff_component
+lpm_dff0:inst8|lpm_ff:lpm_ff_component
 }
 # macro_sequence
 
@@ -2394,11 +2170,11 @@ ROM:inst25|lpm_rom1:inst
 # entity
 altsyncram
 # storage
-db|Lab4.(29).cnf
-db|Lab4.(29).cnf
+db|Lab4.(17).cnf
+db|Lab4.(17).cnf
 # case_insensitive
 # source_file
-c:|altera|91sp2|quartus|libraries|megafunctions|altsyncram.tdf
+|utils|quarus|quartus|libraries|megafunctions|altsyncram.tdf
 67d9a3902c8a461c1d5750189e124f2
 7
 # user_parameter {
@@ -2660,22 +2436,82 @@ address_a0
 3
 }
 # hierarchies {
-ROM:inst25|lpm_rom1:inst|altsyncram:altsyncram_component
+ROM:inst46|lpm_rom1:inst|altsyncram:altsyncram_component
 }
 # macro_sequence
 
 # end
 # entity
-lpm_counter
+lpm_add_sub
 # storage
-db|Lab4.(31).cnf
-db|Lab4.(31).cnf
+db|Lab4.(18).cnf
+db|Lab4.(18).cnf
 # case_insensitive
 # source_file
-c:|altera|91sp2|quartus|libraries|megafunctions|lpm_counter.tdf
-151f75e8fcf5e87e72b7df6bb2ea
+|utils|quarus|quartus|libraries|megafunctions|lpm_add_sub.tdf
+74821f847e545ce9ad847cbce0ef11
 7
 # user_parameter {
+LPM_WIDTH
+8
+PARAMETER_UNKNOWN
+USR
+LPM_REPRESENTATION
+UNSIGNED
+PARAMETER_UNKNOWN
+USR
+LPM_DIRECTION
+ADD
+PARAMETER_UNKNOWN
+USR
+ONE_INPUT_IS_CONSTANT
+NO
+PARAMETER_UNKNOWN
+USR
+LPM_PIPELINE
+0
+PARAMETER_UNKNOWN
+DEF
+MAXIMIZE_SPEED
+5
+PARAMETER_UNKNOWN
+DEF
+REGISTERED_AT_END
+0
+PARAMETER_UNKNOWN
+DEF
+OPTIMIZE_FOR_SPEED
+5
+PARAMETER_UNKNOWN
+USR
+USE_CS_BUFFERS
+1
+PARAMETER_UNKNOWN
+DEF
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+DEVICE_FAMILY
+Stratix II
+PARAMETER_UNKNOWN
+USR
+USE_WYS
+OFF
+PARAMETER_UNKNOWN
+DEF
+STYLE
+FAST
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+add_sub_elh
+PARAMETER_UNKNOWN
+USR
 AUTO_CARRY_CHAINS
 ON
 AUTO_CARRY
@@ -2692,200 +2528,80 @@ IGNORE_CASCADE_BUFFERS
 OFF
 IGNORE_CASCADE
 USR
-LPM_WIDTH
-8
-PARAMETER_UNKNOWN
-USR
-LPM_DIRECTION
-UP
-PARAMETER_UNKNOWN
-USR
-LPM_MODULUS
-0
-PARAMETER_UNKNOWN
-DEF
-LPM_AVALUE
-UNUSED
-PARAMETER_UNKNOWN
-DEF
-LPM_SVALUE
-UNUSED
-PARAMETER_UNKNOWN
-DEF
-LPM_PORT_UPDOWN
-PORT_UNUSED
-PARAMETER_UNKNOWN
-USR
-DEVICE_FAMILY
-Stratix II
-PARAMETER_UNKNOWN
-USR
-CARRY_CHAIN
-MANUAL
-PARAMETER_UNKNOWN
-USR
-CARRY_CHAIN_LENGTH
-48
-CARRY_CHAIN_LENGTH
-USR
-NOT_GATE_PUSH_BACK
-ON
-NOT_GATE_PUSH_BACK
-USR
-CARRY_CNT_EN
-SMART
-PARAMETER_UNKNOWN
-DEF
-LABWIDE_SCLR
-ON
-PARAMETER_UNKNOWN
-DEF
-USE_NEW_VERSION
-TRUE
-PARAMETER_UNKNOWN
-DEF
-CBXI_PARAMETER
-cntr_dii
-PARAMETER_UNKNOWN
-USR
 }
 # used_port {
-q7
+result7
 -1
 3
-q6
+result6
 -1
 3
-q5
+result5
 -1
 3
-q4
+result4
 -1
 3
-q3
+result3
 -1
 3
-q2
+result2
 -1
 3
-q1
+result1
 -1
 3
-q0
+result0
 -1
 3
-clock
+datab7
 -1
 3
-aset
+datab6
 -1
 3
-aclr
+datab5
 -1
 3
-}
-# macro_sequence
-
-# end
-# entity
-cntr_dii
-# storage
-db|Lab4.(32).cnf
-db|Lab4.(32).cnf
-# case_insensitive
-# source_file
-db|cntr_dii.tdf
-7abb551d8f6d7dbe6494a4d950e3bee
-7
-# used_port {
-q7
+datab4
 -1
 3
-q6
+datab3
 -1
 3
-q5
+datab2
 -1
 3
-q4
+datab1
 -1
 3
-q3
+datab0
 -1
 3
-q2
+dataa7
 -1
 3
-q1
+dataa6
 -1
 3
-q0
+dataa5
 -1
 3
-clock
+dataa4
 -1
 3
-aset
+dataa3
 -1
 3
-aclr
+dataa2
 -1
 3
-}
-# macro_sequence
-
-# end
-# entity
-lpm_counter2
-# storage
-db|Lab4.(22).cnf
-db|Lab4.(22).cnf
-# case_insensitive
-# source_file
-lpm_counter2.tdf
-e2939a25f49fcb4f32fe2a321b896d21
-7
-# used_port {
-q7
+dataa1
 -1
 3
-q6
+dataa0
 -1
 3
-q5
--1
-3
-q4
--1
-3
-q3
--1
-3
-q2
--1
-3
-q1
--1
-3
-q0
--1
-3
-clock
--1
-3
-aset
--1
-3
-aclr
--1
-3
-}
-# include_file {
-lpm_counter.inc
-c5cfeeabc5f2ab60b3453f6abbc42b41
-}
-# hierarchies {
-ROM:inst25|lpm_counter2:inst6
 }
 # macro_sequence
 
@@ -2893,11 +2609,11 @@ ROM:inst25|lpm_counter2:inst6
 # entity
 lpm_counter
 # storage
-db|Lab4.(33).cnf
-db|Lab4.(33).cnf
+db|Lab4.(20).cnf
+db|Lab4.(20).cnf
 # case_insensitive
 # source_file
-c:|altera|91sp2|quartus|libraries|megafunctions|lpm_counter.tdf
+|utils|quarus|quartus|libraries|megafunctions|lpm_counter.tdf
 151f75e8fcf5e87e72b7df6bb2ea
 7
 # user_parameter {
@@ -3009,191 +2725,45 @@ aclr
 -1
 3
 }
-# hierarchies {
-ROM:inst25|lpm_counter2:inst6|lpm_counter:lpm_counter_component
-}
 # macro_sequence
 
 # end
 # entity
-cntr_1oj
+lpm_compare
 # storage
-db|Lab4.(34).cnf
-db|Lab4.(34).cnf
+db|Lab4.(23).cnf
+db|Lab4.(23).cnf
 # case_insensitive
 # source_file
-db|cntr_1oj.tdf
-f557a6f5373c549c126c2f2056954343
-7
-# used_port {
-q7
--1
-3
-q6
--1
-3
-q5
--1
-3
-q4
--1
-3
-q3
--1
-3
-q2
--1
-3
-q1
--1
-3
-q0
--1
-3
-clock
--1
-3
-aset
--1
-3
-aclr
--1
-3
-}
-# hierarchies {
-ROM:inst25|lpm_counter2:inst6|lpm_counter:lpm_counter_component|cntr_1oj:auto_generated
-}
-# macro_sequence
-
-# end
-# entity
-ROM
-# storage
-db|Lab4.(0).cnf
-db|Lab4.(0).cnf
-# case_insensitive
-# source_file
-rom.bdf
-2bfa9b81d0916f9f7242fc80542f6886
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-ROM:inst25
-}
-# macro_sequence
-
-# end
-# entity
-lpm_counter1
-# storage
-db|Lab4.(10).cnf
-db|Lab4.(10).cnf
-# case_insensitive
-# source_file
-lpm_counter1.tdf
-8d62dbe4f721a68d6125bc820972b55
-7
-# used_port {
-q7
--1
-3
-q6
--1
-3
-q5
--1
-3
-q4
--1
-3
-q3
--1
-3
-q2
--1
-3
-q1
--1
-3
-q0
--1
-3
-clock
--1
-3
-aclr
--1
-3
-}
-# include_file {
-lpm_counter.inc
-c5cfeeabc5f2ab60b3453f6abbc42b41
-}
-# hierarchies {
-lpm_counter1:inst16
-}
-# macro_sequence
-
-# end
-# entity
-lpm_counter
-# storage
-db|Lab4.(11).cnf
-db|Lab4.(11).cnf
-# case_insensitive
-# source_file
-c:|altera|91sp2|quartus|libraries|megafunctions|lpm_counter.tdf
-151f75e8fcf5e87e72b7df6bb2ea
+|utils|quarus|quartus|libraries|megafunctions|lpm_compare.tdf
+6fe57e55c2d8e254bfe73d8fff3f219
 7
 # user_parameter {
-AUTO_CARRY_CHAINS
-ON
-AUTO_CARRY
-USR
-IGNORE_CARRY_BUFFERS
-OFF
-IGNORE_CARRY
-USR
-AUTO_CASCADE_CHAINS
-ON
-AUTO_CASCADE
-USR
-IGNORE_CASCADE_BUFFERS
-OFF
-IGNORE_CASCADE
-USR
-LPM_WIDTH
+lpm_width
 8
 PARAMETER_UNKNOWN
 USR
-LPM_DIRECTION
-UP
+LPM_REPRESENTATION
+UNSIGNED
 PARAMETER_UNKNOWN
 USR
-LPM_MODULUS
+LPM_PIPELINE
 0
 PARAMETER_UNKNOWN
 DEF
-LPM_AVALUE
-UNUSED
+CHAIN_SIZE
+8
 PARAMETER_UNKNOWN
 DEF
-LPM_SVALUE
-UNUSED
-PARAMETER_UNKNOWN
-DEF
-LPM_PORT_UPDOWN
-PORT_UNUSED
-PARAMETER_UNKNOWN
-USR
-DEVICE_FAMILY
-Stratix II
+ONE_INPUT_IS_CONSTANT
+YES
 PARAMETER_UNKNOWN
 USR
 CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CASCADE_CHAIN
 MANUAL
 PARAMETER_UNKNOWN
 USR
@@ -3201,379 +2771,87 @@ CARRY_CHAIN_LENGTH
 48
 CARRY_CHAIN_LENGTH
 USR
-NOT_GATE_PUSH_BACK
-ON
-NOT_GATE_PUSH_BACK
-USR
-CARRY_CNT_EN
-SMART
-PARAMETER_UNKNOWN
-DEF
-LABWIDE_SCLR
-ON
-PARAMETER_UNKNOWN
-DEF
-USE_NEW_VERSION
-TRUE
-PARAMETER_UNKNOWN
-DEF
-CBXI_PARAMETER
-cntr_04i
-PARAMETER_UNKNOWN
-USR
-}
-# used_port {
-q7
--1
-3
-q6
--1
-3
-q5
--1
-3
-q4
--1
-3
-q3
--1
-3
-q2
--1
-3
-q1
--1
-3
-q0
--1
-3
-clock
--1
-3
-aclr
--1
-3
-}
-# hierarchies {
-lpm_counter1:inst16|lpm_counter:lpm_counter_component
-}
-# macro_sequence
-
-# end
-# entity
-cntr_04i
-# storage
-db|Lab4.(35).cnf
-db|Lab4.(35).cnf
-# case_insensitive
-# source_file
-db|cntr_04i.tdf
-c9637d5bcbcb4f56e3959a5565a743c9
-7
-# used_port {
-q7
--1
-3
-q6
--1
-3
-q5
--1
-3
-q4
--1
-3
-q3
--1
-3
-q2
--1
-3
-q1
--1
-3
-q0
--1
-3
-clock
--1
-3
-aclr
--1
-3
-}
-# hierarchies {
-lpm_counter1:inst16|lpm_counter:lpm_counter_component|cntr_04i:auto_generated
-}
-# macro_sequence
-
-# end
-# entity
-lpm_counter
-# storage
-db|Lab4.(37).cnf
-db|Lab4.(37).cnf
-# case_insensitive
-# source_file
-c:|altera|91sp2|quartus|libraries|megafunctions|lpm_counter.tdf
-151f75e8fcf5e87e72b7df6bb2ea
-7
-# user_parameter {
-AUTO_CARRY_CHAINS
-ON
-AUTO_CARRY
-USR
-IGNORE_CARRY_BUFFERS
-OFF
-IGNORE_CARRY
-USR
-AUTO_CASCADE_CHAINS
-ON
-AUTO_CASCADE
-USR
-IGNORE_CASCADE_BUFFERS
-OFF
-IGNORE_CASCADE
-USR
-LPM_WIDTH
+CASCADE_CHAIN_LENGTH
 2
-PARAMETER_UNKNOWN
-USR
-LPM_DIRECTION
-UP
-PARAMETER_UNKNOWN
-USR
-LPM_MODULUS
-0
-PARAMETER_UNKNOWN
-DEF
-LPM_AVALUE
-1
-PARAMETER_UNKNOWN
-USR
-LPM_SVALUE
-UNUSED
-PARAMETER_UNKNOWN
-DEF
-LPM_PORT_UPDOWN
-PORT_UNUSED
-PARAMETER_UNKNOWN
+CASCADE_CHAIN_LENGTH
 USR
 DEVICE_FAMILY
 Stratix II
 PARAMETER_UNKNOWN
 USR
-CARRY_CHAIN
-MANUAL
-PARAMETER_UNKNOWN
-USR
-CARRY_CHAIN_LENGTH
-48
-CARRY_CHAIN_LENGTH
-USR
-NOT_GATE_PUSH_BACK
-ON
-NOT_GATE_PUSH_BACK
-USR
-CARRY_CNT_EN
-SMART
-PARAMETER_UNKNOWN
-DEF
-LABWIDE_SCLR
-ON
-PARAMETER_UNKNOWN
-DEF
-USE_NEW_VERSION
-TRUE
-PARAMETER_UNKNOWN
-DEF
 CBXI_PARAMETER
-cntr_rnj
+cmpr_m8j
 PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
 USR
 }
 # used_port {
-q1
+dataa7
 -1
 3
-q0
+dataa6
 -1
 3
-clock
+dataa5
 -1
 3
-aset
+dataa4
 -1
 3
-aclr
+dataa3
 -1
 3
-}
-# macro_sequence
-
-# end
-# entity
-cntr_rnj
-# storage
-db|Lab4.(38).cnf
-db|Lab4.(38).cnf
-# case_insensitive
-# source_file
-db|cntr_rnj.tdf
-8c50516d4e432c1b7ae7a3f34c945e
-7
-# used_port {
-q1
+dataa2
 -1
 3
-q0
+dataa1
 -1
 3
-clock
+dataa0
 -1
 3
-aset
+aeb
 -1
 3
-aclr
--1
-3
-}
-# macro_sequence
-
-# end
-# entity
-RAM
-# storage
-db|Lab4.(3).cnf
-db|Lab4.(3).cnf
-# case_insensitive
-# source_file
-ram.bdf
-7c647a2c53e34359a4cdb17f7ede1cf2
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-RAM:inst52
-}
-# macro_sequence
-
-# end
-# entity
-lpm_ram_dq0
-# storage
-db|Lab4.(6).cnf
-db|Lab4.(6).cnf
-# case_insensitive
-# source_file
-lpm_ram_dq0.tdf
-1cf4e0aca6b48996914e27b91de90
-7
-# user_parameter {
-WIDTH_BYTEENA_A
-1
-PARAMETER_UNKNOWN
-DEF
-WIDTH_BYTEENA_B
-1
-PARAMETER_UNKNOWN
-DEF
-}
-# used_port {
-q8
--1
-3
-q7
--1
-3
-q6
--1
-3
-q5
--1
-3
-q4
--1
-3
-q3
--1
-3
-q2
--1
-3
-q1
--1
-3
-q0
--1
-3
-clock
--1
-3
-address7
--1
-3
-address6
--1
-3
-address5
--1
-3
-address4
--1
-3
-address3
--1
-3
-address2
--1
-3
-address1
--1
-3
-address0
--1
-3
-wren
+datab7
 -1
 1
-data8
+datab6
 -1
 1
-data7
+datab5
 -1
 1
-data6
+datab4
 -1
 1
-data5
+datab3
 -1
 1
-data4
+datab2
 -1
 1
-data3
+datab1
 -1
-1
-data2
+2
+datab0
 -1
-1
-data1
--1
-1
-data0
--1
-1
-}
-# include_file {
-altsyncram.inc
-bf6e7ed16a7f826360d948c8e4763a5
-}
-# hierarchies {
-RAM:inst52|lpm_ram_dq0:inst
+2
 }
 # macro_sequence
 
@@ -3581,11 +2859,11 @@ RAM:inst52|lpm_ram_dq0:inst
 # entity
 altsyncram
 # storage
-db|Lab4.(18).cnf
-db|Lab4.(18).cnf
+db|Lab4.(26).cnf
+db|Lab4.(26).cnf
 # case_insensitive
 # source_file
-c:|altera|91sp2|quartus|libraries|megafunctions|altsyncram.tdf
+|utils|quarus|quartus|libraries|megafunctions|altsyncram.tdf
 67d9a3902c8a461c1d5750189e124f2
 7
 # user_parameter {
@@ -3883,112 +3161,14 @@ RAM:inst52|lpm_ram_dq0:inst|altsyncram:altsyncram_component
 
 # end
 # entity
-lpm_mux2
+lpm_counter
 # storage
-db|Lab4.(39).cnf
-db|Lab4.(39).cnf
+db|Lab4.(29).cnf
+db|Lab4.(29).cnf
 # case_insensitive
 # source_file
-lpm_mux2.tdf
-b89ecaeffab86685aace7e0a97ebe44
-7
-# used_port {
-sel
--1
-3
-result7
--1
-3
-result6
--1
-3
-result5
--1
-3
-result4
--1
-3
-result3
--1
-3
-result2
--1
-3
-result1
--1
-3
-result0
--1
-3
-data1x7
--1
-3
-data1x6
--1
-3
-data1x5
--1
-3
-data1x4
--1
-3
-data1x3
--1
-3
-data1x2
--1
-3
-data1x1
--1
-3
-data1x0
--1
-3
-data0x7
--1
-3
-data0x6
--1
-3
-data0x5
--1
-3
-data0x4
--1
-3
-data0x3
--1
-3
-data0x2
--1
-3
-data0x1
--1
-3
-data0x0
--1
-3
-}
-# include_file {
-lpm_mux.inc
-dd87bed9959d6126db09970164b7ba6
-}
-# hierarchies {
-lpm_mux2:inst56
-lpm_mux2:inst47
-}
-# macro_sequence
-
-# end
-# entity
-lpm_mux
-# storage
-db|Lab4.(40).cnf
-db|Lab4.(40).cnf
-# case_insensitive
-# source_file
-c:|altera|91sp2|quartus|libraries|megafunctions|lpm_mux.tdf
-9d45665215a7636e457c26f5f1517
+|utils|quarus|quartus|libraries|megafunctions|lpm_counter.tdf
+151f75e8fcf5e87e72b7df6bb2ea
 7
 # user_parameter {
 AUTO_CARRY_CHAINS
@@ -4011,276 +3191,6 @@ LPM_WIDTH
 8
 PARAMETER_UNKNOWN
 USR
-LPM_SIZE
-2
-PARAMETER_UNKNOWN
-USR
-LPM_WIDTHS
-1
-PARAMETER_UNKNOWN
-USR
-LPM_PIPELINE
-0
-PARAMETER_UNKNOWN
-DEF
-CBXI_PARAMETER
-mux_unc
-PARAMETER_UNKNOWN
-USR
-DEVICE_FAMILY
-Stratix II
-PARAMETER_UNKNOWN
-USR
-}
-# used_port {
-sel0
--1
-3
-result7
--1
-3
-result6
--1
-3
-result5
--1
-3
-result4
--1
-3
-result3
--1
-3
-result2
--1
-3
-result1
--1
-3
-result0
--1
-3
-data1_7
--1
-3
-data1_6
--1
-3
-data1_5
--1
-3
-data1_4
--1
-3
-data1_3
--1
-3
-data1_2
--1
-3
-data1_1
--1
-3
-data1_0
--1
-3
-data0_7
--1
-3
-data0_6
--1
-3
-data0_5
--1
-3
-data0_4
--1
-3
-data0_3
--1
-3
-data0_2
--1
-3
-data0_1
--1
-3
-data0_0
--1
-3
-}
-# hierarchies {
-lpm_mux2:inst56|lpm_mux:lpm_mux_component
-lpm_mux2:inst47|lpm_mux:lpm_mux_component
-}
-# macro_sequence
-
-# end
-# entity
-mux_unc
-# storage
-db|Lab4.(41).cnf
-db|Lab4.(41).cnf
-# case_insensitive
-# source_file
-db|mux_unc.tdf
-d67c26e570b9509e3f559944af073
-7
-# used_port {
-sel0
--1
-3
-result7
--1
-3
-result6
--1
-3
-result5
--1
-3
-result4
--1
-3
-result3
--1
-3
-result2
--1
-3
-result1
--1
-3
-result0
--1
-3
-data9
--1
-3
-data8
--1
-3
-data7
--1
-3
-data6
--1
-3
-data5
--1
-3
-data4
--1
-3
-data3
--1
-3
-data2
--1
-3
-data15
--1
-3
-data14
--1
-3
-data13
--1
-3
-data12
--1
-3
-data11
--1
-3
-data10
--1
-3
-data1
--1
-3
-data0
--1
-3
-}
-# hierarchies {
-lpm_mux2:inst56|lpm_mux:lpm_mux_component|mux_unc:auto_generated
-lpm_mux2:inst47|lpm_mux:lpm_mux_component|mux_unc:auto_generated
-}
-# macro_sequence
-
-# end
-# entity
-lpm_counter0
-# storage
-db|Lab4.(42).cnf
-db|Lab4.(42).cnf
-# case_insensitive
-# source_file
-lpm_counter0.tdf
-52dda5b896f8d5e57467b244d3ed178
-7
-# used_port {
-q2
--1
-3
-q1
--1
-3
-q0
--1
-3
-clock
--1
-3
-aset
--1
-3
-aclr
--1
-3
-}
-# include_file {
-lpm_counter.inc
-c5cfeeabc5f2ab60b3453f6abbc42b41
-}
-# hierarchies {
-lpm_counter0:inst6
-}
-# macro_sequence
-
-# end
-# entity
-lpm_counter
-# storage
-db|Lab4.(43).cnf
-db|Lab4.(43).cnf
-# case_insensitive
-# source_file
-c:|altera|91sp2|quartus|libraries|megafunctions|lpm_counter.tdf
-151f75e8fcf5e87e72b7df6bb2ea
-7
-# user_parameter {
-AUTO_CARRY_CHAINS
-ON
-AUTO_CARRY
-USR
-IGNORE_CARRY_BUFFERS
-OFF
-IGNORE_CARRY
-USR
-AUTO_CASCADE_CHAINS
-ON
-AUTO_CASCADE
-USR
-IGNORE_CASCADE_BUFFERS
-OFF
-IGNORE_CASCADE
-USR
-LPM_WIDTH
-3
-PARAMETER_UNKNOWN
-USR
 LPM_DIRECTION
 UP
 PARAMETER_UNKNOWN
@@ -4290,9 +3200,9 @@ LPM_MODULUS
 PARAMETER_UNKNOWN
 DEF
 LPM_AVALUE
-1
+UNUSED
 PARAMETER_UNKNOWN
-USR
+DEF
 LPM_SVALUE
 UNUSED
 PARAMETER_UNKNOWN
@@ -4330,11 +3240,26 @@ TRUE
 PARAMETER_UNKNOWN
 DEF
 CBXI_PARAMETER
-cntr_snj
+cntr_04i
 PARAMETER_UNKNOWN
 USR
 }
 # used_port {
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
 q2
 -1
 3
@@ -4347,51 +3272,9 @@ q0
 clock
 -1
 3
-aset
--1
-3
 aclr
 -1
 3
-}
-# hierarchies {
-lpm_counter0:inst6|lpm_counter:lpm_counter_component
-}
-# macro_sequence
-
-# end
-# entity
-cntr_snj
-# storage
-db|Lab4.(44).cnf
-db|Lab4.(44).cnf
-# case_insensitive
-# source_file
-db|cntr_snj.tdf
-4888d67e72652c3043864bdcb22a0f8
-7
-# used_port {
-q2
--1
-3
-q1
--1
-3
-q0
--1
-3
-clock
--1
-3
-aset
--1
-3
-aclr
--1
-3
-}
-# hierarchies {
-lpm_counter0:inst6|lpm_counter:lpm_counter_component|cntr_snj:auto_generated
 }
 # macro_sequence
 
@@ -4399,16 +3282,16 @@ lpm_counter0:inst6|lpm_counter:lpm_counter_component|cntr_snj:auto_generated
 # entity
 lpm_ff
 # storage
-db|Lab4.(47).cnf
-db|Lab4.(47).cnf
+db|Lab4.(31).cnf
+db|Lab4.(31).cnf
 # case_insensitive
 # source_file
-c:|altera|91sp2|quartus|libraries|megafunctions|lpm_ff.tdf
+|utils|quarus|quartus|libraries|megafunctions|lpm_ff.tdf
 6f1796a38d8b519cf7b8f38b5da1ac5b
 7
 # user_parameter {
 LPM_WIDTH
-8
+9
 PARAMETER_UNKNOWN
 USR
 LPM_AVALUE
@@ -4448,95 +3331,6 @@ OFF
 IGNORE_CASCADE
 USR
 }
-# used_port {
-q7
--1
-3
-q6
--1
-3
-q5
--1
-3
-q4
--1
-3
-q3
--1
-3
-q2
--1
-3
-q1
--1
-3
-q0
--1
-3
-data7
--1
-3
-data6
--1
-3
-data5
--1
-3
-data4
--1
-3
-data3
--1
-3
-data2
--1
-3
-data1
--1
-3
-data0
--1
-3
-clock
--1
-3
-aload
--1
-3
-}
-# macro_sequence
-
-# end
-# entity
-REGS
-# storage
-db|Lab4.(30).cnf
-db|Lab4.(30).cnf
-# case_insensitive
-# source_file
-regs.bdf
-c5c88e84f2808275f97b8feb453ec59
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-REGS:inst61
-}
-# macro_sequence
-
-# end
-# entity
-lpm_dff1
-# storage
-db|Lab4.(36).cnf
-db|Lab4.(36).cnf
-# case_insensitive
-# source_file
-lpm_dff1.tdf
-c84ccff3d8f4f81cf837b6b5c87d7e3
-7
 # used_port {
 q8
 -1
@@ -4599,74 +3393,15 @@ clock
 -1
 3
 }
-# include_file {
-lpm_ff.inc
-5b1f18ec4f969a147b22e8c42bf962ac
-}
 # hierarchies {
-REGS:inst61|lpm_dff1:inst26
-REGS:inst61|lpm_dff1:inst25
-REGS:inst61|lpm_dff1:inst24
-REGS:inst61|lpm_dff1:inst23
-REGS:inst61|lpm_dff1:inst22
-REGS:inst61|lpm_dff1:inst20
-REGS:inst61|lpm_dff1:inst19
-REGS:inst61|lpm_dff1:inst27
-}
-# macro_sequence
-
-# end
-# entity
-lpm_decode0
-# storage
-db|Lab4.(45).cnf
-db|Lab4.(45).cnf
-# case_insensitive
-# source_file
-lpm_decode0.tdf
-80da98d9b9523ea49e6a980831d46e0
-7
-# used_port {
-eq7
--1
-3
-eq6
--1
-3
-eq5
--1
-3
-eq4
--1
-3
-eq3
--1
-3
-eq2
--1
-3
-eq1
--1
-3
-eq0
--1
-3
-data2
--1
-3
-data1
--1
-3
-data0
--1
-3
-}
-# include_file {
-lpm_decode.inc
-10da69a8bbd590d66779e7a142f73790
-}
-# hierarchies {
-REGS:inst61|lpm_decode0:inst8
+REGS:inst61|lpm_dff1:inst26|lpm_ff:lpm_ff_component
+REGS:inst61|lpm_dff1:inst25|lpm_ff:lpm_ff_component
+REGS:inst61|lpm_dff1:inst24|lpm_ff:lpm_ff_component
+REGS:inst61|lpm_dff1:inst23|lpm_ff:lpm_ff_component
+REGS:inst61|lpm_dff1:inst22|lpm_ff:lpm_ff_component
+REGS:inst61|lpm_dff1:inst20|lpm_ff:lpm_ff_component
+REGS:inst61|lpm_dff1:inst19|lpm_ff:lpm_ff_component
+REGS:inst61|lpm_dff1:inst27|lpm_ff:lpm_ff_component
 }
 # macro_sequence
 
@@ -4674,11 +3409,11 @@ REGS:inst61|lpm_decode0:inst8
 # entity
 lpm_decode
 # storage
-db|Lab4.(46).cnf
-db|Lab4.(46).cnf
+db|Lab4.(33).cnf
+db|Lab4.(33).cnf
 # case_insensitive
 # source_file
-c:|altera|91sp2|quartus|libraries|megafunctions|lpm_decode.tdf
+|utils|quarus|quartus|libraries|megafunctions|lpm_decode.tdf
 801b50bb3ab97a9f41a27f6333e6c69e
 7
 # user_parameter {
@@ -4765,148 +3500,621 @@ REGS:inst61|lpm_decode0:inst8|lpm_decode:lpm_decode_component
 
 # end
 # entity
-decode_u7f
+lpm_counter4
 # storage
-db|Lab4.(48).cnf
-db|Lab4.(48).cnf
+db|Lab4.(37).cnf
+db|Lab4.(37).cnf
 # case_insensitive
 # source_file
-db|decode_u7f.tdf
-347ae041f71bdc4667a8d028386b6c82
+lpm_counter4.tdf
+d52197e7102bf38d8e422fff3e9595fa
 7
 # used_port {
-eq7
+q1
 -1
 3
-eq6
+q0
 -1
 3
-eq5
+clock
 -1
 3
-eq4
--1
-3
-eq3
--1
-3
-eq2
--1
-3
-eq1
--1
-3
-eq0
--1
-3
-data2
--1
-3
-data1
--1
-3
-data0
+aclr
 -1
 3
 }
+# include_file {
+lpm_counter.inc
+c5cfeeabc5f2ab60b3453f6abbc42b41
+}
 # hierarchies {
-REGS:inst61|lpm_decode0:inst8|lpm_decode:lpm_decode_component|decode_u7f:auto_generated
+lpm_counter4:inst5
 }
 # macro_sequence
 
 # end
 # entity
-main
+lpm_counter
 # storage
-db|Lab4.(49).cnf
-db|Lab4.(49).cnf
+db|Lab4.(40).cnf
+db|Lab4.(40).cnf
 # case_insensitive
 # source_file
-main.bdf
-8d54eaf9b91a5323f9dd370c14af0a8
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
+|utils|quarus|quartus|libraries|megafunctions|lpm_counter.tdf
+151f75e8fcf5e87e72b7df6bb2ea
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+LPM_WIDTH
+2
+PARAMETER_UNKNOWN
+USR
+LPM_DIRECTION
+UP
+PARAMETER_UNKNOWN
+USR
+LPM_MODULUS
+0
+PARAMETER_UNKNOWN
+DEF
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_PORT_UPDOWN
+PORT_UNUSED
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Stratix II
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+NOT_GATE_PUSH_BACK
+ON
+NOT_GATE_PUSH_BACK
+USR
+CARRY_CNT_EN
+SMART
+PARAMETER_UNKNOWN
+DEF
+LABWIDE_SCLR
+ON
+PARAMETER_UNKNOWN
+DEF
+USE_NEW_VERSION
+TRUE
+PARAMETER_UNKNOWN
+DEF
+CBXI_PARAMETER
+cntr_q3i
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+q1
+-1
+3
+q0
+-1
+3
+clock
+-1
+3
+aclr
+-1
+3
 }
 # hierarchies {
-|
+lpm_counter4:inst5|lpm_counter:lpm_counter_component
 }
 # macro_sequence
 
 # end
 # entity
-altsyncram_4981
+lpm_compare1
+# storage
+db|Lab4.(10).cnf
+db|Lab4.(10).cnf
+# case_insensitive
+# source_file
+lpm_compare1.tdf
+4c7d1d18c551644ef912e549fbe4a5e
+7
+# used_port {
+dataa2
+-1
+3
+dataa1
+-1
+3
+dataa0
+-1
+3
+alb
+-1
+3
+}
+# include_file {
+lpm_compare.inc
+bbd3e8c93afb7320934629e5fb11566
+}
+# hierarchies {
+lpm_compare1:inst30
+}
+# macro_sequence
+
+# end
+# entity
+lpm_compare
+# storage
+db|Lab4.(43).cnf
+db|Lab4.(43).cnf
+# case_insensitive
+# source_file
+|utils|quarus|quartus|libraries|megafunctions|lpm_compare.tdf
+6fe57e55c2d8e254bfe73d8fff3f219
+7
+# user_parameter {
+lpm_width
+3
+PARAMETER_UNKNOWN
+USR
+LPM_REPRESENTATION
+UNSIGNED
+PARAMETER_UNKNOWN
+USR
+LPM_PIPELINE
+0
+PARAMETER_UNKNOWN
+DEF
+CHAIN_SIZE
+8
+PARAMETER_UNKNOWN
+DEF
+ONE_INPUT_IS_CONSTANT
+YES
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CASCADE_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+CASCADE_CHAIN_LENGTH
+2
+CASCADE_CHAIN_LENGTH
+USR
+DEVICE_FAMILY
+Stratix II
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+cmpr_o8j
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+dataa2
+-1
+3
+dataa1
+-1
+3
+dataa0
+-1
+3
+alb
+-1
+3
+datab2
+-1
+1
+datab1
+-1
+2
+datab0
+-1
+2
+}
+# hierarchies {
+lpm_compare1:inst30|lpm_compare:lpm_compare_component
+}
+# macro_sequence
+
+# end
+# entity
+cmpr_o8j
+# storage
+db|Lab4.(46).cnf
+db|Lab4.(46).cnf
+# case_insensitive
+# source_file
+db|cmpr_o8j.tdf
+9bc93787c45ce1cc36273d84b2e75268
+7
+# used_port {
+datab2
+-1
+3
+datab1
+-1
+3
+datab0
+-1
+3
+dataa2
+-1
+3
+dataa1
+-1
+3
+dataa0
+-1
+3
+alb
+-1
+3
+}
+# hierarchies {
+lpm_compare1:inst30|lpm_compare:lpm_compare_component|cmpr_o8j:auto_generated
+}
+# macro_sequence
+
+# end
+# entity
+lpm_counter
+# storage
+db|Lab4.(49).cnf
+db|Lab4.(49).cnf
+# case_insensitive
+# source_file
+|utils|quarus|quartus|libraries|megafunctions|lpm_counter.tdf
+151f75e8fcf5e87e72b7df6bb2ea
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+LPM_WIDTH
+3
+PARAMETER_UNKNOWN
+USR
+LPM_DIRECTION
+UP
+PARAMETER_UNKNOWN
+USR
+LPM_MODULUS
+0
+PARAMETER_UNKNOWN
+DEF
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_PORT_UPDOWN
+PORT_UNUSED
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Stratix II
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+NOT_GATE_PUSH_BACK
+ON
+NOT_GATE_PUSH_BACK
+USR
+CARRY_CNT_EN
+SMART
+PARAMETER_UNKNOWN
+DEF
+LABWIDE_SCLR
+ON
+PARAMETER_UNKNOWN
+DEF
+USE_NEW_VERSION
+TRUE
+PARAMETER_UNKNOWN
+DEF
+CBXI_PARAMETER
+cntr_d4i
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+sclr
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+clock
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+cntr_d4i
 # storage
 db|Lab4.(50).cnf
 db|Lab4.(50).cnf
 # case_insensitive
 # source_file
-db|altsyncram_4981.tdf
-3d489598b0d73d3f6a7b5a33fad4d83
+db|cntr_d4i.tdf
+52e22f43ca7a906c3c7b4711a3d92fb0
 7
 # used_port {
-q_a8
+sclr
 -1
 3
-q_a7
+q2
 -1
 3
-q_a6
+q1
 -1
 3
-q_a5
+q0
 -1
 3
-q_a4
--1
-3
-q_a3
--1
-3
-q_a2
--1
-3
-q_a1
--1
-3
-q_a0
--1
-3
-clock0
--1
-3
-address_a7
--1
-3
-address_a6
--1
-3
-address_a5
--1
-3
-address_a4
--1
-3
-address_a3
--1
-3
-address_a2
--1
-3
-address_a1
--1
-3
-address_a0
+clock
 -1
 3
 }
-# memory_file {
-prog.mif
-5f89fef1f3bbcefa6e7c9faa4a6f282
+# macro_sequence
+
+# end
+# entity
+lpm_counter1
+# storage
+db|Lab4.(52).cnf
+db|Lab4.(52).cnf
+# case_insensitive
+# source_file
+lpm_counter1.tdf
+f2e9d5e5dc652a3d85db3925873daa9c
+7
+# used_port {
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+clock
+-1
+3
+clk_en
+-1
+3
+}
+# include_file {
+lpm_counter.inc
+c5cfeeabc5f2ab60b3453f6abbc42b41
 }
 # hierarchies {
-ROM:inst25|lpm_rom1:inst|altsyncram:altsyncram_component|altsyncram_4981:auto_generated
+lpm_counter1:inst16
+}
+# macro_sequence
+
+# end
+# entity
+lpm_counter
+# storage
+db|Lab4.(53).cnf
+db|Lab4.(53).cnf
+# case_insensitive
+# source_file
+|utils|quarus|quartus|libraries|megafunctions|lpm_counter.tdf
+151f75e8fcf5e87e72b7df6bb2ea
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+LPM_WIDTH
+8
+PARAMETER_UNKNOWN
+USR
+LPM_DIRECTION
+UP
+PARAMETER_UNKNOWN
+USR
+LPM_MODULUS
+0
+PARAMETER_UNKNOWN
+DEF
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_PORT_UPDOWN
+PORT_UNUSED
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Stratix II
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+NOT_GATE_PUSH_BACK
+ON
+NOT_GATE_PUSH_BACK
+USR
+CARRY_CNT_EN
+SMART
+PARAMETER_UNKNOWN
+DEF
+LABWIDE_SCLR
+ON
+PARAMETER_UNKNOWN
+DEF
+USE_NEW_VERSION
+TRUE
+PARAMETER_UNKNOWN
+DEF
+CBXI_PARAMETER
+cntr_aai
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+clock
+-1
+3
+clk_en
+-1
+3
+}
+# hierarchies {
+lpm_counter1:inst16|lpm_counter:lpm_counter_component
 }
 # macro_sequence
 
@@ -4914,8 +4122,8 @@ ROM:inst25|lpm_rom1:inst|altsyncram:altsyncram_component|altsyncram_4981:auto_ge
 # entity
 altsyncram_g4d1
 # storage
-db|Lab4.(51).cnf
-db|Lab4.(51).cnf
+db|Lab4.(54).cnf
+db|Lab4.(54).cnf
 # case_insensitive
 # source_file
 db|altsyncram_g4d1.tdf
@@ -5009,10 +4217,474 @@ address_a0
 }
 # memory_file {
 ram_file.mif
-62ff8a99fccfa887789f38cd8a17ade1
+a99883bfc434bbdb4b9a5613ec639a95
 }
 # hierarchies {
 RAM:inst52|lpm_ram_dq0:inst|altsyncram:altsyncram_component|altsyncram_g4d1:auto_generated
+}
+# macro_sequence
+
+# end
+# entity
+ROM
+# storage
+db|Lab4.(0).cnf
+db|Lab4.(0).cnf
+# case_insensitive
+# source_file
+rom.bdf
+3e834d7f7329bfecabba26902a88fb2f
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ROM:inst46
+}
+# macro_sequence
+
+# end
+# entity
+altsyncram_4981
+# storage
+db|Lab4.(2).cnf
+db|Lab4.(2).cnf
+# case_insensitive
+# source_file
+db|altsyncram_4981.tdf
+3d489598b0d73d3f6a7b5a33fad4d83
+7
+# used_port {
+q_a8
+-1
+3
+q_a7
+-1
+3
+q_a6
+-1
+3
+q_a5
+-1
+3
+q_a4
+-1
+3
+q_a3
+-1
+3
+q_a2
+-1
+3
+q_a1
+-1
+3
+q_a0
+-1
+3
+clock0
+-1
+3
+address_a7
+-1
+3
+address_a6
+-1
+3
+address_a5
+-1
+3
+address_a4
+-1
+3
+address_a3
+-1
+3
+address_a2
+-1
+3
+address_a1
+-1
+3
+address_a0
+-1
+3
+}
+# memory_file {
+prog.mif
+c45ff061881f12283986d73c2fa7a490
+}
+# hierarchies {
+ROM:inst46|lpm_rom1:inst|altsyncram:altsyncram_component|altsyncram_4981:auto_generated
+}
+# macro_sequence
+
+# end
+# entity
+main
+# storage
+db|Lab4.(47).cnf
+db|Lab4.(47).cnf
+# case_insensitive
+# source_file
+main.bdf
+60902af7c78ef2b9b45858671f7c9bfa
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+lpm_counter5
+# storage
+db|Lab4.(51).cnf
+db|Lab4.(51).cnf
+# case_insensitive
+# source_file
+lpm_counter5.tdf
+704017e7a3f4b8866ac4136164a8941d
+7
+# used_port {
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+clock
+-1
+3
+}
+# include_file {
+lpm_counter.inc
+c5cfeeabc5f2ab60b3453f6abbc42b41
+}
+# hierarchies {
+lpm_counter5:inst
+}
+# macro_sequence
+
+# end
+# entity
+lpm_counter
+# storage
+db|Lab4.(55).cnf
+db|Lab4.(55).cnf
+# case_insensitive
+# source_file
+|utils|quarus|quartus|libraries|megafunctions|lpm_counter.tdf
+151f75e8fcf5e87e72b7df6bb2ea
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+LPM_WIDTH
+3
+PARAMETER_UNKNOWN
+USR
+LPM_DIRECTION
+UP
+PARAMETER_UNKNOWN
+USR
+LPM_MODULUS
+0
+PARAMETER_UNKNOWN
+DEF
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_PORT_UPDOWN
+PORT_UNUSED
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Stratix II
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+NOT_GATE_PUSH_BACK
+ON
+NOT_GATE_PUSH_BACK
+USR
+CARRY_CNT_EN
+SMART
+PARAMETER_UNKNOWN
+DEF
+LABWIDE_SCLR
+ON
+PARAMETER_UNKNOWN
+DEF
+USE_NEW_VERSION
+TRUE
+PARAMETER_UNKNOWN
+DEF
+CBXI_PARAMETER
+cntr_r3i
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+clock
+-1
+3
+aclr
+-1
+3
+}
+# hierarchies {
+lpm_counter5:inst|lpm_counter:lpm_counter_component
+}
+# macro_sequence
+
+# end
+# entity
+cntr_r3i
+# storage
+db|Lab4.(56).cnf
+db|Lab4.(56).cnf
+# case_insensitive
+# source_file
+db|cntr_r3i.tdf
+5c4b1018d326760b8dbe586e45fa0
+7
+# used_port {
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+clock
+-1
+3
+aclr
+-1
+3
+}
+# hierarchies {
+lpm_counter5:inst|lpm_counter:lpm_counter_component|cntr_r3i:auto_generated
+}
+# macro_sequence
+
+# end
+# entity
+lpm_compare2
+# storage
+db|Lab4.(57).cnf
+db|Lab4.(57).cnf
+# case_insensitive
+# source_file
+lpm_compare2.tdf
+4b81d4f669c680c5c5fd6bd3a35474
+7
+# used_port {
+dataa2
+-1
+3
+dataa1
+-1
+3
+dataa0
+-1
+3
+aeb
+-1
+3
+}
+# include_file {
+lpm_compare.inc
+bbd3e8c93afb7320934629e5fb11566
+}
+# hierarchies {
+lpm_compare2:inst37
+}
+# macro_sequence
+
+# end
+# entity
+lpm_compare
+# storage
+db|Lab4.(58).cnf
+db|Lab4.(58).cnf
+# case_insensitive
+# source_file
+|utils|quarus|quartus|libraries|megafunctions|lpm_compare.tdf
+6fe57e55c2d8e254bfe73d8fff3f219
+7
+# user_parameter {
+lpm_width
+3
+PARAMETER_UNKNOWN
+USR
+LPM_REPRESENTATION
+UNSIGNED
+PARAMETER_UNKNOWN
+USR
+LPM_PIPELINE
+0
+PARAMETER_UNKNOWN
+DEF
+CHAIN_SIZE
+8
+PARAMETER_UNKNOWN
+DEF
+ONE_INPUT_IS_CONSTANT
+YES
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CASCADE_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+CASCADE_CHAIN_LENGTH
+2
+CASCADE_CHAIN_LENGTH
+USR
+DEVICE_FAMILY
+Stratix II
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+cmpr_h8j
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+dataa2
+-1
+3
+dataa1
+-1
+3
+dataa0
+-1
+3
+aeb
+-1
+3
+datab2
+-1
+1
+datab1
+-1
+1
+datab0
+-1
+2
+}
+# hierarchies {
+lpm_compare2:inst37|lpm_compare:lpm_compare_component
+}
+# macro_sequence
+
+# end
+# entity
+cmpr_h8j
+# storage
+db|Lab4.(59).cnf
+db|Lab4.(59).cnf
+# case_insensitive
+# source_file
+db|cmpr_h8j.tdf
+8f847ef5322f4bb2ba83c5767a6c6a
+7
+# used_port {
+datab2
+-1
+3
+datab1
+-1
+3
+datab0
+-1
+3
+dataa2
+-1
+3
+dataa1
+-1
+3
+dataa0
+-1
+3
+aeb
+-1
+3
+}
+# hierarchies {
+lpm_compare2:inst37|lpm_compare:lpm_compare_component|cmpr_h8j:auto_generated
 }
 # macro_sequence
 
