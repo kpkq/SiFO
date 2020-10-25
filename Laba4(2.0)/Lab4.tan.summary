@@ -5,29 +5,29 @@ Timing Analyzer Summary
 Type           : Worst-case tsu
 Slack          : N/A
 Required Time  : None
-Actual Time    : 1.770 ns
-From           : data[0]
-To             : lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[0]
+Actual Time    : 4.467 ns
+From           : CLK
+To             : lpm_dff0:inst17|lpm_ff:lpm_ff_component|dffs[2]
 From Clock     : --
-To Clock       : address[0]
+To Clock       : CLK
 Failed Paths   : 0
 
 Type           : Worst-case tco
 Slack          : N/A
 Required Time  : None
-Actual Time    : 9.567 ns
-From           : lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[7]
-To             : 111[7]
-From Clock     : address[2]
+Actual Time    : 13.790 ns
+From           : regs:inst1|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[1]
+To             : 111[1]
+From Clock     : CLK
 To Clock       : --
 Failed Paths   : 0
 
 Type           : Worst-case tpd
 Slack          : N/A
 Required Time  : None
-Actual Time    : 8.214 ns
-From           : address[2]
-To             : eq[6]
+Actual Time    : 11.545 ns
+From           : CLK
+To             : data[4]
 From Clock     : --
 To Clock       : --
 Failed Paths   : 0
@@ -35,12 +35,32 @@ Failed Paths   : 0
 Type           : Worst-case th
 Slack          : N/A
 Required Time  : None
-Actual Time    : 1.100 ns
-From           : data[7]
-To             : lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[7]
+Actual Time    : 5.468 ns
+From           : CLK
+To             : regs:inst1|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[0]
 From Clock     : --
-To Clock       : address[2]
+To Clock       : CLK
 Failed Paths   : 0
+
+Type           : Clock Setup: 'CLK'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 166.64 MHz ( period = 6.001 ns )
+From           : lpm_dff0:inst17|lpm_ff:lpm_ff_component|dffs[7]
+To             : lpm_ram_dq0:inst20|altsyncram:altsyncram_component|altsyncram_f1d1:auto_generated|ram_block1a0~porta_address_reg7
+From Clock     : CLK
+To Clock       : CLK
+Failed Paths   : 0
+
+Type           : Clock Hold: 'CLK'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : lpm_counter0:inst4|lpm_counter:lpm_counter_component|cntr_r3i:auto_generated|safe_q[0]
+To             : regs:inst1|lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[1]
+From Clock     : CLK
+To Clock       : CLK
+Failed Paths   : 1975
 
 Type           : Total number of failed paths
 Slack          : 
@@ -50,7 +70,7 @@ From           :
 To             : 
 From Clock     : 
 To Clock       : 
-Failed Paths   : 0
+Failed Paths   : 1975
 
 --------------------------------------------------------------------------------------
 

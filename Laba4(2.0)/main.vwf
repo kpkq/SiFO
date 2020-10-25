@@ -1128,41 +1128,43 @@ TRANSITION_LIST("address[7]")
 	{
 		REPEAT = 1;
 		LEVEL Z FOR 5.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL Z FOR 20.0;
 		NODE
 		{
-			REPEAT = 4;
-			LEVEL 0 FOR 30.0;
-			LEVEL Z FOR 20.0;
+			REPEAT = 3;
+			LEVEL 0 FOR 10.0;
+			LEVEL Z FOR 10.0;
 		}
 		NODE
 		{
-			REPEAT = 2;
+			REPEAT = 4;
+			NODE
+			{
+				REPEAT = 2;
+				LEVEL 0 FOR 30.0;
+				LEVEL Z FOR 20.0;
+				LEVEL 0 FOR 10.0;
+				LEVEL Z FOR 10.0;
+			}
 			NODE
 			{
 				REPEAT = 2;
 				LEVEL 0 FOR 10.0;
 				LEVEL Z FOR 10.0;
-				LEVEL 0 FOR 30.0;
-				LEVEL Z FOR 20.0;
-			}
-			NODE
-			{
-				REPEAT = 3;
-				LEVEL 0 FOR 30.0;
-				LEVEL Z FOR 20.0;
 			}
 		}
 		NODE
 		{
 			REPEAT = 2;
-			LEVEL 0 FOR 10.0;
-			LEVEL Z FOR 10.0;
 			LEVEL 0 FOR 30.0;
 			LEVEL Z FOR 20.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL Z FOR 10.0;
 		}
-		LEVEL 0 FOR 30.0;
-		LEVEL Z FOR 20.0;
-		LEVEL 0 FOR 25.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL Z FOR 10.0;
+		LEVEL 0 FOR 5.0;
 	}
 }
 
@@ -1172,41 +1174,43 @@ TRANSITION_LIST("address[6]")
 	{
 		REPEAT = 1;
 		LEVEL Z FOR 5.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL Z FOR 20.0;
 		NODE
 		{
-			REPEAT = 4;
-			LEVEL 0 FOR 30.0;
-			LEVEL Z FOR 20.0;
+			REPEAT = 3;
+			LEVEL 0 FOR 10.0;
+			LEVEL Z FOR 10.0;
 		}
 		NODE
 		{
-			REPEAT = 2;
+			REPEAT = 4;
+			NODE
+			{
+				REPEAT = 2;
+				LEVEL 0 FOR 30.0;
+				LEVEL Z FOR 20.0;
+				LEVEL 0 FOR 10.0;
+				LEVEL Z FOR 10.0;
+			}
 			NODE
 			{
 				REPEAT = 2;
 				LEVEL 0 FOR 10.0;
 				LEVEL Z FOR 10.0;
-				LEVEL 0 FOR 30.0;
-				LEVEL Z FOR 20.0;
-			}
-			NODE
-			{
-				REPEAT = 3;
-				LEVEL 0 FOR 30.0;
-				LEVEL Z FOR 20.0;
 			}
 		}
 		NODE
 		{
 			REPEAT = 2;
-			LEVEL 0 FOR 10.0;
-			LEVEL Z FOR 10.0;
 			LEVEL 0 FOR 30.0;
 			LEVEL Z FOR 20.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL Z FOR 10.0;
 		}
-		LEVEL 0 FOR 30.0;
-		LEVEL Z FOR 20.0;
-		LEVEL 0 FOR 25.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL Z FOR 10.0;
+		LEVEL 0 FOR 5.0;
 	}
 }
 
@@ -1216,41 +1220,43 @@ TRANSITION_LIST("address[5]")
 	{
 		REPEAT = 1;
 		LEVEL Z FOR 5.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL Z FOR 20.0;
 		NODE
 		{
-			REPEAT = 4;
-			LEVEL 0 FOR 30.0;
-			LEVEL Z FOR 20.0;
+			REPEAT = 3;
+			LEVEL 0 FOR 10.0;
+			LEVEL Z FOR 10.0;
 		}
 		NODE
 		{
-			REPEAT = 2;
+			REPEAT = 4;
+			NODE
+			{
+				REPEAT = 2;
+				LEVEL 0 FOR 30.0;
+				LEVEL Z FOR 20.0;
+				LEVEL 0 FOR 10.0;
+				LEVEL Z FOR 10.0;
+			}
 			NODE
 			{
 				REPEAT = 2;
 				LEVEL 0 FOR 10.0;
 				LEVEL Z FOR 10.0;
-				LEVEL 0 FOR 30.0;
-				LEVEL Z FOR 20.0;
-			}
-			NODE
-			{
-				REPEAT = 3;
-				LEVEL 0 FOR 30.0;
-				LEVEL Z FOR 20.0;
 			}
 		}
 		NODE
 		{
 			REPEAT = 2;
-			LEVEL 0 FOR 10.0;
-			LEVEL Z FOR 10.0;
 			LEVEL 0 FOR 30.0;
 			LEVEL Z FOR 20.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL Z FOR 10.0;
 		}
-		LEVEL 0 FOR 30.0;
-		LEVEL Z FOR 20.0;
-		LEVEL 0 FOR 25.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL Z FOR 10.0;
+		LEVEL 0 FOR 5.0;
 	}
 }
 
@@ -1262,41 +1268,43 @@ TRANSITION_LIST("address[4]")
 		LEVEL Z FOR 5.0;
 		NODE
 		{
-			REPEAT = 2;
+			REPEAT = 4;
+			LEVEL 0 FOR 30.0;
+			LEVEL Z FOR 20.0;
 			NODE
 			{
-				REPEAT = 4;
-				LEVEL 0 FOR 30.0;
-				LEVEL Z FOR 20.0;
+				REPEAT = 3;
+				LEVEL 0 FOR 10.0;
+				LEVEL Z FOR 10.0;
 			}
-			LEVEL 0 FOR 10.0;
-			LEVEL Z FOR 10.0;
 			LEVEL 1 FOR 20.0;
 			LEVEL 0 FOR 10.0;
 			LEVEL Z FOR 20.0;
 			LEVEL 1 FOR 10.0;
 			LEVEL Z FOR 10.0;
 		}
+		LEVEL 0 FOR 30.0;
+		LEVEL Z FOR 20.0;
 		NODE
 		{
-			REPEAT = 4;
-			LEVEL 0 FOR 30.0;
-			LEVEL Z FOR 20.0;
+			REPEAT = 3;
+			LEVEL 0 FOR 10.0;
+			LEVEL Z FOR 10.0;
 		}
-		LEVEL 0 FOR 10.0;
-		LEVEL Z FOR 10.0;
 		LEVEL 1 FOR 20.0;
 		LEVEL 0 FOR 10.0;
 		LEVEL Z FOR 20.0;
 		LEVEL 1 FOR 10.0;
 		LEVEL Z FOR 10.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL Z FOR 20.0;
 		NODE
 		{
 			REPEAT = 2;
-			LEVEL 0 FOR 30.0;
-			LEVEL Z FOR 20.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL Z FOR 10.0;
 		}
-		LEVEL 0 FOR 25.0;
+		LEVEL 0 FOR 5.0;
 	}
 }
 
@@ -1306,66 +1314,46 @@ TRANSITION_LIST("address[3]")
 	{
 		REPEAT = 1;
 		LEVEL Z FOR 5.0;
-		LEVEL 0 FOR 30.0;
-		LEVEL Z FOR 20.0;
 		LEVEL 0 FOR 20.0;
 		LEVEL 1 FOR 10.0;
+		LEVEL Z FOR 20.0;
+		NODE
+		{
+			REPEAT = 3;
+			LEVEL 0 FOR 10.0;
+			LEVEL Z FOR 10.0;
+		}
+		NODE
+		{
+			REPEAT = 4;
+			NODE
+			{
+				REPEAT = 2;
+				LEVEL 0 FOR 20.0;
+				LEVEL 1 FOR 10.0;
+				LEVEL Z FOR 20.0;
+				LEVEL 0 FOR 10.0;
+				LEVEL Z FOR 10.0;
+			}
+			NODE
+			{
+				REPEAT = 2;
+				LEVEL 0 FOR 10.0;
+				LEVEL Z FOR 10.0;
+			}
+		}
 		NODE
 		{
 			REPEAT = 2;
+			LEVEL 0 FOR 20.0;
+			LEVEL 1 FOR 10.0;
 			LEVEL Z FOR 20.0;
-			LEVEL 0 FOR 30.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL Z FOR 10.0;
 		}
-		LEVEL Z FOR 20.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL Z FOR 10.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL Z FOR 20.0;
 		LEVEL 0 FOR 10.0;
 		LEVEL Z FOR 10.0;
-		LEVEL 0 FOR 30.0;
-		LEVEL Z FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 10.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL Z FOR 20.0;
-			LEVEL 0 FOR 30.0;
-		}
-		LEVEL Z FOR 20.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL Z FOR 10.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL Z FOR 20.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL Z FOR 10.0;
-		LEVEL 0 FOR 30.0;
-		LEVEL Z FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 10.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL Z FOR 20.0;
-			LEVEL 0 FOR 30.0;
-		}
-		LEVEL Z FOR 20.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL Z FOR 10.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL Z FOR 20.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL Z FOR 10.0;
-		LEVEL 0 FOR 30.0;
-		LEVEL Z FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL Z FOR 20.0;
-		LEVEL 0 FOR 25.0;
+		LEVEL 0 FOR 5.0;
 	}
 }
 
@@ -1377,45 +1365,55 @@ TRANSITION_LIST("address[2]")
 		LEVEL Z FOR 5.0;
 		NODE
 		{
-			REPEAT = 2;
-			LEVEL 0 FOR 40.0;
-			LEVEL Z FOR 10.0;
-		}
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL 1 FOR 40.0;
-			LEVEL Z FOR 10.0;
-			LEVEL 1 FOR 20.0;
+			REPEAT = 4;
 			LEVEL 0 FOR 20.0;
+			LEVEL 1 FOR 10.0;
 			NODE
 			{
 				REPEAT = 2;
-				LEVEL Z FOR 10.0;
 				LEVEL 0 FOR 10.0;
 				LEVEL Z FOR 10.0;
-				LEVEL 0 FOR 40.0;
 			}
-			LEVEL Z FOR 10.0;
+			NODE
+			{
+				REPEAT = 2;
+				LEVEL 1 FOR 10.0;
+				LEVEL Z FOR 10.0;
+			}
 			LEVEL 0 FOR 40.0;
-			LEVEL Z FOR 10.0;
-		}
-		LEVEL 1 FOR 40.0;
-		LEVEL Z FOR 10.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		NODE
-		{
-			REPEAT = 2;
 			LEVEL Z FOR 10.0;
 			LEVEL 0 FOR 10.0;
 			LEVEL Z FOR 10.0;
-			LEVEL 0 FOR 40.0;
 		}
-		LEVEL Z FOR 10.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 10.0;
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL 0 FOR 10.0;
+			LEVEL Z FOR 10.0;
+		}
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL 1 FOR 10.0;
+			LEVEL Z FOR 10.0;
+		}
 		LEVEL 0 FOR 40.0;
 		LEVEL Z FOR 10.0;
-		LEVEL 1 FOR 25.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL Z FOR 10.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 10.0;
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL 0 FOR 10.0;
+			LEVEL Z FOR 10.0;
+		}
+		LEVEL 1 FOR 10.0;
+		LEVEL Z FOR 10.0;
+		LEVEL 1 FOR 5.0;
 	}
 }
 
@@ -1425,61 +1423,49 @@ TRANSITION_LIST("address[1]")
 	{
 		REPEAT = 1;
 		LEVEL Z FOR 5.0;
-		LEVEL 0 FOR 40.0;
-		LEVEL Z FOR 10.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 10.0;
+		NODE
+		{
+			REPEAT = 4;
+			LEVEL 0 FOR 20.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			NODE
+			{
+				REPEAT = 3;
+				LEVEL Z FOR 10.0;
+				LEVEL 1 FOR 10.0;
+			}
+			LEVEL Z FOR 10.0;
+			LEVEL 0 FOR 40.0;
+			LEVEL Z FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL Z FOR 10.0;
+		}
+		LEVEL 0 FOR 20.0;
 		LEVEL 1 FOR 10.0;
-		LEVEL Z FOR 10.0;
-		LEVEL 0 FOR 40.0;
-		LEVEL Z FOR 10.0;
-		LEVEL 1 FOR 40.0;
-		LEVEL Z FOR 10.0;
 		LEVEL 0 FOR 10.0;
-		LEVEL Z FOR 10.0;
-		LEVEL 0 FOR 40.0;
-		LEVEL Z FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL Z FOR 10.0;
-		LEVEL 0 FOR 40.0;
-		LEVEL Z FOR 10.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL Z FOR 10.0;
-		LEVEL 0 FOR 40.0;
-		LEVEL Z FOR 10.0;
-		LEVEL 1 FOR 40.0;
-		LEVEL Z FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL Z FOR 10.0;
-		LEVEL 0 FOR 40.0;
-		LEVEL Z FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL Z FOR 10.0;
-		LEVEL 0 FOR 40.0;
-		LEVEL Z FOR 10.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL Z FOR 10.0;
-		LEVEL 0 FOR 40.0;
-		LEVEL Z FOR 10.0;
-		LEVEL 1 FOR 40.0;
-		LEVEL Z FOR 10.0;
-		LEVEL 0 FOR 10.0;
+		NODE
+		{
+			REPEAT = 3;
+			LEVEL Z FOR 10.0;
+			LEVEL 1 FOR 10.0;
+		}
 		LEVEL Z FOR 10.0;
 		LEVEL 0 FOR 40.0;
 		LEVEL Z FOR 10.0;
 		LEVEL 1 FOR 10.0;
 		LEVEL Z FOR 10.0;
-		LEVEL 0 FOR 40.0;
-		LEVEL Z FOR 10.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 10.0;
+		LEVEL 0 FOR 20.0;
 		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL Z FOR 10.0;
+			LEVEL 1 FOR 10.0;
+		}
 		LEVEL Z FOR 10.0;
-		LEVEL 0 FOR 25.0;
+		LEVEL 1 FOR 5.0;
 	}
 }
 
@@ -1490,52 +1476,40 @@ TRANSITION_LIST("address[0]")
 		REPEAT = 1;
 		LEVEL Z FOR 5.0;
 		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL Z FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 20.0;
 		NODE
 		{
-			REPEAT = 2;
+			REPEAT = 4;
+			LEVEL 1 FOR 30.0;
+			NODE
+			{
+				REPEAT = 2;
+				LEVEL Z FOR 10.0;
+				LEVEL 0 FOR 10.0;
+			}
+			LEVEL Z FOR 10.0;
+			LEVEL 1 FOR 10.0;
 			LEVEL Z FOR 10.0;
 			LEVEL 0 FOR 10.0;
-			LEVEL 1 FOR 20.0;
-			LEVEL 0 FOR 10.0;
-		}
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL Z FOR 10.0;
-			LEVEL 0 FOR 10.0;
-		}
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 20.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL Z FOR 10.0;
-			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 20.0;
+			NODE
+			{
+				REPEAT = 2;
+				LEVEL Z FOR 10.0;
+				LEVEL 0 FOR 10.0;
+			}
 		}
 		LEVEL 1 FOR 30.0;
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL Z FOR 10.0;
+			LEVEL 0 FOR 10.0;
+		}
+		LEVEL Z FOR 10.0;
+		LEVEL 1 FOR 10.0;
 		LEVEL Z FOR 10.0;
 		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 20.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL Z FOR 10.0;
-			LEVEL 0 FOR 10.0;
-			LEVEL 1 FOR 20.0;
-			LEVEL 0 FOR 10.0;
-		}
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL Z FOR 10.0;
-			LEVEL 0 FOR 10.0;
-		}
 		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 20.0;
 		NODE
@@ -1545,40 +1519,14 @@ TRANSITION_LIST("address[0]")
 			LEVEL 0 FOR 10.0;
 		}
 		LEVEL 1 FOR 30.0;
-		LEVEL Z FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 20.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL Z FOR 10.0;
-			LEVEL 0 FOR 10.0;
-			LEVEL 1 FOR 20.0;
-			LEVEL 0 FOR 10.0;
-		}
 		NODE
 		{
 			REPEAT = 2;
 			LEVEL Z FOR 10.0;
 			LEVEL 0 FOR 10.0;
 		}
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 20.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL Z FOR 10.0;
-			LEVEL 0 FOR 10.0;
-		}
-		LEVEL 1 FOR 30.0;
 		LEVEL Z FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL Z FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 15.0;
+		LEVEL 1 FOR 5.0;
 	}
 }
 
@@ -1649,36 +1597,14 @@ TRANSITION_LIST("control[2]")
 		LEVEL 0 FOR 35.0;
 		NODE
 		{
-			REPEAT = 2;
-			NODE
-			{
-				REPEAT = 3;
-				LEVEL 1 FOR 10.0;
-				LEVEL 0 FOR 40.0;
-			}
-			NODE
-			{
-				REPEAT = 2;
-				LEVEL 1 FOR 10.0;
-				LEVEL 0 FOR 60.0;
-			}
-		}
-		NODE
-		{
-			REPEAT = 3;
+			REPEAT = 5;
 			LEVEL 1 FOR 10.0;
-			LEVEL 0 FOR 40.0;
-		}
-		NODE
-		{
-			REPEAT = 2;
+			LEVEL 0 FOR 100.0;
 			LEVEL 1 FOR 10.0;
 			LEVEL 0 FOR 60.0;
 		}
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 35.0;
+		LEVEL 0 FOR 55.0;
 	}
 }
 
@@ -1690,39 +1616,14 @@ TRANSITION_LIST("control[1]")
 		LEVEL 0 FOR 25.0;
 		NODE
 		{
-			REPEAT = 2;
-			NODE
-			{
-				REPEAT = 3;
-				LEVEL 1 FOR 10.0;
-				LEVEL 0 FOR 40.0;
-			}
-			NODE
-			{
-				REPEAT = 2;
-				LEVEL 1 FOR 10.0;
-				LEVEL 0 FOR 60.0;
-			}
-		}
-		NODE
-		{
-			REPEAT = 3;
+			REPEAT = 5;
 			LEVEL 1 FOR 10.0;
-			LEVEL 0 FOR 40.0;
-		}
-		NODE
-		{
-			REPEAT = 2;
+			LEVEL 0 FOR 100.0;
 			LEVEL 1 FOR 10.0;
 			LEVEL 0 FOR 60.0;
 		}
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL 1 FOR 10.0;
-			LEVEL 0 FOR 40.0;
-		}
-		LEVEL 1 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 65.0;
 	}
 }
 
@@ -1732,42 +1633,43 @@ TRANSITION_LIST("control[0]")
 	{
 		REPEAT = 1;
 		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 30.0;
 		NODE
 		{
-			REPEAT = 4;
-			LEVEL 1 FOR 20.0;
-			LEVEL 0 FOR 30.0;
+			REPEAT = 3;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
 		}
 		NODE
 		{
-			REPEAT = 2;
+			REPEAT = 4;
+			NODE
+			{
+				REPEAT = 2;
+				LEVEL 1 FOR 20.0;
+				LEVEL 0 FOR 30.0;
+				LEVEL 1 FOR 10.0;
+				LEVEL 0 FOR 10.0;
+			}
 			NODE
 			{
 				REPEAT = 2;
 				LEVEL 1 FOR 10.0;
 				LEVEL 0 FOR 10.0;
-				LEVEL 1 FOR 20.0;
-				LEVEL 0 FOR 30.0;
-			}
-			NODE
-			{
-				REPEAT = 3;
-				LEVEL 1 FOR 20.0;
-				LEVEL 0 FOR 30.0;
 			}
 		}
 		NODE
 		{
 			REPEAT = 2;
-			LEVEL 1 FOR 10.0;
-			LEVEL 0 FOR 10.0;
 			LEVEL 1 FOR 20.0;
 			LEVEL 0 FOR 30.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
 		}
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 30.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
 	}
 }
 
@@ -1777,64 +1679,54 @@ TRANSITION_LIST("data[8]")
 	{
 		REPEAT = 1;
 		LEVEL Z FOR 10.0;
-		NODE
-		{
-			REPEAT = 4;
-			LEVEL 1 FOR 5.0;
-			LEVEL Z FOR 5.0;
-			LEVEL 0 FOR 5.0;
-			LEVEL Z FOR 5.0;
-			LEVEL 0 FOR 15.0;
-			LEVEL Z FOR 15.0;
-		}
-		NODE
-		{
-			REPEAT = 2;
-			NODE
-			{
-				REPEAT = 2;
-				LEVEL 0 FOR 5.0;
-				LEVEL Z FOR 15.0;
-				LEVEL 1 FOR 5.0;
-				LEVEL Z FOR 5.0;
-				LEVEL 0 FOR 5.0;
-				LEVEL Z FOR 5.0;
-				LEVEL 0 FOR 15.0;
-				LEVEL Z FOR 15.0;
-			}
-			NODE
-			{
-				REPEAT = 3;
-				LEVEL 1 FOR 5.0;
-				LEVEL Z FOR 5.0;
-				LEVEL 0 FOR 5.0;
-				LEVEL Z FOR 5.0;
-				LEVEL 0 FOR 15.0;
-				LEVEL Z FOR 15.0;
-			}
-		}
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL 0 FOR 5.0;
-			LEVEL Z FOR 15.0;
-			LEVEL 1 FOR 5.0;
-			LEVEL Z FOR 5.0;
-			LEVEL 0 FOR 5.0;
-			LEVEL Z FOR 5.0;
-			LEVEL 0 FOR 15.0;
-			LEVEL Z FOR 15.0;
-		}
 		LEVEL 1 FOR 5.0;
 		LEVEL Z FOR 5.0;
 		LEVEL 0 FOR 5.0;
 		LEVEL Z FOR 5.0;
 		LEVEL 0 FOR 15.0;
+		NODE
+		{
+			REPEAT = 3;
+			LEVEL Z FOR 15.0;
+			LEVEL 0 FOR 5.0;
+		}
+		NODE
+		{
+			REPEAT = 4;
+			NODE
+			{
+				REPEAT = 2;
+				LEVEL Z FOR 15.0;
+				LEVEL 1 FOR 5.0;
+				LEVEL Z FOR 5.0;
+				LEVEL 0 FOR 5.0;
+				LEVEL Z FOR 5.0;
+				LEVEL 0 FOR 15.0;
+				LEVEL Z FOR 15.0;
+				LEVEL 0 FOR 5.0;
+			}
+			NODE
+			{
+				REPEAT = 2;
+				LEVEL Z FOR 15.0;
+				LEVEL 0 FOR 5.0;
+			}
+		}
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL Z FOR 15.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL Z FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL Z FOR 5.0;
+			LEVEL 0 FOR 15.0;
+			LEVEL Z FOR 15.0;
+			LEVEL 0 FOR 5.0;
+		}
 		LEVEL Z FOR 15.0;
-		LEVEL 1 FOR 5.0;
-		LEVEL Z FOR 5.0;
 		LEVEL 0 FOR 5.0;
-		LEVEL Z FOR 5.0;
+		LEVEL Z FOR 15.0;
 	}
 }
 
@@ -1846,20 +1738,6 @@ TRANSITION_LIST("data[7]")
 		LEVEL Z FOR 10.0;
 		NODE
 		{
-			REPEAT = 4;
-			NODE
-			{
-				REPEAT = 2;
-				LEVEL 0 FOR 5.0;
-				LEVEL Z FOR 5.0;
-			}
-			LEVEL 0 FOR 15.0;
-			LEVEL Z FOR 15.0;
-		}
-		LEVEL 0 FOR 5.0;
-		LEVEL Z FOR 15.0;
-		NODE
-		{
 			REPEAT = 2;
 			LEVEL 0 FOR 5.0;
 			LEVEL Z FOR 5.0;
@@ -1867,32 +1745,14 @@ TRANSITION_LIST("data[7]")
 		LEVEL 0 FOR 15.0;
 		NODE
 		{
-			REPEAT = 2;
+			REPEAT = 4;
 			LEVEL Z FOR 15.0;
 			LEVEL 0 FOR 5.0;
-		}
-		LEVEL Z FOR 5.0;
-		LEVEL 0 FOR 5.0;
-		LEVEL Z FOR 5.0;
-		NODE
-		{
-			REPEAT = 2;
-			NODE
-			{
-				REPEAT = 3;
-				LEVEL 0 FOR 15.0;
-				LEVEL Z FOR 15.0;
-				NODE
-				{
-					REPEAT = 2;
-					LEVEL 0 FOR 5.0;
-					LEVEL Z FOR 5.0;
-				}
-			}
+			LEVEL Z FOR 15.0;
+			LEVEL 1 FOR 5.0;
 			NODE
 			{
 				REPEAT = 2;
-				LEVEL 0 FOR 15.0;
 				NODE
 				{
 					REPEAT = 2;
@@ -1902,20 +1762,32 @@ TRANSITION_LIST("data[7]")
 				LEVEL Z FOR 5.0;
 				LEVEL 0 FOR 5.0;
 				LEVEL Z FOR 5.0;
+				LEVEL 0 FOR 15.0;
 			}
 		}
+		LEVEL Z FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL Z FOR 15.0;
+		LEVEL 1 FOR 5.0;
 		NODE
 		{
 			REPEAT = 2;
-			LEVEL 0 FOR 15.0;
-			LEVEL Z FOR 15.0;
 			NODE
 			{
 				REPEAT = 2;
+				LEVEL Z FOR 15.0;
 				LEVEL 0 FOR 5.0;
-				LEVEL Z FOR 5.0;
 			}
+			LEVEL Z FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL Z FOR 5.0;
+			LEVEL 0 FOR 15.0;
 		}
+		LEVEL Z FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL Z FOR 15.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL Z FOR 15.0;
 	}
 }
 
@@ -1927,20 +1799,6 @@ TRANSITION_LIST("data[6]")
 		LEVEL Z FOR 10.0;
 		NODE
 		{
-			REPEAT = 4;
-			NODE
-			{
-				REPEAT = 2;
-				LEVEL 0 FOR 5.0;
-				LEVEL Z FOR 5.0;
-			}
-			LEVEL 0 FOR 15.0;
-			LEVEL Z FOR 15.0;
-		}
-		LEVEL 0 FOR 5.0;
-		LEVEL Z FOR 15.0;
-		NODE
-		{
 			REPEAT = 2;
 			LEVEL 0 FOR 5.0;
 			LEVEL Z FOR 5.0;
@@ -1949,31 +1807,29 @@ TRANSITION_LIST("data[6]")
 		NODE
 		{
 			REPEAT = 2;
-			LEVEL Z FOR 15.0;
-			LEVEL 0 FOR 5.0;
-		}
-		LEVEL Z FOR 5.0;
-		LEVEL 0 FOR 5.0;
-		LEVEL Z FOR 5.0;
-		NODE
-		{
-			REPEAT = 2;
 			NODE
 			{
-				REPEAT = 3;
-				LEVEL 0 FOR 15.0;
+				REPEAT = 4;
 				LEVEL Z FOR 15.0;
+				LEVEL 0 FOR 5.0;
+			}
+			NODE
+			{
+				REPEAT = 2;
+				LEVEL Z FOR 5.0;
+				LEVEL 0 FOR 5.0;
+				LEVEL Z FOR 5.0;
+				LEVEL 0 FOR 15.0;
 				NODE
 				{
 					REPEAT = 2;
+					LEVEL Z FOR 15.0;
 					LEVEL 0 FOR 5.0;
-					LEVEL Z FOR 5.0;
 				}
 			}
 			NODE
 			{
 				REPEAT = 2;
-				LEVEL 0 FOR 15.0;
 				NODE
 				{
 					REPEAT = 2;
@@ -1983,20 +1839,30 @@ TRANSITION_LIST("data[6]")
 				LEVEL Z FOR 5.0;
 				LEVEL 0 FOR 5.0;
 				LEVEL Z FOR 5.0;
+				LEVEL 0 FOR 15.0;
 			}
 		}
 		NODE
 		{
-			REPEAT = 2;
-			LEVEL 0 FOR 15.0;
+			REPEAT = 4;
 			LEVEL Z FOR 15.0;
+			LEVEL 0 FOR 5.0;
+		}
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL Z FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL Z FOR 5.0;
+			LEVEL 0 FOR 15.0;
 			NODE
 			{
 				REPEAT = 2;
+				LEVEL Z FOR 15.0;
 				LEVEL 0 FOR 5.0;
-				LEVEL Z FOR 5.0;
 			}
 		}
+		LEVEL Z FOR 15.0;
 	}
 }
 
@@ -2008,20 +1874,6 @@ TRANSITION_LIST("data[5]")
 		LEVEL Z FOR 10.0;
 		NODE
 		{
-			REPEAT = 4;
-			NODE
-			{
-				REPEAT = 2;
-				LEVEL 0 FOR 5.0;
-				LEVEL Z FOR 5.0;
-			}
-			LEVEL 0 FOR 15.0;
-			LEVEL Z FOR 15.0;
-		}
-		LEVEL 0 FOR 5.0;
-		LEVEL Z FOR 15.0;
-		NODE
-		{
 			REPEAT = 2;
 			LEVEL 0 FOR 5.0;
 			LEVEL Z FOR 5.0;
@@ -2030,31 +1882,29 @@ TRANSITION_LIST("data[5]")
 		NODE
 		{
 			REPEAT = 2;
-			LEVEL Z FOR 15.0;
-			LEVEL 0 FOR 5.0;
-		}
-		LEVEL Z FOR 5.0;
-		LEVEL 0 FOR 5.0;
-		LEVEL Z FOR 5.0;
-		NODE
-		{
-			REPEAT = 2;
 			NODE
 			{
-				REPEAT = 3;
-				LEVEL 0 FOR 15.0;
+				REPEAT = 4;
 				LEVEL Z FOR 15.0;
+				LEVEL 0 FOR 5.0;
+			}
+			NODE
+			{
+				REPEAT = 2;
+				LEVEL Z FOR 5.0;
+				LEVEL 0 FOR 5.0;
+				LEVEL Z FOR 5.0;
+				LEVEL 0 FOR 15.0;
 				NODE
 				{
 					REPEAT = 2;
+					LEVEL Z FOR 15.0;
 					LEVEL 0 FOR 5.0;
-					LEVEL Z FOR 5.0;
 				}
 			}
 			NODE
 			{
 				REPEAT = 2;
-				LEVEL 0 FOR 15.0;
 				NODE
 				{
 					REPEAT = 2;
@@ -2064,20 +1914,30 @@ TRANSITION_LIST("data[5]")
 				LEVEL Z FOR 5.0;
 				LEVEL 0 FOR 5.0;
 				LEVEL Z FOR 5.0;
+				LEVEL 0 FOR 15.0;
 			}
 		}
 		NODE
 		{
-			REPEAT = 2;
-			LEVEL 0 FOR 15.0;
+			REPEAT = 4;
 			LEVEL Z FOR 15.0;
+			LEVEL 0 FOR 5.0;
+		}
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL Z FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL Z FOR 5.0;
+			LEVEL 0 FOR 15.0;
 			NODE
 			{
 				REPEAT = 2;
+				LEVEL Z FOR 15.0;
 				LEVEL 0 FOR 5.0;
-				LEVEL Z FOR 5.0;
 			}
 		}
+		LEVEL Z FOR 15.0;
 	}
 }
 
@@ -2093,26 +1953,12 @@ TRANSITION_LIST("data[4]")
 			LEVEL 0 FOR 5.0;
 			LEVEL Z FOR 5.0;
 		}
-		LEVEL 0 FOR 15.0;
-		LEVEL Z FOR 15.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL 0 FOR 5.0;
-			LEVEL Z FOR 5.0;
-		}
 		LEVEL 1 FOR 15.0;
 		NODE
 		{
 			REPEAT = 2;
 			LEVEL Z FOR 15.0;
-			NODE
-			{
-				REPEAT = 2;
-				LEVEL 0 FOR 5.0;
-				LEVEL Z FOR 5.0;
-			}
-			LEVEL 0 FOR 15.0;
+			LEVEL 0 FOR 5.0;
 		}
 		LEVEL Z FOR 15.0;
 		LEVEL 1 FOR 5.0;
@@ -2133,26 +1979,12 @@ TRANSITION_LIST("data[4]")
 		LEVEL Z FOR 5.0;
 		LEVEL 0 FOR 5.0;
 		LEVEL Z FOR 5.0;
-		LEVEL 0 FOR 15.0;
-		LEVEL Z FOR 15.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL 0 FOR 5.0;
-			LEVEL Z FOR 5.0;
-		}
 		LEVEL 1 FOR 15.0;
 		NODE
 		{
 			REPEAT = 2;
 			LEVEL Z FOR 15.0;
-			NODE
-			{
-				REPEAT = 2;
-				LEVEL 0 FOR 5.0;
-				LEVEL Z FOR 5.0;
-			}
-			LEVEL 0 FOR 15.0;
+			LEVEL 0 FOR 5.0;
 		}
 		LEVEL Z FOR 15.0;
 		LEVEL 1 FOR 5.0;
@@ -2173,26 +2005,12 @@ TRANSITION_LIST("data[4]")
 		LEVEL Z FOR 5.0;
 		LEVEL 0 FOR 5.0;
 		LEVEL Z FOR 5.0;
-		LEVEL 0 FOR 15.0;
-		LEVEL Z FOR 15.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL 0 FOR 5.0;
-			LEVEL Z FOR 5.0;
-		}
 		LEVEL 1 FOR 15.0;
 		NODE
 		{
 			REPEAT = 2;
 			LEVEL Z FOR 15.0;
-			NODE
-			{
-				REPEAT = 2;
-				LEVEL 0 FOR 5.0;
-				LEVEL Z FOR 5.0;
-			}
-			LEVEL 0 FOR 15.0;
+			LEVEL 0 FOR 5.0;
 		}
 		LEVEL Z FOR 15.0;
 		LEVEL 1 FOR 5.0;
@@ -2213,7 +2031,15 @@ TRANSITION_LIST("data[4]")
 		LEVEL Z FOR 5.0;
 		LEVEL 0 FOR 5.0;
 		LEVEL Z FOR 5.0;
-		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 15.0;
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL Z FOR 15.0;
+			LEVEL 0 FOR 5.0;
+		}
+		LEVEL Z FOR 15.0;
+		LEVEL 1 FOR 5.0;
 		LEVEL Z FOR 15.0;
 		NODE
 		{
@@ -2222,6 +2048,24 @@ TRANSITION_LIST("data[4]")
 			LEVEL Z FOR 5.0;
 		}
 		LEVEL 1 FOR 15.0;
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL Z FOR 15.0;
+			LEVEL 0 FOR 5.0;
+		}
+		LEVEL Z FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL Z FOR 5.0;
+		LEVEL 1 FOR 15.0;
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL Z FOR 15.0;
+			LEVEL 0 FOR 5.0;
+		}
+		LEVEL Z FOR 15.0;
+		LEVEL 1 FOR 5.0;
 		LEVEL Z FOR 15.0;
 		NODE
 		{
@@ -2229,6 +2073,24 @@ TRANSITION_LIST("data[4]")
 			LEVEL 0 FOR 5.0;
 			LEVEL Z FOR 5.0;
 		}
+		LEVEL 1 FOR 15.0;
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL Z FOR 15.0;
+			LEVEL 0 FOR 5.0;
+		}
+		LEVEL Z FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL Z FOR 5.0;
+		LEVEL 1 FOR 15.0;
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL Z FOR 15.0;
+			LEVEL 0 FOR 5.0;
+		}
+		LEVEL Z FOR 15.0;
 	}
 }
 
@@ -2238,72 +2100,14 @@ TRANSITION_LIST("data[3]")
 	{
 		REPEAT = 1;
 		LEVEL Z FOR 10.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL 0 FOR 5.0;
-			LEVEL Z FOR 5.0;
-		}
-		LEVEL 1 FOR 15.0;
-		LEVEL Z FOR 15.0;
 		LEVEL 0 FOR 5.0;
 		LEVEL Z FOR 5.0;
 		LEVEL 1 FOR 5.0;
-		LEVEL Z FOR 5.0;
-		LEVEL 0 FOR 15.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL Z FOR 15.0;
-			NODE
-			{
-				REPEAT = 2;
-				LEVEL 0 FOR 5.0;
-				LEVEL Z FOR 5.0;
-			}
-			LEVEL 1 FOR 15.0;
-		}
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL Z FOR 15.0;
-			LEVEL 0 FOR 5.0;
-		}
-		LEVEL Z FOR 5.0;
-		LEVEL 1 FOR 5.0;
-		LEVEL Z FOR 5.0;
-		LEVEL 0 FOR 15.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL Z FOR 15.0;
-			LEVEL 0 FOR 5.0;
-		}
-		LEVEL Z FOR 5.0;
-		LEVEL 0 FOR 5.0;
 		LEVEL Z FOR 5.0;
 		LEVEL 1 FOR 15.0;
-		LEVEL Z FOR 15.0;
-		LEVEL 0 FOR 5.0;
-		LEVEL Z FOR 5.0;
-		LEVEL 1 FOR 5.0;
-		LEVEL Z FOR 5.0;
-		LEVEL 0 FOR 15.0;
 		NODE
 		{
-			REPEAT = 2;
-			LEVEL Z FOR 15.0;
-			NODE
-			{
-				REPEAT = 2;
-				LEVEL 0 FOR 5.0;
-				LEVEL Z FOR 5.0;
-			}
-			LEVEL 1 FOR 15.0;
-		}
-		NODE
-		{
-			REPEAT = 2;
+			REPEAT = 4;
 			LEVEL Z FOR 15.0;
 			LEVEL 0 FOR 5.0;
 		}
@@ -2318,30 +2122,12 @@ TRANSITION_LIST("data[3]")
 			LEVEL 0 FOR 5.0;
 		}
 		LEVEL Z FOR 5.0;
-		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
 		LEVEL Z FOR 5.0;
 		LEVEL 1 FOR 15.0;
-		LEVEL Z FOR 15.0;
-		LEVEL 0 FOR 5.0;
-		LEVEL Z FOR 5.0;
-		LEVEL 1 FOR 5.0;
-		LEVEL Z FOR 5.0;
-		LEVEL 0 FOR 15.0;
 		NODE
 		{
-			REPEAT = 2;
-			LEVEL Z FOR 15.0;
-			NODE
-			{
-				REPEAT = 2;
-				LEVEL 0 FOR 5.0;
-				LEVEL Z FOR 5.0;
-			}
-			LEVEL 1 FOR 15.0;
-		}
-		NODE
-		{
-			REPEAT = 2;
+			REPEAT = 4;
 			LEVEL Z FOR 15.0;
 			LEVEL 0 FOR 5.0;
 		}
@@ -2356,22 +2142,76 @@ TRANSITION_LIST("data[3]")
 			LEVEL 0 FOR 5.0;
 		}
 		LEVEL Z FOR 5.0;
-		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
 		LEVEL Z FOR 5.0;
 		LEVEL 1 FOR 15.0;
-		LEVEL Z FOR 15.0;
-		LEVEL 0 FOR 5.0;
+		NODE
+		{
+			REPEAT = 4;
+			LEVEL Z FOR 15.0;
+			LEVEL 0 FOR 5.0;
+		}
 		LEVEL Z FOR 5.0;
 		LEVEL 1 FOR 5.0;
 		LEVEL Z FOR 5.0;
 		LEVEL 0 FOR 15.0;
-		LEVEL Z FOR 15.0;
 		NODE
 		{
 			REPEAT = 2;
+			LEVEL Z FOR 15.0;
 			LEVEL 0 FOR 5.0;
-			LEVEL Z FOR 5.0;
 		}
+		LEVEL Z FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL Z FOR 5.0;
+		LEVEL 1 FOR 15.0;
+		NODE
+		{
+			REPEAT = 4;
+			LEVEL Z FOR 15.0;
+			LEVEL 0 FOR 5.0;
+		}
+		LEVEL Z FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL Z FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL Z FOR 15.0;
+			LEVEL 0 FOR 5.0;
+		}
+		LEVEL Z FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL Z FOR 5.0;
+		LEVEL 1 FOR 15.0;
+		NODE
+		{
+			REPEAT = 4;
+			LEVEL Z FOR 15.0;
+			LEVEL 0 FOR 5.0;
+		}
+		LEVEL Z FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL Z FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL Z FOR 15.0;
+			LEVEL 0 FOR 5.0;
+		}
+		LEVEL Z FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL Z FOR 5.0;
+		LEVEL 1 FOR 15.0;
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL Z FOR 15.0;
+			LEVEL 0 FOR 5.0;
+		}
+		LEVEL Z FOR 15.0;
 	}
 }
 
@@ -2381,138 +2221,148 @@ TRANSITION_LIST("data[2]")
 	{
 		REPEAT = 1;
 		LEVEL Z FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL Z FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL Z FOR 5.0;
+		LEVEL 0 FOR 15.0;
 		NODE
 		{
 			REPEAT = 2;
-			NODE
-			{
-				REPEAT = 2;
-				LEVEL 0 FOR 5.0;
-				LEVEL Z FOR 5.0;
-			}
-			LEVEL 0 FOR 15.0;
 			LEVEL Z FOR 15.0;
-		}
-		NODE
-		{
-			REPEAT = 2;
 			LEVEL 1 FOR 5.0;
-			LEVEL Z FOR 5.0;
 		}
-		LEVEL 1 FOR 15.0;
-		LEVEL Z FOR 15.0;
 		NODE
 		{
 			REPEAT = 2;
+			LEVEL Z FOR 15.0;
 			LEVEL 0 FOR 5.0;
-			LEVEL Z FOR 5.0;
 		}
-		LEVEL 1 FOR 15.0;
-		NODE
-		{
-			REPEAT = 2;
-			NODE
-			{
-				REPEAT = 2;
-				LEVEL Z FOR 15.0;
-				LEVEL 0 FOR 5.0;
-			}
-			LEVEL Z FOR 5.0;
-			LEVEL 0 FOR 5.0;
-			LEVEL Z FOR 5.0;
-			LEVEL 0 FOR 15.0;
-		}
-		LEVEL Z FOR 15.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL 0 FOR 5.0;
-			LEVEL Z FOR 5.0;
-		}
+		LEVEL Z FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL Z FOR 5.0;
 		LEVEL 0 FOR 15.0;
-		LEVEL Z FOR 15.0;
 		NODE
 		{
 			REPEAT = 2;
-			LEVEL 1 FOR 5.0;
-			LEVEL Z FOR 5.0;
-		}
-		LEVEL 1 FOR 15.0;
-		LEVEL Z FOR 15.0;
-		NODE
-		{
-			REPEAT = 2;
+			LEVEL Z FOR 15.0;
 			LEVEL 0 FOR 5.0;
-			LEVEL Z FOR 5.0;
 		}
-		LEVEL 1 FOR 15.0;
-		NODE
-		{
-			REPEAT = 2;
-			NODE
-			{
-				REPEAT = 2;
-				LEVEL Z FOR 15.0;
-				LEVEL 0 FOR 5.0;
-			}
-			LEVEL Z FOR 5.0;
-			LEVEL 0 FOR 5.0;
-			LEVEL Z FOR 5.0;
-			LEVEL 0 FOR 15.0;
-		}
-		LEVEL Z FOR 15.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL 0 FOR 5.0;
-			LEVEL Z FOR 5.0;
-		}
+		LEVEL Z FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL Z FOR 5.0;
 		LEVEL 0 FOR 15.0;
-		LEVEL Z FOR 15.0;
 		NODE
 		{
 			REPEAT = 2;
+			LEVEL Z FOR 15.0;
 			LEVEL 1 FOR 5.0;
-			LEVEL Z FOR 5.0;
 		}
-		LEVEL 1 FOR 15.0;
-		LEVEL Z FOR 15.0;
 		NODE
 		{
 			REPEAT = 2;
+			LEVEL Z FOR 15.0;
 			LEVEL 0 FOR 5.0;
-			LEVEL Z FOR 5.0;
 		}
-		LEVEL 1 FOR 15.0;
-		NODE
-		{
-			REPEAT = 2;
-			NODE
-			{
-				REPEAT = 2;
-				LEVEL Z FOR 15.0;
-				LEVEL 0 FOR 5.0;
-			}
-			LEVEL Z FOR 5.0;
-			LEVEL 0 FOR 5.0;
-			LEVEL Z FOR 5.0;
-			LEVEL 0 FOR 15.0;
-		}
-		LEVEL Z FOR 15.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL 0 FOR 5.0;
-			LEVEL Z FOR 5.0;
-		}
+		LEVEL Z FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL Z FOR 5.0;
 		LEVEL 0 FOR 15.0;
-		LEVEL Z FOR 15.0;
 		NODE
 		{
 			REPEAT = 2;
-			LEVEL 1 FOR 5.0;
-			LEVEL Z FOR 5.0;
+			LEVEL Z FOR 15.0;
+			LEVEL 0 FOR 5.0;
 		}
+		LEVEL Z FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL Z FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL Z FOR 15.0;
+			LEVEL 1 FOR 5.0;
+		}
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL Z FOR 15.0;
+			LEVEL 0 FOR 5.0;
+		}
+		LEVEL Z FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL Z FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL Z FOR 15.0;
+			LEVEL 0 FOR 5.0;
+		}
+		LEVEL Z FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL Z FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL Z FOR 15.0;
+			LEVEL 1 FOR 5.0;
+		}
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL Z FOR 15.0;
+			LEVEL 0 FOR 5.0;
+		}
+		LEVEL Z FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL Z FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL Z FOR 15.0;
+			LEVEL 0 FOR 5.0;
+		}
+		LEVEL Z FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL Z FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL Z FOR 15.0;
+			LEVEL 1 FOR 5.0;
+		}
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL Z FOR 15.0;
+			LEVEL 0 FOR 5.0;
+		}
+		LEVEL Z FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL Z FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL Z FOR 15.0;
+			LEVEL 0 FOR 5.0;
+		}
+		LEVEL Z FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL Z FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL Z FOR 15.0;
+			LEVEL 1 FOR 5.0;
+		}
+		LEVEL Z FOR 15.0;
 	}
 }
 
@@ -2522,134 +2372,148 @@ TRANSITION_LIST("data[1]")
 	{
 		REPEAT = 1;
 		LEVEL Z FOR 10.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL 0 FOR 5.0;
-			LEVEL Z FOR 5.0;
-		}
-		LEVEL 1 FOR 15.0;
-		LEVEL Z FOR 15.0;
-		LEVEL 1 FOR 5.0;
-		LEVEL Z FOR 5.0;
 		LEVEL 0 FOR 5.0;
 		LEVEL Z FOR 5.0;
-		LEVEL 1 FOR 15.0;
-		LEVEL Z FOR 15.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL 0 FOR 5.0;
-			LEVEL Z FOR 5.0;
-		}
-		LEVEL 1 FOR 15.0;
-		LEVEL Z FOR 15.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL 1 FOR 5.0;
-			LEVEL Z FOR 5.0;
-		}
+		LEVEL 1 FOR 5.0;
+		LEVEL Z FOR 5.0;
 		LEVEL 0 FOR 15.0;
 		NODE
 		{
 			REPEAT = 2;
-			NODE
-			{
-				REPEAT = 2;
-				LEVEL Z FOR 15.0;
-				LEVEL 0 FOR 5.0;
-			}
-			LEVEL Z FOR 5.0;
-			LEVEL 0 FOR 5.0;
-			LEVEL Z FOR 5.0;
-			LEVEL 1 FOR 15.0;
+			LEVEL Z FOR 15.0;
+			LEVEL 1 FOR 5.0;
 		}
-		LEVEL Z FOR 15.0;
-		LEVEL 1 FOR 5.0;
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL Z FOR 15.0;
+			LEVEL 0 FOR 5.0;
+		}
 		LEVEL Z FOR 5.0;
 		LEVEL 0 FOR 5.0;
 		LEVEL Z FOR 5.0;
 		LEVEL 1 FOR 15.0;
-		LEVEL Z FOR 15.0;
 		NODE
 		{
 			REPEAT = 2;
+			LEVEL Z FOR 15.0;
 			LEVEL 0 FOR 5.0;
-			LEVEL Z FOR 5.0;
 		}
-		LEVEL 1 FOR 15.0;
-		LEVEL Z FOR 15.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL 1 FOR 5.0;
-			LEVEL Z FOR 5.0;
-		}
+		LEVEL Z FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL Z FOR 5.0;
 		LEVEL 0 FOR 15.0;
 		NODE
 		{
 			REPEAT = 2;
-			NODE
-			{
-				REPEAT = 2;
-				LEVEL Z FOR 15.0;
-				LEVEL 0 FOR 5.0;
-			}
-			LEVEL Z FOR 5.0;
-			LEVEL 0 FOR 5.0;
-			LEVEL Z FOR 5.0;
-			LEVEL 1 FOR 15.0;
+			LEVEL Z FOR 15.0;
+			LEVEL 1 FOR 5.0;
 		}
-		LEVEL Z FOR 15.0;
-		LEVEL 1 FOR 5.0;
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL Z FOR 15.0;
+			LEVEL 0 FOR 5.0;
+		}
 		LEVEL Z FOR 5.0;
 		LEVEL 0 FOR 5.0;
 		LEVEL Z FOR 5.0;
 		LEVEL 1 FOR 15.0;
-		LEVEL Z FOR 15.0;
 		NODE
 		{
 			REPEAT = 2;
+			LEVEL Z FOR 15.0;
 			LEVEL 0 FOR 5.0;
-			LEVEL Z FOR 5.0;
 		}
-		LEVEL 1 FOR 15.0;
-		LEVEL Z FOR 15.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL 1 FOR 5.0;
-			LEVEL Z FOR 5.0;
-		}
+		LEVEL Z FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL Z FOR 5.0;
 		LEVEL 0 FOR 15.0;
 		NODE
 		{
 			REPEAT = 2;
-			NODE
-			{
-				REPEAT = 2;
-				LEVEL Z FOR 15.0;
-				LEVEL 0 FOR 5.0;
-			}
-			LEVEL Z FOR 5.0;
-			LEVEL 0 FOR 5.0;
-			LEVEL Z FOR 5.0;
-			LEVEL 1 FOR 15.0;
+			LEVEL Z FOR 15.0;
+			LEVEL 1 FOR 5.0;
 		}
-		LEVEL Z FOR 15.0;
-		LEVEL 1 FOR 5.0;
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL Z FOR 15.0;
+			LEVEL 0 FOR 5.0;
+		}
 		LEVEL Z FOR 5.0;
 		LEVEL 0 FOR 5.0;
 		LEVEL Z FOR 5.0;
 		LEVEL 1 FOR 15.0;
-		LEVEL Z FOR 15.0;
 		NODE
 		{
 			REPEAT = 2;
+			LEVEL Z FOR 15.0;
 			LEVEL 0 FOR 5.0;
-			LEVEL Z FOR 5.0;
 		}
+		LEVEL Z FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL Z FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL Z FOR 15.0;
+			LEVEL 1 FOR 5.0;
+		}
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL Z FOR 15.0;
+			LEVEL 0 FOR 5.0;
+		}
+		LEVEL Z FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL Z FOR 5.0;
+		LEVEL 1 FOR 15.0;
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL Z FOR 15.0;
+			LEVEL 0 FOR 5.0;
+		}
+		LEVEL Z FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL Z FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL Z FOR 15.0;
+			LEVEL 1 FOR 5.0;
+		}
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL Z FOR 15.0;
+			LEVEL 0 FOR 5.0;
+		}
+		LEVEL Z FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL Z FOR 5.0;
+		LEVEL 1 FOR 15.0;
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL Z FOR 15.0;
+			LEVEL 0 FOR 5.0;
+		}
+		LEVEL Z FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL Z FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL Z FOR 15.0;
+			LEVEL 1 FOR 5.0;
+		}
+		LEVEL Z FOR 15.0;
 	}
 }
 
@@ -2667,132 +2531,130 @@ TRANSITION_LIST("data[0]")
 		}
 		LEVEL 1 FOR 15.0;
 		LEVEL Z FOR 15.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL 0 FOR 5.0;
-			LEVEL Z FOR 5.0;
-		}
-		LEVEL 0 FOR 15.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL Z FOR 15.0;
-			LEVEL 0 FOR 5.0;
-			LEVEL Z FOR 5.0;
-			LEVEL 1 FOR 5.0;
-			LEVEL Z FOR 5.0;
-			LEVEL 1 FOR 15.0;
-		}
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL Z FOR 15.0;
-			LEVEL 0 FOR 5.0;
-		}
-		LEVEL Z FOR 5.0;
-		LEVEL 0 FOR 5.0;
-		LEVEL Z FOR 5.0;
-		LEVEL 0 FOR 15.0;
-		LEVEL Z FOR 15.0;
 		LEVEL 0 FOR 5.0;
 		LEVEL Z FOR 15.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL 1 FOR 5.0;
-			LEVEL Z FOR 5.0;
-		}
-		LEVEL 1 FOR 15.0;
-		LEVEL Z FOR 15.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL 0 FOR 5.0;
-			LEVEL Z FOR 5.0;
-		}
-		LEVEL 0 FOR 15.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL Z FOR 15.0;
-			LEVEL 0 FOR 5.0;
-			LEVEL Z FOR 5.0;
-			LEVEL 1 FOR 5.0;
-			LEVEL Z FOR 5.0;
-			LEVEL 1 FOR 15.0;
-		}
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL Z FOR 15.0;
-			LEVEL 0 FOR 5.0;
-		}
-		LEVEL Z FOR 5.0;
-		LEVEL 0 FOR 5.0;
-		LEVEL Z FOR 5.0;
-		LEVEL 0 FOR 15.0;
-		LEVEL Z FOR 15.0;
-		LEVEL 0 FOR 5.0;
-		LEVEL Z FOR 15.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL 1 FOR 5.0;
-			LEVEL Z FOR 5.0;
-		}
-		LEVEL 1 FOR 15.0;
-		LEVEL Z FOR 15.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL 0 FOR 5.0;
-			LEVEL Z FOR 5.0;
-		}
-		LEVEL 0 FOR 15.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL Z FOR 15.0;
-			LEVEL 0 FOR 5.0;
-			LEVEL Z FOR 5.0;
-			LEVEL 1 FOR 5.0;
-			LEVEL Z FOR 5.0;
-			LEVEL 1 FOR 15.0;
-		}
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL Z FOR 15.0;
-			LEVEL 0 FOR 5.0;
-		}
-		LEVEL Z FOR 5.0;
-		LEVEL 0 FOR 5.0;
-		LEVEL Z FOR 5.0;
-		LEVEL 0 FOR 15.0;
-		LEVEL Z FOR 15.0;
-		LEVEL 0 FOR 5.0;
-		LEVEL Z FOR 15.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL 1 FOR 5.0;
-			LEVEL Z FOR 5.0;
-		}
-		LEVEL 1 FOR 15.0;
-		LEVEL Z FOR 15.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL 0 FOR 5.0;
-			LEVEL Z FOR 5.0;
-		}
-		LEVEL 0 FOR 15.0;
-		LEVEL Z FOR 15.0;
-		LEVEL 0 FOR 5.0;
-		LEVEL Z FOR 5.0;
 		LEVEL 1 FOR 5.0;
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL Z FOR 15.0;
+			LEVEL 0 FOR 5.0;
+		}
 		LEVEL Z FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL Z FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL Z FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL Z FOR 15.0;
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL 1 FOR 5.0;
+			LEVEL Z FOR 5.0;
+		}
+		LEVEL 1 FOR 15.0;
+		LEVEL Z FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL Z FOR 15.0;
+		LEVEL 1 FOR 5.0;
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL Z FOR 15.0;
+			LEVEL 0 FOR 5.0;
+		}
+		LEVEL Z FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL Z FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL Z FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL Z FOR 15.0;
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL 1 FOR 5.0;
+			LEVEL Z FOR 5.0;
+		}
+		LEVEL 1 FOR 15.0;
+		LEVEL Z FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL Z FOR 15.0;
+		LEVEL 1 FOR 5.0;
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL Z FOR 15.0;
+			LEVEL 0 FOR 5.0;
+		}
+		LEVEL Z FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL Z FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL Z FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL Z FOR 15.0;
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL 1 FOR 5.0;
+			LEVEL Z FOR 5.0;
+		}
+		LEVEL 1 FOR 15.0;
+		LEVEL Z FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL Z FOR 15.0;
+		LEVEL 1 FOR 5.0;
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL Z FOR 15.0;
+			LEVEL 0 FOR 5.0;
+		}
+		LEVEL Z FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL Z FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL Z FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL Z FOR 15.0;
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL 1 FOR 5.0;
+			LEVEL Z FOR 5.0;
+		}
+		LEVEL 1 FOR 15.0;
+		LEVEL Z FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL Z FOR 15.0;
+		LEVEL 1 FOR 5.0;
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL Z FOR 15.0;
+			LEVEL 0 FOR 5.0;
+		}
+		LEVEL Z FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL Z FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL Z FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL Z FOR 15.0;
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL 1 FOR 5.0;
+			LEVEL Z FOR 5.0;
+		}
+		LEVEL 1 FOR 15.0;
+		LEVEL Z FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL Z FOR 15.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL Z FOR 15.0;
 	}
 }
 
@@ -2801,15 +2663,15 @@ TRANSITION_LIST("000[8]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL Z FOR 255.0;
+		LEVEL Z FOR 145.0;
 		NODE
 		{
-			REPEAT = 2;
+			REPEAT = 4;
 			LEVEL 0 FOR 10.0;
-			LEVEL Z FOR 280.0;
+			LEVEL Z FOR 170.0;
 		}
 		LEVEL 0 FOR 10.0;
-		LEVEL Z FOR 155.0;
+		LEVEL Z FOR 125.0;
 	}
 }
 
@@ -2818,15 +2680,15 @@ TRANSITION_LIST("000[7]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL Z FOR 255.0;
+		LEVEL Z FOR 145.0;
 		NODE
 		{
-			REPEAT = 2;
+			REPEAT = 4;
 			LEVEL 0 FOR 10.0;
-			LEVEL Z FOR 280.0;
+			LEVEL Z FOR 170.0;
 		}
 		LEVEL 0 FOR 10.0;
-		LEVEL Z FOR 155.0;
+		LEVEL Z FOR 125.0;
 	}
 }
 
@@ -2835,15 +2697,15 @@ TRANSITION_LIST("000[6]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL Z FOR 255.0;
+		LEVEL Z FOR 145.0;
 		NODE
 		{
-			REPEAT = 2;
+			REPEAT = 4;
 			LEVEL 0 FOR 10.0;
-			LEVEL Z FOR 280.0;
+			LEVEL Z FOR 170.0;
 		}
 		LEVEL 0 FOR 10.0;
-		LEVEL Z FOR 155.0;
+		LEVEL Z FOR 125.0;
 	}
 }
 
@@ -2852,15 +2714,15 @@ TRANSITION_LIST("000[5]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL Z FOR 255.0;
+		LEVEL Z FOR 145.0;
 		NODE
 		{
-			REPEAT = 2;
+			REPEAT = 4;
 			LEVEL 0 FOR 10.0;
-			LEVEL Z FOR 280.0;
+			LEVEL Z FOR 170.0;
 		}
 		LEVEL 0 FOR 10.0;
-		LEVEL Z FOR 155.0;
+		LEVEL Z FOR 125.0;
 	}
 }
 
@@ -2869,15 +2731,15 @@ TRANSITION_LIST("000[4]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL Z FOR 255.0;
+		LEVEL Z FOR 145.0;
 		NODE
 		{
-			REPEAT = 2;
+			REPEAT = 4;
 			LEVEL 1 FOR 10.0;
-			LEVEL Z FOR 280.0;
+			LEVEL Z FOR 170.0;
 		}
 		LEVEL 1 FOR 10.0;
-		LEVEL Z FOR 155.0;
+		LEVEL Z FOR 125.0;
 	}
 }
 
@@ -2886,15 +2748,15 @@ TRANSITION_LIST("000[3]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL Z FOR 255.0;
+		LEVEL Z FOR 145.0;
 		NODE
 		{
-			REPEAT = 2;
+			REPEAT = 4;
 			LEVEL 0 FOR 10.0;
-			LEVEL Z FOR 280.0;
+			LEVEL Z FOR 170.0;
 		}
 		LEVEL 0 FOR 10.0;
-		LEVEL Z FOR 155.0;
+		LEVEL Z FOR 125.0;
 	}
 }
 
@@ -2903,15 +2765,15 @@ TRANSITION_LIST("000[2]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL Z FOR 255.0;
+		LEVEL Z FOR 145.0;
 		NODE
 		{
-			REPEAT = 2;
+			REPEAT = 4;
 			LEVEL 0 FOR 10.0;
-			LEVEL Z FOR 280.0;
+			LEVEL Z FOR 170.0;
 		}
 		LEVEL 0 FOR 10.0;
-		LEVEL Z FOR 155.0;
+		LEVEL Z FOR 125.0;
 	}
 }
 
@@ -2920,15 +2782,15 @@ TRANSITION_LIST("000[1]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL Z FOR 255.0;
+		LEVEL Z FOR 145.0;
 		NODE
 		{
-			REPEAT = 2;
+			REPEAT = 4;
 			LEVEL 1 FOR 10.0;
-			LEVEL Z FOR 280.0;
+			LEVEL Z FOR 170.0;
 		}
 		LEVEL 1 FOR 10.0;
-		LEVEL Z FOR 155.0;
+		LEVEL Z FOR 125.0;
 	}
 }
 
@@ -2937,15 +2799,15 @@ TRANSITION_LIST("000[0]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL Z FOR 255.0;
+		LEVEL Z FOR 145.0;
 		NODE
 		{
-			REPEAT = 2;
+			REPEAT = 4;
 			LEVEL 0 FOR 10.0;
-			LEVEL Z FOR 280.0;
+			LEVEL Z FOR 170.0;
 		}
 		LEVEL 0 FOR 10.0;
-		LEVEL Z FOR 155.0;
+		LEVEL Z FOR 125.0;
 	}
 }
 
@@ -2957,12 +2819,12 @@ TRANSITION_LIST("001[8]")
 		LEVEL Z FOR 35.0;
 		NODE
 		{
-			REPEAT = 3;
+			REPEAT = 5;
 			LEVEL 0 FOR 10.0;
-			LEVEL Z FOR 280.0;
+			LEVEL Z FOR 170.0;
 		}
 		LEVEL 0 FOR 10.0;
-		LEVEL Z FOR 85.0;
+		LEVEL Z FOR 55.0;
 	}
 }
 
@@ -2974,12 +2836,12 @@ TRANSITION_LIST("001[7]")
 		LEVEL Z FOR 35.0;
 		NODE
 		{
-			REPEAT = 3;
+			REPEAT = 5;
 			LEVEL 0 FOR 10.0;
-			LEVEL Z FOR 280.0;
+			LEVEL Z FOR 170.0;
 		}
 		LEVEL 0 FOR 10.0;
-		LEVEL Z FOR 85.0;
+		LEVEL Z FOR 55.0;
 	}
 }
 
@@ -2991,12 +2853,12 @@ TRANSITION_LIST("001[6]")
 		LEVEL Z FOR 35.0;
 		NODE
 		{
-			REPEAT = 3;
+			REPEAT = 5;
 			LEVEL 0 FOR 10.0;
-			LEVEL Z FOR 280.0;
+			LEVEL Z FOR 170.0;
 		}
 		LEVEL 0 FOR 10.0;
-		LEVEL Z FOR 85.0;
+		LEVEL Z FOR 55.0;
 	}
 }
 
@@ -3008,12 +2870,12 @@ TRANSITION_LIST("001[5]")
 		LEVEL Z FOR 35.0;
 		NODE
 		{
-			REPEAT = 3;
+			REPEAT = 5;
 			LEVEL 0 FOR 10.0;
-			LEVEL Z FOR 280.0;
+			LEVEL Z FOR 170.0;
 		}
 		LEVEL 0 FOR 10.0;
-		LEVEL Z FOR 85.0;
+		LEVEL Z FOR 55.0;
 	}
 }
 
@@ -3025,12 +2887,12 @@ TRANSITION_LIST("001[4]")
 		LEVEL Z FOR 35.0;
 		NODE
 		{
-			REPEAT = 3;
-			LEVEL 0 FOR 10.0;
-			LEVEL Z FOR 280.0;
+			REPEAT = 5;
+			LEVEL 1 FOR 10.0;
+			LEVEL Z FOR 170.0;
 		}
-		LEVEL 0 FOR 10.0;
-		LEVEL Z FOR 85.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL Z FOR 55.0;
 	}
 }
 
@@ -3042,12 +2904,12 @@ TRANSITION_LIST("001[3]")
 		LEVEL Z FOR 35.0;
 		NODE
 		{
-			REPEAT = 3;
+			REPEAT = 5;
 			LEVEL 1 FOR 10.0;
-			LEVEL Z FOR 280.0;
+			LEVEL Z FOR 170.0;
 		}
 		LEVEL 1 FOR 10.0;
-		LEVEL Z FOR 85.0;
+		LEVEL Z FOR 55.0;
 	}
 }
 
@@ -3059,12 +2921,12 @@ TRANSITION_LIST("001[2]")
 		LEVEL Z FOR 35.0;
 		NODE
 		{
-			REPEAT = 3;
+			REPEAT = 5;
 			LEVEL 0 FOR 10.0;
-			LEVEL Z FOR 280.0;
+			LEVEL Z FOR 170.0;
 		}
 		LEVEL 0 FOR 10.0;
-		LEVEL Z FOR 85.0;
+		LEVEL Z FOR 55.0;
 	}
 }
 
@@ -3076,12 +2938,12 @@ TRANSITION_LIST("001[1]")
 		LEVEL Z FOR 35.0;
 		NODE
 		{
-			REPEAT = 3;
-			LEVEL 1 FOR 10.0;
-			LEVEL Z FOR 280.0;
+			REPEAT = 5;
+			LEVEL 0 FOR 10.0;
+			LEVEL Z FOR 170.0;
 		}
-		LEVEL 1 FOR 10.0;
-		LEVEL Z FOR 85.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL Z FOR 55.0;
 	}
 }
 
@@ -3093,12 +2955,12 @@ TRANSITION_LIST("001[0]")
 		LEVEL Z FOR 35.0;
 		NODE
 		{
-			REPEAT = 3;
+			REPEAT = 5;
 			LEVEL 1 FOR 10.0;
-			LEVEL Z FOR 280.0;
+			LEVEL Z FOR 170.0;
 		}
 		LEVEL 1 FOR 10.0;
-		LEVEL Z FOR 85.0;
+		LEVEL Z FOR 55.0;
 	}
 }
 
@@ -3107,17 +2969,7 @@ TRANSITION_LIST("010[8]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL Z FOR 85.0;
-		NODE
-		{
-			REPEAT = 3;
-			LEVEL 0 FOR 10.0;
-			LEVEL Z FOR 90.0;
-			LEVEL 0 FOR 10.0;
-			LEVEL Z FOR 180.0;
-		}
-		LEVEL 0 FOR 10.0;
-		LEVEL Z FOR 35.0;
+		LEVEL Z FOR 1000.0;
 	}
 }
 
@@ -3126,17 +2978,7 @@ TRANSITION_LIST("010[7]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL Z FOR 85.0;
-		NODE
-		{
-			REPEAT = 3;
-			LEVEL 0 FOR 10.0;
-			LEVEL Z FOR 90.0;
-			LEVEL 0 FOR 10.0;
-			LEVEL Z FOR 180.0;
-		}
-		LEVEL 0 FOR 10.0;
-		LEVEL Z FOR 35.0;
+		LEVEL Z FOR 1000.0;
 	}
 }
 
@@ -3145,17 +2987,7 @@ TRANSITION_LIST("010[6]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL Z FOR 85.0;
-		NODE
-		{
-			REPEAT = 3;
-			LEVEL 0 FOR 10.0;
-			LEVEL Z FOR 90.0;
-			LEVEL 0 FOR 10.0;
-			LEVEL Z FOR 180.0;
-		}
-		LEVEL 0 FOR 10.0;
-		LEVEL Z FOR 35.0;
+		LEVEL Z FOR 1000.0;
 	}
 }
 
@@ -3164,17 +2996,7 @@ TRANSITION_LIST("010[5]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL Z FOR 85.0;
-		NODE
-		{
-			REPEAT = 3;
-			LEVEL 0 FOR 10.0;
-			LEVEL Z FOR 90.0;
-			LEVEL 0 FOR 10.0;
-			LEVEL Z FOR 180.0;
-		}
-		LEVEL 0 FOR 10.0;
-		LEVEL Z FOR 35.0;
+		LEVEL Z FOR 1000.0;
 	}
 }
 
@@ -3183,17 +3005,7 @@ TRANSITION_LIST("010[4]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL Z FOR 85.0;
-		NODE
-		{
-			REPEAT = 3;
-			LEVEL 1 FOR 10.0;
-			LEVEL Z FOR 90.0;
-			LEVEL 0 FOR 10.0;
-			LEVEL Z FOR 180.0;
-		}
-		LEVEL 1 FOR 10.0;
-		LEVEL Z FOR 35.0;
+		LEVEL Z FOR 1000.0;
 	}
 }
 
@@ -3202,17 +3014,7 @@ TRANSITION_LIST("010[3]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL Z FOR 85.0;
-		NODE
-		{
-			REPEAT = 3;
-			LEVEL 0 FOR 10.0;
-			LEVEL Z FOR 90.0;
-			LEVEL 1 FOR 10.0;
-			LEVEL Z FOR 180.0;
-		}
-		LEVEL 0 FOR 10.0;
-		LEVEL Z FOR 35.0;
+		LEVEL Z FOR 1000.0;
 	}
 }
 
@@ -3221,17 +3023,7 @@ TRANSITION_LIST("010[2]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL Z FOR 85.0;
-		NODE
-		{
-			REPEAT = 3;
-			LEVEL 0 FOR 10.0;
-			LEVEL Z FOR 90.0;
-			LEVEL 1 FOR 10.0;
-			LEVEL Z FOR 180.0;
-		}
-		LEVEL 0 FOR 10.0;
-		LEVEL Z FOR 35.0;
+		LEVEL Z FOR 1000.0;
 	}
 }
 
@@ -3240,17 +3032,7 @@ TRANSITION_LIST("010[1]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL Z FOR 85.0;
-		NODE
-		{
-			REPEAT = 3;
-			LEVEL 1 FOR 10.0;
-			LEVEL Z FOR 90.0;
-			LEVEL 0 FOR 10.0;
-			LEVEL Z FOR 180.0;
-		}
-		LEVEL 1 FOR 10.0;
-		LEVEL Z FOR 35.0;
+		LEVEL Z FOR 1000.0;
 	}
 }
 
@@ -3259,17 +3041,7 @@ TRANSITION_LIST("010[0]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL Z FOR 85.0;
-		NODE
-		{
-			REPEAT = 3;
-			LEVEL 0 FOR 10.0;
-			LEVEL Z FOR 90.0;
-			LEVEL 1 FOR 10.0;
-			LEVEL Z FOR 180.0;
-		}
-		LEVEL 0 FOR 10.0;
-		LEVEL Z FOR 35.0;
+		LEVEL Z FOR 1000.0;
 	}
 }
 
@@ -3359,15 +3131,7 @@ TRANSITION_LIST("100[8]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL Z FOR 135.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL 0 FOR 10.0;
-			LEVEL Z FOR 280.0;
-		}
-		LEVEL 0 FOR 10.0;
-		LEVEL Z FOR 275.0;
+		LEVEL Z FOR 1000.0;
 	}
 }
 
@@ -3376,15 +3140,7 @@ TRANSITION_LIST("100[7]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL Z FOR 135.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL 0 FOR 10.0;
-			LEVEL Z FOR 280.0;
-		}
-		LEVEL 0 FOR 10.0;
-		LEVEL Z FOR 275.0;
+		LEVEL Z FOR 1000.0;
 	}
 }
 
@@ -3393,15 +3149,7 @@ TRANSITION_LIST("100[6]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL Z FOR 135.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL 0 FOR 10.0;
-			LEVEL Z FOR 280.0;
-		}
-		LEVEL 0 FOR 10.0;
-		LEVEL Z FOR 275.0;
+		LEVEL Z FOR 1000.0;
 	}
 }
 
@@ -3410,15 +3158,7 @@ TRANSITION_LIST("100[5]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL Z FOR 135.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL 0 FOR 10.0;
-			LEVEL Z FOR 280.0;
-		}
-		LEVEL 0 FOR 10.0;
-		LEVEL Z FOR 275.0;
+		LEVEL Z FOR 1000.0;
 	}
 }
 
@@ -3427,15 +3167,7 @@ TRANSITION_LIST("100[4]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL Z FOR 135.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL 0 FOR 10.0;
-			LEVEL Z FOR 280.0;
-		}
-		LEVEL 0 FOR 10.0;
-		LEVEL Z FOR 275.0;
+		LEVEL Z FOR 1000.0;
 	}
 }
 
@@ -3444,15 +3176,7 @@ TRANSITION_LIST("100[3]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL Z FOR 135.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL 1 FOR 10.0;
-			LEVEL Z FOR 280.0;
-		}
-		LEVEL 1 FOR 10.0;
-		LEVEL Z FOR 275.0;
+		LEVEL Z FOR 1000.0;
 	}
 }
 
@@ -3461,15 +3185,7 @@ TRANSITION_LIST("100[2]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL Z FOR 135.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL 1 FOR 10.0;
-			LEVEL Z FOR 280.0;
-		}
-		LEVEL 1 FOR 10.0;
-		LEVEL Z FOR 275.0;
+		LEVEL Z FOR 1000.0;
 	}
 }
 
@@ -3478,15 +3194,7 @@ TRANSITION_LIST("100[1]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL Z FOR 135.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL 1 FOR 10.0;
-			LEVEL Z FOR 280.0;
-		}
-		LEVEL 1 FOR 10.0;
-		LEVEL Z FOR 275.0;
+		LEVEL Z FOR 1000.0;
 	}
 }
 
@@ -3495,15 +3203,7 @@ TRANSITION_LIST("100[0]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL Z FOR 135.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL 1 FOR 10.0;
-			LEVEL Z FOR 280.0;
-		}
-		LEVEL 1 FOR 10.0;
-		LEVEL Z FOR 275.0;
+		LEVEL Z FOR 1000.0;
 	}
 }
 
@@ -4841,7 +4541,7 @@ DISPLAY_LINE
 
 TIME_BAR
 {
-	TIME = 130000;
+	TIME = 100000;
 	MASTER = TRUE;
 }
 ;
